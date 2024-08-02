@@ -7,7 +7,7 @@
             <img src="https://placehold.co/1600x400/png" alt="Banner Image" class="w-full h-auto" />
             <div class="absolute inset-0 flex flex-col items-center justify-center pt-16 md:pt-24 lg:pt-28 xl:pt-32">
               <h1 class="text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-center">Car Rental Service In Jaipur</h1>
-              <div class="hidden lg:flex flex-row justify-center gap-4 mt-4">
+              <div class="hidden lg:flex flex-row justify-center gap-4 mt-4 ">
                 <nuxt-link to="/" class="text-base md:text-lg lg:text-xl xl:text-2xl">Home</nuxt-link>
                 <p class="text-base md:text-lg lg:text-xl xl:text-2xl">Car Rental Service In Jaipur</p>
               </div>
