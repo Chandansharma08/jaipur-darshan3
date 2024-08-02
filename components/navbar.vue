@@ -1,5 +1,6 @@
 <template>
-  <div class="navbar bg-[#ffffff] md:px-10">
+  
+  <div class="navbar bg-[#ffffff] md:px-10 fixed z-50">
     <div class="navbar-start">
       <div class="dropdown">
         <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -24,7 +25,7 @@
         >
           <li><nuxt-link to="/">Home</nuxt-link></li>
           <li>
-            <nuxt-link to="/">About Us</nuxt-link>
+            <nuxt-link to="/about_us">About Us</nuxt-link>
           </li>
           <li><nuxt-link to="/places">Places</nuxt-link></li>
           <li><nuxt-link to="/">Car Hire</nuxt-link></li>
@@ -38,7 +39,7 @@
       <ul class="menu menu-horizontal px-1 text-lg">
         <li><nuxt-link to="/">Home</nuxt-link></li>
         <li>
-          <nuxt-link to="/">About Us</nuxt-link>
+          <nuxt-link to="/about_us">About Us</nuxt-link>
         </li>
         <li><nuxt-link to="/places">Places</nuxt-link></li>
         <li><nuxt-link to="/">Car Hire</nuxt-link></li>

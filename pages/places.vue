@@ -1,10 +1,10 @@
 <template>
     <div class="bg-[#ffffff]">
         <Navbar />
-        <div class="px-14 bg-[#ffffff]">
+        <div class="px-14 bg-[#ffffff] pt-20">
             <div class="py-8">
                 <nuxt-link to="/" class="hover:text-green-500 my-2">Home</nuxt-link><span>/</span>
-                <nuxt-link to="/" class="hover:text-green-500 my-2">Places</nuxt-link>
+                <nuxt-link to="#" class="hover:text-green-500 my-2">Places</nuxt-link>
                 <h1 class="text-2xl font-semibold">Places</h1>
                 <p class="text-gray-600">Select country or city to explore</p>
                 <div class="mt-4 flex gap-4 items-center">
