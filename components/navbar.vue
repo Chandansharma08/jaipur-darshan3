@@ -29,7 +29,7 @@
           </li>
           <li><nuxt-link to="/places">Places</nuxt-link></li>
           <li><nuxt-link to="/cars">Car Hire</nuxt-link></li>
-          <li><nuxt-link to="/">Bus Rentals</nuxt-link></li>
+          <li><nuxt-link to="/buses">Bus Rentals</nuxt-link></li>
           <li><nuxt-link to="/contact">Contact Us</nuxt-link></li>
         </ul>
       </div>
@@ -43,7 +43,7 @@
         </li>
         <li><nuxt-link to="/places">Places</nuxt-link></li>
         <li><nuxt-link to="/cars">Car Hire</nuxt-link></li>
-        <li><nuxt-link to="/">Bus Rentals</nuxt-link></li>
+        <li><nuxt-link to="/buses">Bus Rentals</nuxt-link></li>
         <li><nuxt-link to="/contact">Contact Us</nuxt-link></li>
       </ul>
     </div>
