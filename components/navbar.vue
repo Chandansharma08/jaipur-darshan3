@@ -1,39 +1,39 @@
- <template><div class="navbar bg-base-100">
-    <div class="navbar-start">
-        <div class="dropdown">
-            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
-                    stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                        d="M4 6h16M4 12h8m-8 6h16" />
-                </svg>
+<template>
+    <div class="navbar bg-[#ffffff] md:px-10">
+        <div class="navbar-start">
+            <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h8m-8 6h16" />
+                    </svg>
+                </div>
+                <ul tabindex="0"
+                    class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                    <li><nuxt-link to="/">Home</nuxt-link></li>
+                    <li>
+                        <nuxt-link to="/">About Us</nuxt-link>
+                    </li>
+                    <li><nuxt-link to="/places">Places</nuxt-link></li>
+                    <li><nuxt-link to="/contact">Contact Us</nuxt-link></li>
+                </ul>
             </div>
-            <ul tabindex="0"
-                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                <li><a>Home</a></li>
+            <nuxt-link class="btn btn-ghost text-xl">logo</nuxt-link>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1 text-lg">
+                <li><nuxt-link to="/">Home</nuxt-link></li>
                 <li>
-                    <a>About Us</a>
-
+                    <nuxt-link to="/">About Us</nuxt-link>
                 </li>
-                <li><a>Places</a></li>
-                <li><a>Contact Us</a></li>
+                <li><nuxt-link to="/places">Places</nuxt-link></li>
+                <li><nuxt-link to="/contact">Contact Us</nuxt-link></li>
             </ul>
         </div>
-        <a class="btn btn-ghost text-xl">logo</a>
+        <div class="navbar-end">
+            <nuxt-link to="/" class="btn bg-emerald-500 text-white rounded-full">Book Now</nuxt-link>
+        </div>
     </div>
-    <div class="navbar-center hidden lg:flex">
-        <ul class="menu menu-horizontal px-1">
-            <li><a>Home</a></li>
-            <li>
-                <summary>About Us</summary>
-            </li>
-            <li><a>Places</a></li>
-            <li><a>Contact Us</a></li>
-        </ul>
-    </div>
-    <div class="navbar-end">
-        <a class="btn bg-sky-400">Book Now</a>
-    </div>
-</div>
 
 </template>

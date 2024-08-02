@@ -1,12 +1,16 @@
 <template>
 
     <Navbar class="font-poppins" />
-    <div class="px-10 space-y-11">
+    <div class="px-4 md:px-10 space-y-11 bg-[#ffffff]">
         <Banner />
+        <Features />
         <Groupcard />
         <Carbus />
+        <Activities />
+        <Booking />
+        <Gallery />
         <Groupitem />       
-        <Switch />        
+             
     </div>
     <Footer />
 </template>
