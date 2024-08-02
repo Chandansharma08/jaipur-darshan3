@@ -6,7 +6,7 @@
         v-for="(destination, index) in destinations"
         :key="index"
         :to="destination.url"
-        class="relative overflow-hidden rounded-lg group block shadow-card"
+        class="relative overflow-hidden rounded-2xl group block shadow-card"
       >
         <img
           :src="destination.image"

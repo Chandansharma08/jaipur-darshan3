@@ -1,6 +1,6 @@
 <template>
   
-  <div class="navbar bg-[#ffffff] md:px-10 fixed z-50">
+  <div class="navbar bg-[#ffffff] md:px-10 fixed z-50 shadow-sm">
     <div class="navbar-start">
       <div class="dropdown">
         <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">

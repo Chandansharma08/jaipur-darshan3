@@ -25,7 +25,7 @@
             </h2>
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
                 <NuxtLink v-for="(destination, index) in destinations" :key="index" :to="destination.url"
-                    class="relative overflow-hidden rounded-lg group block ">
+                    class="relative overflow-hidden rounded-2xl group block ">
                     <img :src="destination.image" :alt="destination.name"
                         class="w-full h-auto object-cover transition-transform duration-500 group-hover:scale-110" />
                     <div class="absolute inset-0 flex flex-col justify-end p-4 transition-opacity duration-500">

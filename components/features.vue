@@ -1,9 +1,9 @@
 <template>
     <section class="bg-white mb-4">
-        <div class=" ">
-            <div class="grid grid-cols-1  md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div class="flex justify-center ">
+            <div class="grid grid-cols-1  md:grid-cols-2 lg:grid-cols-4 gap-4">
                 <!-- Feature Item with inline SVG -->
-                <div class="flex flex-col items-center text-center p-1 lg:p-4 max-w-xs md:max-w-sm">
+                <div class="flex flex-col items-center text-center border lg:border-none  rounded-xl p-2 lg:p-4 max-w-xs md:max-w-sm">
                     <!-- Inline SVG for Globe -->
                     <div class="h-12 mb-10">
                         <svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 72 72" fill="none">
@@ -22,7 +22,7 @@
                     <h3 class="font-semibold text-lg mb-2">Discover the possibilities</h3>
                     <p>With nearly half a million attractions, hotels & more, you're sure to find joy.</p>
                 </div>
-                <div class="flex flex-col items-center text-center p-1 lg:p-4 max-w-xs md:max-w-sm">
+                <div class="flex flex-col items-center text-center border lg:border-none rounded-xl p-2 lg:p-4 max-w-xs md:max-w-sm">
                     <!-- Inline SVG for Globe -->
                     <div class="h-12 mb-10">
                         <svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 72 72" fill="none">
@@ -52,7 +52,7 @@
                     <h3 class="font-semibold text-lg mb-2">Discover the possibilities</h3>
                     <p>With nearly half a million attractions, hotels & more, you're sure to find joy.</p>
                 </div>
-                <div class="flex flex-col items-center text-center p-1 lg:p-4 max-w-xs md:max-w-sm">
+                <div class="flex flex-col items-center text-center border lg:border-none rounded-xl p-2 lg:p-4 max-w-xs md:max-w-sm">
                     <!-- Inline SVG for Globe -->
                     <div class="h-12 mb-10">
                         <svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 72 72" fill="none">
@@ -88,7 +88,7 @@
 
                 <!-- Repeat similarly for other items with appropriate SVGs -->
                 <!-- Example for a second item -->
-                <div class="flex flex-col items-center text-center p-1 lg:p-4 max-w-xs md:max-w-sm">
+                <div class="flex flex-col items-center text-center border lg:border-none rounded-xl p-2 lg:p-4 max-w-xs md:max-w-sm">
                     <!-- Inline SVG for Deals -->
                     <div class="h-12 mb-10">
                         <svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 72 72" fill="none">
