@@ -29,11 +29,11 @@ export default {
     data() {
         return {
             photos: [
-                { image: 'https://via.placeholder.com/500', instagramLink: 'https://instagram.com/yourlink1' },
+                { image: 'https://ccdstest.b-cdn.net/Jaipur%20Darshan/434647155_1081293049610448_743026641637841177_n.jpg', instagramLink: 'https://instagram.com/yourlink1' },
                 { image: 'https://via.placeholder.com/500', instagramLink: 'https://instagram.com/yourlink2' },
-                { image: 'https://via.placeholder.com/500', instagramLink: 'https://instagram.com/yourlink3' },
+                { image: 'https://ccdstest.b-cdn.net/Jaipur%20Darshan/434647155_1081293049610448_743026641637841177_n.jpg', instagramLink: 'https://instagram.com/yourlink3' },
                 { image: 'https://via.placeholder.com/500', instagramLink: 'https://instagram.com/yourlink4' },
-                { image: 'https://via.placeholder.com/500', instagramLink: 'https://instagram.com/yourlink4' },
+                { image: 'https://ccdstest.b-cdn.net/Jaipur%20Darshan/434647155_1081293049610448_743026641637841177_n.jpg', instagramLink: 'https://instagram.com/yourlink4' },
                 { image: 'https://via.placeholder.com/500', instagramLink: 'https://instagram.com/yourlink4' },
 
                 // Add more photos and Instagram links as needed
