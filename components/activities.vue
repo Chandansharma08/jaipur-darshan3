@@ -15,7 +15,7 @@
           </div>
         </div>
         <div class="text-center mt-12">
-          <nuxt-link to="/" class="text-white bg-[#11a191] hover:bg-white border-2 border-white hover:border-[#11a191] rounded-full hover:text-[#11a191] font-semibold py-2 px-4">
+          <nuxt-link to="/review" class="text-white bg-[#11a191] hover:bg-white border-2 border-white hover:border-[#11a191] rounded-full hover:text-[#11a191] font-semibold py-2 px-4">
             See More
           </nuxt-link>
         </div>
