@@ -1,21 +1,21 @@
 <template>
     <div class="bg-[#ffffff]">
         <Navbar />
-        <div class="px-14 bg-[#ffffff] pt-20">
+        <div class="md:px-14 px-4 bg-[#ffffff] pt-10 lg:pt-20">
             <div class="py-8">
                 <nuxt-link to="/" class="hover:text-green-500 my-2">Home</nuxt-link><span>/</span>
                 <nuxt-link to="#" class="hover:text-green-500 my-2">Places</nuxt-link>
                 <h1 class="text-2xl font-semibold">Places</h1>
-                <p class="text-gray-600">Select country or city to explore</p>
+                <p class="text-gray-600 ">Select country or city to explore</p>
                 <div class="mt-4 flex gap-4 items-center">
                     <div class="flex-1">
                         <input type="text" placeholder="Search your places"
                             class="w-full text-black px-4 py-2 border rounded bg-white" />
                     </div>
-                    <select class="px-4 py-2 border rounded cursor-pointer bg-white">
+                    <!-- <select class="px-4 py-2 border rounded cursor-pointer bg-white">
                         <option>Ascending</option>
                         <option>Descending</option>
-                    </select>
+                    </select> -->
                 </div>
             </div>
         </div>
@@ -25,12 +25,12 @@
             </h2>
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
                 <NuxtLink v-for="(destination, index) in destinations" :key="index" :to="destination.url"
-                    class="relative overflow-hidden rounded-lg group block">
+                    class="relative overflow-hidden rounded-lg group block ">
                     <img :src="destination.image" :alt="destination.name"
                         class="w-full h-auto object-cover transition-transform duration-500 group-hover:scale-110" />
                     <div class="absolute inset-0 flex flex-col justify-end p-4 transition-opacity duration-500">
                         <!-- Old Heading - Initially visible, hides on hover -->
-                        <div class="absolute bottom-0 left-0 w-full transition-opacity duration-500">
+                        <div class="absolute bottom-0 left-0 w-full transition-opacity duration-500 px-4">
                             <h3
                                 class="text-white text-lg md:text-3xl font-semibold mb-2 opacity-100 group-hover:opacity-0 transition-opacity duration-500">
                                 {{ destination.name }}
