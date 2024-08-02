@@ -26,7 +26,7 @@
               <p class="text-pink-600">INR</p>
               <p class="text-pink-600 text-2xl">{{ car.price }}RS</p>
             </div>
-            <hr class="my-2 w-1/2 h-0.5 bg-pink-600" />
+            <hr class="my-2 w-full h-0.5 bg-pink-600" />
             <p class="text-gray-600">Per Kilometer</p>
           </div>
         </div>

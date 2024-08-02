@@ -1,7 +1,7 @@
 <template>
     <section class="bg-white mb-4">
         <div class=" ">
-            <div class="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4">
+            <div class="grid grid-cols-1  md:grid-cols-2 lg:grid-cols-4 gap-6">
                 <!-- Feature Item with inline SVG -->
                 <div class="flex flex-col items-center text-center p-1 lg:p-4 max-w-xs md:max-w-sm">
                     <!-- Inline SVG for Globe -->
