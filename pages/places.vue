@@ -3,9 +3,9 @@
       <Navbar />
       <div class="md:px-14 px-4 bg-[#ffffff] pt-10 lg:pt-20">
         <div class="py-8">
-          <nuxt-link to="/" class="hover:text-green-500 my-2">Home</nuxt-link><span>/</span>
-          <nuxt-link to="#" class="hover:text-green-500 my-2">Places</nuxt-link>
-          <h1 class="text-2xl font-semibold">Places</h1>
+          <nuxt-link to="/" class="hover:text-red-500 my-2">Home</nuxt-link><span>/</span>
+          <nuxt-link to="#" class="hover:text-red-500 my-2">Places</nuxt-link>
+          <h1 class="text-2xl text-emerald-500 font-semibold">Places</h1>
           <p class="text-gray-600">Select country or city to explore</p>
           <div class="mt-4 flex gap-4 items-center">
             <div class="flex-1">
@@ -16,7 +16,7 @@
         </div>
       </div>
       <div class="bg-white px-4 md:px-14 pb-6">
-        <h2 class="text-xl md:text-2xl font-semibold mb-6">
+        <h2 class="text-xl text-emerald-500 md:text-2xl font-semibold mb-6">
           Top Destination For Your Next Vacation
         </h2>
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
@@ -60,25 +60,50 @@
         destinations: [
           {
             name: "Bali",
-            image: "https://placehold.co/300x300.png",
+            image: "https://placehold.co/200x150.png",
             description: "Discover Bali with our special tours",
             url: "/places",
           },
           {
             name: "Bangkok",
-            image: "https://placehold.co/300x300.png",
+            image: "https://placehold.co/200x150.png",
             description: "Discover Bangkok with our special tours",
             url: "/places",
           },
           {
             name: "Cancun",
-            image: "https://placehold.co/300x300.png",
+            image: "https://placehold.co/200x150.png",
             description: "Relax in Cancun with our beach tours",
+            url: "/places",
+          },
+         
+          {
+            name: "Nha Trang",
+            image: "https://placehold.co/200x150.png",
+            description: "Explore Nha Trang with our city tours",
             url: "/places",
           },
           {
             name: "Nha Trang",
-            image: "https://placehold.co/300x300.png",
+            image: "https://placehold.co/200x150.png",
+            description: "Explore Nha Trang with our city tours",
+            url: "/places",
+          },
+          {
+            name: "Nha Trang",
+            image: "https://placehold.co/200x150.png",
+            description: "Explore Nha Trang with our city tours",
+            url: "/places",
+          },
+          {
+            name: "Nha Trang",
+            image: "https://placehold.co/200x150.png",
+            description: "Explore Nha Trang with our city tours",
+            url: "/places",
+          },
+          {
+            name: "Nha Trang",
+            image: "https://placehold.co/200x150.png",
             description: "Explore Nha Trang with our city tours",
             url: "/places",
           },

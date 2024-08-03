@@ -2,7 +2,7 @@
     <section class="bg-white py-12">
         <div class="">
             <div class="flex justify-between items-center mb-8">
-                <h2 class="text-3xl font-bold">Inspiration, Guides, Stories</h2>
+                <h2 class="text-3xl text-emerald-500 font-bold">Inspiration, Guides, Stories</h2>
             </div>
             <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4">
                 <div v-for="(story, index) in stories" :key="index" class="bg-gray-100 rounded-lg shadow overflow-hidden">

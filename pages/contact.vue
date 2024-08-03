@@ -7,14 +7,14 @@
         <div class="absolute inset-0 flex flex-col items-center justify-center pt-16 md:pt-24 lg:pt-28 xl:pt-32">
           <h1 class="text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-center">Contact Us</h1>
           <div class="hidden lg:flex flex-row justify-center gap-4 mt-4">
-            <nuxt-link to="/" class="text-base md:text-lg lg:text-xl xl:text-2xl">Home</nuxt-link>
+            <nuxt-link to="/" class="text-base hover:text-red-500 md:text-lg lg:text-xl xl:text-2xl">Home</nuxt-link>
             <p class="text-base md:text-lg lg:text-xl xl:text-2xl">Contact Us</p>
           </div>
         </div>
       </div>
       <div class="text-black mt-5 px-4 md:px-8 lg:px-12 xl:px-16 py-8 md:py-10">
-        <h1 class="text-xl md:text-2xl lg:text-3xl xl:text-4xl font-semibold text-center">HAVE A QUESTION OR PROBLEM?</h1>
-        <p class="text-base md:text-lg lg:text-xl xl:text-2xl font-semibold text-center">WE CAN HELP</p>
+        <h1 class="text-xl text-emerald-500 md:text-2xl lg:text-3xl xl:text-4xl font-semibold text-center">HAVE A QUESTION OR PROBLEM?</h1>
+        <p class="text-base text-emerald-500 md:text-lg lg:text-xl xl:text-2xl font-semibold text-center">WE CAN HELP</p>
 
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6 lg:gap-8 xl:gap-10 mt-8 md:mt-10">
           <div class="flex flex-col items-center border border-black p-4 md:p-5 rounded-md">
