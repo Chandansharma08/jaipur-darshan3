@@ -1,8 +1,8 @@
 <template>
     <section class="bg-white py-12">
       <div class="container mx-auto px-4">
-        <h2 class="text-3xl font-semibold text-left mb-8">Popular Activities</h2>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 items-start">
+        <h2 class="text-2xl text-emerald-500 lg:text-4xl font-semibold mb-6">Popular Activities</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 items-start">
           <!-- Video Item -->
           <div v-for="video in videos" :key="video.id" class="bg-black rounded-lg overflow-hidden relative shadow-lg">
             <iframe :src="video.url" frameborder="0"
@@ -15,7 +15,7 @@
           </div>
         </div>
         <div class="text-center mt-12">
-          <nuxt-link to="/review" class="text-white bg-[#11a191] hover:bg-white border-2 border-white hover:border-[#11a191] rounded-full hover:text-[#11a191] font-semibold py-2 px-4">
+          <nuxt-link to="/review" class="text-emerald-500 bg-transparent hover:border-none border-2 border-emerald-500 hover:bg-emerald-600 rounded-full hover:text-white py-2 px-4">
             See More
           </nuxt-link>
         </div>
@@ -42,7 +42,12 @@
             id: 3,
             title: '#3 Client Reviews',
             url: 'https://www.youtube.com/embed/l3j3qFIZzao?si=2bToPmr3SZlDt_s9'
-          }
+          },
+          {
+            id: 3,
+            title: '#3 Client Reviews',
+            url: 'https://www.youtube.com/embed/l3j3qFIZzao?si=2bToPmr3SZlDt_s9'
+          },
         ]
       };
     }

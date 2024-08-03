@@ -50,7 +50,7 @@
           <!-- Services Grid -->
           <div class="mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-4xl mb-5">
             <!-- Service items -->
-            <div class="bg-white rounded-lg p-6 shadow-lg">
+            <div class="bg-white rounded-lg p-8 shadow-lg">
               <div class="text-orange-500 text-5xl mb-3">🗺️</div>
               <h3 class="font-semibold text-lg">Lots of choices</h3>
               <p>Thousands of the best destinations are ready to spoil your eyes.</p>

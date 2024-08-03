@@ -4,7 +4,7 @@
             <div class="flex justify-between items-center mb-8">
                 <h2 class="text-3xl font-bold">Inspiration, Guides, Stories</h2>
             </div>
-            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4">
                 <div v-for="(story, index) in stories" :key="index" class="bg-gray-100 rounded-lg shadow overflow-hidden">
                     <img :src="story.image" alt="story.title" class="w-full">
                     <div class="p-4">

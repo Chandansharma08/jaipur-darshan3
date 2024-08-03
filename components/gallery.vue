@@ -1,7 +1,7 @@
 <template>
     <section class=" bg-white">
         <div class="">
-            <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6">
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 lg:grid-cols-6">
                 <div v-for="(photo, index) in photos" :key="index"
                     class="relative group cursor-pointer overflow-hidden">
                     <img :src="photo.image" alt=""

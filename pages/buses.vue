@@ -18,9 +18,9 @@
           <h1 class="text-2xl">Bus Rental Services</h1>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit eveniet cumque saepe illo mollitia repellat, placeat unde, nam quae molestias enim esse adipisci ipsa recusandae laudantium. Sit, at nesciunt. Esse maxime vel molestiae corporis eligendi possimus ut nesciunt eos nulla consequatur dolorum delectus repellendus suscipit neque labore, optio in amet.</p>
         </div>
-        <div class=" grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-4 md:gap-10 px-4 md:px-10 lg:px-20 py-10">
+        <div class=" flex items-center justify-center  md:gap-10 lg:gap-20 px-4 md:px-10 lg:px-20 py-10">
           <div v-for="(bus, index) in buses" :key="index" class="flex flex-col border rounded-md hover:shadow-xl items-center p-4">
-            <img :src="bus.image" :alt="bus.name" class="w-full h-auto" />
+            <img :src="bus.image" :alt="bus.name" class="w-auto h-auto" />
             <h1 class="text-pink-600">{{ bus.name }}</h1>
             <div class="flex items-center">
               <p class="text-pink-600">INR</p>
@@ -60,8 +60,8 @@ export default {
   data() {
     return {
       buses: [
-        { name: 'Toyota Etios', price: 11, image: 'https://placehold.co/200x150/png' },
-        { name: 'Toyota Etios', price: 11, image: 'https://placehold.co/200x150/png' },
+        { name: 'Toyota Etios', price: 11, image: 'https://placehold.co/500x350/png' },
+        { name: 'Toyota Etios', price: 11, image: 'https://placehold.co/500x350/png' },
         
         // Add more buses as needed
       ],

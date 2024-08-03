@@ -1,5 +1,4 @@
-<template>
-  
+<template>  
   <div class="navbar bg-[#ffffff] md:px-10 fixed z-50 shadow-sm">
     <div class="navbar-start">
       <div class="dropdown">
@@ -48,7 +47,7 @@
       </ul>
     </div>
     <div class="navbar-end">
-      <nuxt-link to="/" class="btn bg-emerald-500 text-white rounded-full"
+      <nuxt-link to="/contact" class="px-3 py-2 flex items-center justify-center bg-emerald-500 hover:bg-emerald-600  text-white rounded-full"
         >Book Now</nuxt-link
       >
     </div>

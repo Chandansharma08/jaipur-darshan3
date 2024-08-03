@@ -1,52 +1,56 @@
 <template>
   <div class="bg-white px-4 md:px-8">
-    <h2 class="text-xl md:text-2xl font-semibold mb-6">Top Destination For Your Next Vacation</h2>
+    <h2 class="text-2xl text-emerald-500 lg:text-4xl font-semibold mb-6">Top Destination For Your Next Vacation -</h2>
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
       <NuxtLink
         v-for="(destination, index) in destinations"
         :key="index"
         :to="destination.url"
-        class="relative overflow-hidden rounded-2xl group block shadow-card"
+        class="relative overflow-hidden rounded-3xl group block shadow-card"
       >
         <img
           :src="destination.image"
           :alt="destination.name"
-          class="w-full h- object-cover transition-transform duration-500 group-hover:scale-110"
+          class="w-full h-auto object-cover transition-transform duration-500 group-hover:scale-110"
         />
-        <div
-          class="absolute inset-0 transition-opacity duration-500 shadow-gradient"
-        >
-          <!-- Old Heading - Initially hidden, moves up on hover -->
-          <div class="absolute bottom-0 left-0 p-4 w-full">
-            <h3
-              class="text-white text-lg md:text-3xl font-semibold mb-2 opacity-0 group-hover:opacity-100 transition-all duration-500 ease-in-out transform translate-y-5 group-hover:translate-y-0"
-            >
-              {{ destination.name }}
-            </h3>
-            <p
-              class="text-white text-sm opacity-0 mb-4 group-hover:opacity-100 transition-all duration-500 ease-in-out transform translate-y-10 group-hover:translate-y-0"
-            >
-              {{ destination.description }}
-            </p>
-            <NuxtLink
-              :to="destination.url"
-              class=" opacity-0 group-hover:opacity-100 transition-all duration-500 ease-in-out transform translate-y-10 group-hover:translate-y-0 mt-2 px-4 py-2 bg-transparent text-white text-sm rounded-full border border-white hover:bg-white hover:text-black"
-            >
-              See All Tours
-            </NuxtLink>
-          </div>
-          <!-- New Heading - Always visible, hides on hover -->
-          <h3
-            class="text-white text-lg md:text-3xl font-semibold mb-2 absolute bottom-0 left-0 w-full p-4 opacity-100 group-hover:opacity-0 transition-opacity duration-500"
-          >
+        <div class="absolute inset-0 transition-opacity duration-500 shadow-gradient flex flex-col justify-end p-4">
+          <!-- Name for larger screens, always visible but hidden on hover -->
+          <h3 class="text-white text-lg md:text-3xl font-semibold mb-2 lg:absolute lg:bottom-0 lg:left-0 lg:w-full lg:p-4 lg:opacity-100 lg:group-hover:opacity-0 lg:transition-opacity lg:duration-500">
             {{ destination.name }}
           </h3>
+          <!-- Description and Button for mobile and tablet views, hidden on larger screens -->
+          <div class="lg:hidden">
+            <p class="text-white text-sm mb-4">{{ destination.description }}</p>
+            <NuxtLink :to="destination.url" class="block">
+              <button
+                class="px-6 py-2 bg-transparent text-white text-sm rounded-full border border-white hover:bg-white hover:text-black"
+              >
+                See All Tours
+              </button>
+            </NuxtLink>
+          </div>
+          <!-- Heading, Description and Button for larger screens, appears on hover with animation -->
+          <div class="hidden lg:flex lg:flex-col lg:justify-end lg:transition-opacity lg:duration-500 lg:opacity-0 lg:group-hover:opacity-100 lg:group-hover:translate-y-0 lg:transform lg:group-hover:translate-y-0">
+            <h3 class="text-white text-lg md:text-3xl font-semibold mb-2 lg:opacity-100 lg:transition-opacity lg:duration-500">
+              {{ destination.name }}
+            </h3>
+            <p class="text-white text-sm mb-4 lg:opacity-100 lg:transition-opacity lg:duration-500">
+              {{ destination.description }}
+            </p>
+            <NuxtLink :to="destination.url">
+              <button
+                class="mt-1 px-4 py-2 bg-transparent text-white text-sm rounded-full border border-white hover:bg-white hover:text-black lg:opacity-100 lg:transition-opacity lg:duration-500"
+              >
+                See All Tours
+              </button>
+            </NuxtLink>
+          </div>
         </div>
       </NuxtLink>
     </div>
     <div class="text-center mt-8">
       <button
-        class="bg-transparent text-green-600 px-4 py-2 rounded-full hover:text-white border-2 border-green-600 hover:bg-green-700"
+        class="bg-transparent text-green-600 px-4 py-2 rounded-full hover:text-white border-2 border-emerald-500 hover:bg-emerald-500 mt-5"
       >
         See All Destinations
       </button>
@@ -61,52 +65,29 @@ export default {
       destinations: [
         {
           name: "Bali",
-          image: "https://travelwp.physcode.com/main-demo/wp-content/uploads/sites/7/2023/07/Tokyo.png",
+          image: "https://placehold.co/300x300.png",
           description: "Discover Bali with our special tours",
           url: "/places" // Dynamic URL for Bali
         },
         {
           name: "Bangkok",
-          image: "https://placehold.co/300x400.png",
+          image: "https://placehold.co/300x300.png",
           description: "Discover Bangkok with our special tours",
           url: "/places" // Dynamic URL for Bangkok
         },
         {
           name: "Cancun",
-          image: "https://placehold.co/300x400.png",
+          image: "https://placehold.co/300x300.png",
           description: "Relax in Cancun with our beach tours",
           url: "/places" // Dynamic URL for Cancun
         },
         {
           name: "Nha Trang",
-          image: "https://placehold.co/300x400.png",
+          image: "https://placehold.co/300x300.png",
           description: "Explore Nha Trang with our city tours",
           url: "/places" // Dynamic URL for Nha Trang
         },
-        {
-          name: "Bali",
-          image: "https://placehold.co/300x400.png",
-          description: "Discover Bali with our special tours",
-          url: "/places" // Dynamic URL for Bali
-        },
-        {
-          name: "Bangkok",
-          image: "https://placehold.co/300x400.png",
-          description: "Discover Bangkok with our special tours",
-          url: "/places" // Dynamic URL for Bangkok
-        },
-        {
-          name: "Cancun",
-          image: "https://placehold.co/300x400.png",
-          description: "Relax in Cancun with our beach tours",
-          url: "/places" // Dynamic URL for Cancun
-        },
-        {
-          name: "Nha Trang",
-          image: "https://placehold.co/300x400.png",
-          description: "Explore Nha Trang with our city tours",
-          url: "/places" // Dynamic URL for Nha Trang
-        },
+        // Add more destinations as needed
       ],
     };
   },
@@ -119,7 +100,6 @@ export default {
 </script>
 
 <style scoped>
-/* Additional styles for hover effect and animation */
 .group:hover .group-hover\:scale-110 {
   transform: scale(1.1); /* Scale up image on hover */
 }
@@ -128,11 +108,18 @@ export default {
   transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
 }
 /* Blackish shadow at the bottom of the card */
-.shadow-card {
-  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5); /* Creates a shadow at the bottom */
-}
+
 /* Blackish gradient inside the card from bottom */
 .shadow-gradient {
   background: linear-gradient(to top, rgba(0, 0, 0, 0.5), transparent); /* Creates a gradient from bottom */
+}
+/* Hide the heading on hover */
+.group:hover .lg\:group-hover\:opacity-0 {
+  opacity: 0;
+}
+/* Show the hidden content on hover */
+.group:hover .lg\:group-hover\:opacity-100 {
+  opacity: 1;
+  transform: translateY(0);
 }
 </style>
