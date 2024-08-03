@@ -60,50 +60,50 @@
         destinations: [
           {
             name: "Bali",
-            image: "https://placehold.co/200x150.png",
+            image: "https://placehold.co/300x300.png",
             description: "Discover Bali with our special tours",
             url: "/places",
           },
           {
             name: "Bangkok",
-            image: "https://placehold.co/200x150.png",
+            image: "https://placehold.co/300x300.png",
             description: "Discover Bangkok with our special tours",
             url: "/places",
           },
           {
             name: "Cancun",
-            image: "https://placehold.co/200x150.png",
+            image: "https://placehold.co/300x300.png",
             description: "Relax in Cancun with our beach tours",
             url: "/places",
           },
          
           {
             name: "Nha Trang",
-            image: "https://placehold.co/200x150.png",
+            image: "https://placehold.co/300x300.png",
             description: "Explore Nha Trang with our city tours",
             url: "/places",
           },
           {
             name: "Nha Trang",
-            image: "https://placehold.co/200x150.png",
+            image: "https://placehold.co/300x300.png",
             description: "Explore Nha Trang with our city tours",
             url: "/places",
           },
           {
             name: "Nha Trang",
-            image: "https://placehold.co/200x150.png",
+            image: "https://placehold.co/300x300.png",
             description: "Explore Nha Trang with our city tours",
             url: "/places",
           },
           {
             name: "Nha Trang",
-            image: "https://placehold.co/200x150.png",
+            image: "https://placehold.co/300x300.png",
             description: "Explore Nha Trang with our city tours",
             url: "/places",
           },
           {
             name: "Nha Trang",
-            image: "https://placehold.co/200x150.png",
+            image: "https://placehold.co/300x300.png",
             description: "Explore Nha Trang with our city tours",
             url: "/places",
           },
