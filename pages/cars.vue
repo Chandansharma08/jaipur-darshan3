@@ -129,32 +129,18 @@ export default {
       services: [
         { name: 'Dargah', image: 'https://placehold.co/200x150/png',  },
         { name: 'Anna Sagar', image: 'https://placehold.co/200x150/png',  },
-        { name: '', image: 'https://placehold.co/200x150/png',  },
-        { name: '', image: 'https://placehold.co/200x150/png',  },
-        { name: '', image: 'https://placehold.co/200x150/png',  },
-        { name: '', image: 'https://placehold.co/200x150/png',  },
+        { name: 'Ajne view', image: 'https://placehold.co/200x150/png',  },
+        { name: 'Brahma Temple', image: 'https://placehold.co/200x150/png',  },
+        { name: 'Brahma Sarover', image: 'https://placehold.co/200x150/png',  },
+        { name: 'Desert safari', image: 'https://placehold.co/200x150/png',  },
 
 
         // Add more services as needed
       ],
       services2: [
-        { name: '', image: 'https://placehold.co/200x150/png',  },
-        { name: '', image: 'https://placehold.co/200x150/png',  },
-        { name: '', image: 'https://placehold.co/200x150/png',  },
-
-        // Add more services as needed
-      ],
-      services2: [
-        { name: '', image: 'https://placehold.co/200x150/png',  },
-        { name: '', image: 'https://placehold.co/200x150/png',  },
-        { name: '', image: 'https://placehold.co/200x150/png',  },
-
-        // Add more services as needed
-      ],
-      services2: [
-        { name: '', image: 'https://placehold.co/200x150/png',  },
-        { name: '', image: 'https://placehold.co/200x150/png',  },
-        { name: '', image: 'https://placehold.co/200x150/png',  },
+        { name: 'Akhbar Museum', image: 'https://placehold.co/200x150/png',  },
+        { name: 'Taj Mahal', image: 'https://placehold.co/200x150/png',  },
+        { name: 'Agra Fort', image: 'https://placehold.co/200x150/png',  },
 
         // Add more services as needed
       ],
@@ -166,6 +152,20 @@ export default {
         // Add more services as needed
       ],
       services4: [
+        { name: '', image: 'https://placehold.co/200x150/png',  },
+        { name: '', image: 'https://placehold.co/200x150/png',  },
+        { name: '', image: 'https://placehold.co/200x150/png',  },
+
+        // Add more services as needed
+      ],
+      services5: [
+        { name: '', image: 'https://placehold.co/200x150/png',  },
+        { name: '', image: 'https://placehold.co/200x150/png',  },
+        { name: '', image: 'https://placehold.co/200x150/png',  },
+
+        // Add more services as needed
+      ],
+      services6: [
         { name: '', image: 'https://placehold.co/200x150/png',  },
         { name: '', image: 'https://placehold.co/200x150/png',  },
         { name: '', image: 'https://placehold.co/200x150/png',  },

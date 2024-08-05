@@ -18,6 +18,7 @@
           <h1 class="text-2xl">Bus Tour Services and Places</h1>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit eveniet cumque saepe illo mollitia repellat, placeat unde, nam quae molestias enim esse adipisci ipsa recusandae laudantium. Sit, at nesciunt. Esse maxime vel molestiae corporis eligendi possimus ut nesciunt eos nulla consequatur dolorum delectus repellendus suscipit neque labore, optio in amet.</p>
         </div>
+        <h1 class="font-bold text-2xl mt-8 flex px-4 md:px-10 lg:px-20">Tour 1(Places of Attractions)</h1>
         <div class=" grid grid-cols-1 md:grid-cols-3 gap-4 md:gap px-4 md:px-10 lg:px-20 py-10">
           <div v-for="(bus, index) in buses" :key="index" class="flex flex-col border rounded-md hover:shadow-xl items-center p-4">
             <img :src="bus.image" :alt="bus.name" class="w-auto h-auto" />
@@ -30,7 +31,7 @@
             <p class="text-gray-600">Per Person</p>
           </div>
         </div>
-        <h1 class="font-bold text-2xl flex px-4 md:px-10 lg:px-20">Tour 1(Places of Attractions)</h1>
+      
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5 gap-4 md:gap-6 px-4 md:px-10 lg:px-20 py-10">
           <div v-for="(service, index) in services" :key="index" class="flex flex-col border rounded-md hover:shadow-xl items-center p-4">
             <img :src="service.image" :alt="service.name" class="w-full h-auto" />
@@ -39,6 +40,18 @@
           </div>
         </div>
         <h1 class="font-bold text-2xl flex px-4 md:px-10 lg:px-20">Tour 2(Places of Attractions)</h1>
+        <div class=" grid grid-cols-1 md:grid-cols-3 gap-4 md:gap px-4 md:px-10 lg:px-20 py-10">
+          <div v-for="(bus, index) in buses" :key="index" class="flex flex-col border rounded-md hover:shadow-xl items-center p-4">
+            <img :src="bus.image" :alt="bus.name" class="w-auto h-auto" />
+            <h1 class="text-red-500 mt-1 text-base">{{ bus.name }}</h1>
+            <div class="flex items-center">
+              <p class="text-red-500">INR</p>
+              <p class="text-red-500 text-2xl">{{ bus.price }}RS</p>
+            </div>
+            <hr class="my-2 w-full h-0.5 bg-red-500" />
+            <p class="text-gray-600">Per Person</p>
+          </div>
+          </div>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5 gap-4 md:gap-6 px-4 md:px-10 lg:px-20 py-10">
           <div v-for="(service1, index) in services1" :key="index" class="flex flex-col border rounded-md hover:shadow-xl items-center p-4">
             <img :src="service1.image" :alt="service1.name" class="w-full h-auto" />
@@ -63,35 +76,35 @@ export default {
         // Add more buses as needed
       ],
       services: [
-        { name: 'Rajmandir(Front View)', image: 'https://placehold.co/200x150/png'},
-        { name: 'Statue Circle', image: 'https://placehold.co/200x150/png'},
-        { name: 'Birla Temple (Laxminarayan Temple)', image: 'https://placehold.co/200x150/png'},
-        { name: 'Albert hall/Museum', image: 'https://placehold.co/200x150/png'},
-        { name: 'Ramniwas Bagh', image: 'https://placehold.co/200x150/png'},
-        { name: 'Pink City(On the way)', image: 'https://placehold.co/200x150/png'},
-        { name: 'Hawa Mahal(Front View)', image: 'https://placehold.co/200x150/png'},
-        { name: 'Observatory (Jantar Mantar)', image: 'https://placehold.co/200x150/png'},
-        { name: 'City Palace', image: 'https://placehold.co/200x150/png'},
-        { name: 'Art Gallery', image: 'https://placehold.co/200x150/png'},
-        { name: 'Gaitor', image: 'https://placehold.co/200x150/png'},
-        { name: 'Jal Mahal(Front View)', image: 'https://placehold.co/200x150/png'},
-        { name: 'Amber Fort/Sarla Temple', image: 'https://placehold.co/200x150/png'},
-        { name: 'Maotha Lake', image: 'https://placehold.co/200x150/png'},
+        // { name: 'Rajmandir(Front View)', image: 'https://placehold.co/200x150/png'},
+        // { name: 'Statue Circle', image: 'https://placehold.co/200x150/png'},
+        // { name: 'Birla Temple (Laxminarayan Temple)', image: 'https://placehold.co/200x150/png'},
+        // { name: 'Albert hall/Museum', image: 'https://placehold.co/200x150/png'},
+        // { name: 'Ramniwas Bagh', image: 'https://placehold.co/200x150/png'},
+        // { name: 'Pink City(On the way)', image: 'https://placehold.co/200x150/png'},
+        // { name: 'Hawa Mahal(Front View)', image: 'https://placehold.co/200x150/png'},
+        // { name: 'Observatory (Jantar Mantar)', image: 'https://placehold.co/200x150/png'},
+        // { name: 'City Palace', image: 'https://placehold.co/200x150/png'},
+        // { name: 'Art Gallery', image: 'https://placehold.co/200x150/png'},
+        // { name: 'Gaitor', image: 'https://placehold.co/200x150/png'},
+        // { name: 'Jal Mahal(Front View)', image: 'https://placehold.co/200x150/png'},
+        // { name: 'Amber Fort/Sarla Temple', image: 'https://placehold.co/200x150/png'},
+        // { name: 'Maotha Lake', image: 'https://placehold.co/200x150/png'},
        
         
         // Add more services as needed
       ],
       services1: [
-        { name: 'Jaigarh', image: 'https://placehold.co/200x150/png'},
-        { name: 'Nahargarh Fort/Palace', image: 'https://placehold.co/200x150/png'},
-        { name: 'Jaipur Wax Museum', image: 'https://placehold.co/200x150/png'},
-        { name: 'Amber Fort/Sarla Temple', image: 'https://placehold.co/200x150/png'},
-        { name: 'Maotha Lake', image: 'https://placehold.co/200x150/png'},
-        { name: 'Kanak Vrindavan', image: 'https://placehold.co/200x150/png'},
-        { name: 'Rajmandir(Front View)', image: 'https://placehold.co/200x150/png'},
-        { name: 'Statue Circle', image: 'https://placehold.co/200x150/png'},
-        { name: 'Birla Temple (Laxminarayan Temple)', image: 'https://placehold.co/200x150/png'},
-        { name: 'Albert hall/Museum', image: 'https://placehold.co/200x150/png'},
+        // { name: 'Jaigarh', image: 'https://placehold.co/200x150/png'},
+        // { name: 'Nahargarh Fort/Palace', image: 'https://placehold.co/200x150/png'},
+        // { name: 'Jaipur Wax Museum', image: 'https://placehold.co/200x150/png'},
+        // { name: 'Amber Fort/Sarla Temple', image: 'https://placehold.co/200x150/png'},
+        // { name: 'Maotha Lake', image: 'https://placehold.co/200x150/png'},
+        // { name: 'Kanak Vrindavan', image: 'https://placehold.co/200x150/png'},
+        // { name: 'Rajmandir(Front View)', image: 'https://placehold.co/200x150/png'},
+        // { name: 'Statue Circle', image: 'https://placehold.co/200x150/png'},
+        // { name: 'Birla Temple (Laxminarayan Temple)', image: 'https://placehold.co/200x150/png'},
+        // { name: 'Albert hall/Museum', image: 'https://placehold.co/200x150/png'},
        
         
         // Add more services as needed
