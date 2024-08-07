@@ -34,7 +34,7 @@ const packagesPosts = [
       "Non-AC-Bus",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
     mainImage: "https://placehold.co/600x300/png",
-    image1: "https://placehold.co/200x150/png",
+    image1: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Untitled%20design%20(13).webp",
     name: "Albert hall/Museum",
   },
 
@@ -114,7 +114,7 @@ const packagesPosts = [
       "Non-AC-Bus",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
     mainImage: "https://placehold.co/600x300/png",
-    image1: "https://placehold.co/200x150/png",
+    image1: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723028195.9411/amber-fort-66b352c748ff0.webp",
     name: "Amber Fort/Sarla Temple",
   },{
     slug: "non-ac-bus",
@@ -160,7 +160,7 @@ const packagesPosts = [
       "AC-Bus",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
     mainImage: "https://placehold.co/600x300/png",
-    image1: "https://placehold.co/200x150/png",
+    image1: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Untitled%20design%20(13).webp",
     name: "Albert hall/Museum",
   },
 
@@ -241,7 +241,7 @@ const packagesPosts = [
       "AC-Bus",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
     mainImage: "https://placehold.co/600x300/png",
-    image1: "https://placehold.co/200x150/png",
+    image1: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723028195.9411/amber-fort-66b352c748ff0.webp",
     name: "Amber Fort/Sarla Temple",
   },{
     slug: "ac-bus",
@@ -287,7 +287,7 @@ const packagesPosts = [
       "AC-Bus",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
     mainImage: "https://placehold.co/600x300/png",
-    image1: "https://placehold.co/200x150/png",
+    image1: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Untitled%20design%20(13).webp",
     name: "Albert hall/Museum",
   },
 
@@ -367,7 +367,7 @@ const packagesPosts = [
       "AC-Bus",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
     mainImage: "https://placehold.co/600x300/png",
-    image1: "https://placehold.co/200x150/png",
+    image1: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723028195.9411/amber-fort-66b352c748ff0.webp",
     name: "Amber Fort/Sarla Temple",
   },{
     slug: "double-decker-bus",
@@ -416,7 +416,7 @@ const packagesPosts = [
       "Non-AC-Bus",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
     mainImage: "https://placehold.co/600x300/png",
-    image1: "https://placehold.co/200x150/png",
+    image1: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723028195.9411/amber-fort-66b352c748ff0.webp",
     name: "Amber Fort/Sarla Temple",
   },
 
@@ -471,7 +471,7 @@ const packagesPosts = [
       "Non-AC-Bus",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
     mainImage: "https://placehold.co/600x300/png",
-    image1: "https://placehold.co/200x150/png",
+    image1: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Untitled%20design%20(13).webp",
     name: "Albert hall/Museum",
   },
   // AC Buses places
@@ -509,7 +509,7 @@ const packagesPosts = [
       "AC-Bus",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
     mainImage: "https://placehold.co/600x300/png",
-    image1: "https://placehold.co/200x150/png",
+    image1: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723028195.9411/amber-fort-66b352c748ff0.webp",
     name: "Amber Fort/Sarla Temple",
   },
 
@@ -564,7 +564,7 @@ const packagesPosts = [
       "AC-Bus",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
     mainImage: "https://placehold.co/600x300/png",
-    image1: "https://placehold.co/200x150/png",
+    image1: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Untitled%20design%20(13).webp",
     name: "Albert hall/Museum",
   },
   // Double Decker Bus
@@ -602,7 +602,7 @@ const packagesPosts = [
       "AC-Bus",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
     mainImage: "https://placehold.co/600x300/png",
-    image1: "https://placehold.co/200x150/png",
+    image1: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723028195.9411/amber-fort-66b352c748ff0.webp",
     name: "Amber Fort/Sarla Temple",
   },
 
@@ -657,7 +657,7 @@ const packagesPosts = [
       "AC-Bus",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
     mainImage: "https://placehold.co/600x300/png",
-    image1: "https://placehold.co/200x150/png",
+    image1: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Untitled%20design%20(13).webp",
     name: "Albert hall/Museum",
   },
   
