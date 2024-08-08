@@ -2,31 +2,31 @@
   <div>
     <Navbar />
 
-    <div class="px-4 md:px-10 bg-white pt-2 md:pt-20">
+    <div class="px-4 md:px-10 bg-white pt-20">
       <!-- Content Before Team Section -->
 
-      <img class="shadow-sm w-full rounded-xl bg-transparent" src="https://placehold.co/1400x400" alt="background" />
+      <img class="shadow-sm w-full pt-0 rounded-xl bg-transparent" src="https://placehold.co/1400x400" alt="background" />
 
       <section class="bg-white py-12">
         <div class="flex flex-col text-center items-center justify-center">
           <div class="max-w-lg mb-4">
-            <h2 class="text-5xl font-bold text-emerald-500">Provide the best travel experience for you</h2>
+            <h2 class="text-3xl lg:text-5xl font-bold text-emerald-500">Provide the best travel experience for you</h2>
             <p class="text-gray-600 my-4">
               We understand that every journey has unique needs. Therefore, we offer customized travel packages designed according to your preferences and budget.
             </p>
           </div>
-          <div class="flex flex-col md:flex-row justify-center space-x-0 md:space-x-8">
-            <div class="flex flex-col items-center bg-[#e6f7f4] rounded-xl p-4 lg:p-8 max-w-sm mb-4 md:mb-0">
-              <div class="h-12 mb-10">
+          <div class="flex flex-col md:flex-row justify-center space-x-0 md:space-x-20 px-16 ">
+            <div class="flex flex-col items-center bg-[#e6f7f4] rounded-xl p-4 lg:p-8  mb-4 md:mb-0 border">
+              <div class="h-12 mb-10 ">
                 <img src="https://ccdstest.b-cdn.net/Jaipur%20Darshan/mission.png" alt="Our Vision" />
               </div>
-              <h3 class="font-semibold text-lg lg:text-3xl mb-2">Our Vision</h3>
+              <h3 class="font-semibold text-lg lg:text-3xl mb-2 ">Our Vision</h3>
               <p>
                 Our vision is to become a leading travel agency company that provides high-quality services and inspiration for our customer.
               </p>
             </div>
 
-            <div class="flex flex-col items-center bg-[#e6f7f4] rounded-xl p-4 lg:p-8 max-w-sm">
+            <div class="flex flex-col items-center bg-[#e6f7f4] rounded-xl p-4 lg:p-8  border">
               <div class="h-12 mb-10">
                 <img src="https://ccdstest.b-cdn.net/Jaipur%20Darshan/vission.png" alt="Our Mission" />
               </div>
@@ -37,14 +37,14 @@
         </div>
       </section>
 
-      <div class="min-h-screen bg-[#01806c] flex flex-col items-center justify-center my-6 text-center px-6">
+      <div class="py-10 bg-[#01806c] flex flex-col items-center justify-center my-6 text-center px-6">
         <h1 class="text-5xl font-bold text-white mb-2">Finding Your Dream Destination Is Our Priority</h1>
         <p class="text-white">
           With a collection of destinations that include stunning natural landscapes, vibrant cosmopolitan cities, and enchanting tropical islands, we take you to the world's most stunning places.
         </p>
 
         <!-- Services Grid -->
-        <div class="mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-4xl mb-5">
+        <div class="mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-7xl mb-5">
           <!-- Service items -->
           <div class="bg-white rounded-lg p-8 shadow-lg">
             <div class="text-orange-500 text-5xl mb-3">🗺️</div>

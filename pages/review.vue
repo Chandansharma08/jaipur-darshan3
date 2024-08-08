@@ -36,7 +36,7 @@
         </div>
       </main>
     </div>
-    <div class="bg-[#ffffff]  py-6 lg:py-16">
+    <div class="bg-[#ffffff]  pt-40  py-10">
       <div class="container mx-auto px-4">
         <h2 class="text-3xl font-semibold  flex items-end gap-2 mb-8"> <span> Popular Reviews </span><span><svg
               xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#3b973c"
