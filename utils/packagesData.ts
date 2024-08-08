@@ -6,7 +6,7 @@ const packagesPosts = [
       "Tour 1(Non-AC Bus)",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
     mainImage: "https://placehold.co/600x300/png",
-    image1: "https://placehold.co/200x150/png",
+    image1: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723028195.9411/raj-mandir-66b352d13f32f.webp",
     name: "Rajmandir(Front View)",
   },
   {
@@ -15,7 +15,7 @@ const packagesPosts = [
       "Non-AC-Bus",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
     mainImage: "https://placehold.co/600x300/png",
-    image1: "https://placehold.co/200x150/png",
+    image1: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723028195.9411/statue-cilce-66b352d2a4734.webp",
     name: "Statue Circle",
   },
   {
@@ -24,7 +24,7 @@ const packagesPosts = [
       "Non-AC-Bus",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
     mainImage: "https://placehold.co/600x300/png",
-    image1: "https://placehold.co/200x150/png",
+    image1: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723028195.9411/birla-temple-66b352c8a468c.webp",
     name: "Birla Temple (Laxminarayan Temple)",
   },
 
@@ -34,7 +34,7 @@ const packagesPosts = [
       "Non-AC-Bus",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
     mainImage: "https://placehold.co/600x300/png",
-    image1: "https://placehold.co/200x150/png",
+    image1: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Untitled%20design%20(13).webp",
     name: "Albert hall/Museum",
   },
 
@@ -44,7 +44,7 @@ const packagesPosts = [
       "Non-AC-Bus",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
     mainImage: "https://placehold.co/600x300/png",
-    image1: "https://placehold.co/200x150/png",
+    image1: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723028195.9411/ramnivwas-garden-66b352d155cdf.webp",
     name: "Ramniwas Bagh",
   },
   {
@@ -53,7 +53,7 @@ const packagesPosts = [
       "Non-AC-Bus",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
     mainImage: "https://placehold.co/600x300/png",
-    image1: "https://placehold.co/200x150/png",
+    image1: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723028195.9411/pink-city-street-66b352cfeb9b2.webp",
     name: "Pink City(On the way)",
   },
   {
@@ -62,7 +62,7 @@ const packagesPosts = [
       "Non-AC-Bus",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
     mainImage: "https://placehold.co/600x300/png",
-    image1: "https://placehold.co/200x150/png",
+    image1: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723028195.9411/hawa-mahal-66b352ca39693.webp",
     name: "Hawa Mahal(Front View)",
   },
   {
@@ -71,7 +71,7 @@ const packagesPosts = [
       "Non-AC-Bus",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
     mainImage: "https://placehold.co/600x300/png",
-    image1: "https://placehold.co/200x150/png",
+    image1: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723028195.9411/jamtrmantr-66b352cce8357.webp",
     name: "Observatory (Jantar Mantar)",
   },
   {
@@ -80,7 +80,7 @@ const packagesPosts = [
       "Non-AC-Bus",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
     mainImage: "https://placehold.co/600x300/png",
-    image1: "https://placehold.co/200x150/png",
+    image1: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723028195.9411/city-palace-66b352c8bf6e0.webp",
     name: "City Palace",
   },
   {
@@ -98,7 +98,7 @@ const packagesPosts = [
       "Non-AC-Bus",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
     mainImage: "https://placehold.co/600x300/png",
-    image1: "https://placehold.co/200x150/png",
+    image1: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723028195.9411/gaitore-66b352ca068e8.webp",
     name: "Gaitor",
   },{
     slug: "non-ac-bus",
@@ -106,7 +106,7 @@ const packagesPosts = [
       "Non-AC-Bus",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
     mainImage: "https://placehold.co/600x300/png",
-    image1: "https://placehold.co/200x150/png",
+    image1: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723028195.9411/jalmahal-66b352cba79f4.webp",
     name: "Jal Mahal(Front View)",
   },{
     slug: "non-ac-bus",
@@ -114,7 +114,7 @@ const packagesPosts = [
       "Non-AC-Bus",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
     mainImage: "https://placehold.co/600x300/png",
-    image1: "https://placehold.co/200x150/png",
+    image1: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723028195.9411/amber-fort-66b352c748ff0.webp",
     name: "Amber Fort/Sarla Temple",
   },{
     slug: "non-ac-bus",
@@ -122,7 +122,7 @@ const packagesPosts = [
       "Non-AC-Bus",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
     mainImage: "https://placehold.co/600x300/png",
-    image1: "https://placehold.co/200x150/png",
+    image1: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723028195.9411/maotha-lake-66b352ce5e824.webp",
     name: "Maotha Lake",
   },
   // AC Buses places
@@ -132,7 +132,7 @@ const packagesPosts = [
       "Tour 1(AC Bus)",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
     mainImage: "https://placehold.co/600x300/png",
-    image1: "https://placehold.co/200x150/png",
+    image1: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723028195.9411/raj-mandir-66b352d13f32f.webp",
     name: "Rajmandir(Front View)",
   },
   {
@@ -141,7 +141,7 @@ const packagesPosts = [
       "AC-Bus",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
     mainImage: "https://placehold.co/600x300/png",
-    image1: "https://placehold.co/200x150/png",
+    image1: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723028195.9411/statue-cilce-66b352d2a4734.webp",
     name: "Statue Circle",
   },
   {
@@ -150,7 +150,7 @@ const packagesPosts = [
       "AC-Bus",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
     mainImage: "https://placehold.co/600x300/png",
-    image1: "https://placehold.co/200x150/png",
+    image1: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723028195.9411/birla-temple-66b352c8a468c.webp",
     name: "Birla Temple (Laxminarayan Temple)",
   },
 
@@ -160,7 +160,7 @@ const packagesPosts = [
       "AC-Bus",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
     mainImage: "https://placehold.co/600x300/png",
-    image1: "https://placehold.co/200x150/png",
+    image1: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Untitled%20design%20(13).webp",
     name: "Albert hall/Museum",
   },
 
@@ -170,7 +170,7 @@ const packagesPosts = [
       "AC-Bus",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
     mainImage: "https://placehold.co/600x300/png",
-    image1: "https://placehold.co/200x150/png",
+    image1: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723028195.9411/ramnivwas-garden-66b352d155cdf.webp",
     name: "Ramniwas Bagh",
   },
   {
@@ -179,7 +179,7 @@ const packagesPosts = [
       "AC-Bus",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
     mainImage: "https://placehold.co/600x300/png",
-    image1: "https://placehold.co/200x150/png",
+    image1: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723028195.9411/pink-city-street-66b352cfeb9b2.webp",
     name: "Pink City(On the way)",
   },
   {
@@ -188,7 +188,7 @@ const packagesPosts = [
       "AC-Bus",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
     mainImage: "https://placehold.co/600x300/png",
-    image1: "https://placehold.co/200x150/png",
+    image1: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723028195.9411/hawa-mahal-66b352ca39693.webp",
     name: "Hawa Mahal(Front View).",
   },
   {
@@ -197,7 +197,7 @@ const packagesPosts = [
       "AC-Bus",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
     mainImage: "https://placehold.co/600x300/png",
-    image1: "https://placehold.co/200x150/png",
+    image1: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723028195.9411/jamtrmantr-66b352cce8357.webp",
     name: "Observatory (Jantar Mantar)",
   },
   {
@@ -206,7 +206,7 @@ const packagesPosts = [
       "AC-Bus",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
     mainImage: "https://placehold.co/600x300/png",
-    image1: "https://placehold.co/200x150/png",
+    image1: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723028195.9411/city-palace-66b352c8bf6e0.webp",
     name: "City Palace",
   },
   {
@@ -224,7 +224,7 @@ const packagesPosts = [
       "AC-Bus",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
     mainImage: "https://placehold.co/600x300/png",
-    image1: "https://placehold.co/200x150/png",
+    image1: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723028195.9411/gaitore-66b352ca068e8.webp",
     name: "Gaitor",
   },
   {
@@ -233,7 +233,7 @@ const packagesPosts = [
       "AC-Bus",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
     mainImage: "https://placehold.co/600x300/png",
-    image1: "https://placehold.co/200x150/png",
+    image1: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723028195.9411/jalmahal-66b352cba79f4.webp",
     name: "Jal Mahal(Front View)",
   },{
     slug: "ac-bus",
@@ -241,7 +241,7 @@ const packagesPosts = [
       "AC-Bus",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
     mainImage: "https://placehold.co/600x300/png",
-    image1: "https://placehold.co/200x150/png",
+    image1: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723028195.9411/amber-fort-66b352c748ff0.webp",
     name: "Amber Fort/Sarla Temple",
   },{
     slug: "ac-bus",
@@ -249,7 +249,7 @@ const packagesPosts = [
       "AC-Bus",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
     mainImage: "https://placehold.co/600x300/png",
-    image1: "https://placehold.co/200x150/png",
+    image1: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723028195.9411/maotha-lake-66b352ce5e824.webp",
     name: "Maotha Lake",
   },
   // Double Decker Bus
@@ -259,7 +259,7 @@ const packagesPosts = [
       "Tour 1(Double Decker Bus)",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
     mainImage: "https://placehold.co/600x300/png",
-    image1: "https://placehold.co/200x150/png",
+    image1: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723028195.9411/raj-mandir-66b352d13f32f.webp",
     name: "Rajmandir(Front View)",
   },
   {
@@ -268,7 +268,7 @@ const packagesPosts = [
       "AC-Bus",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
     mainImage: "https://placehold.co/600x300/png",
-    image1: "https://placehold.co/200x150/png",
+    image1: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723028195.9411/statue-cilce-66b352d2a4734.webp",
     name: "Statue Circle",
   },
   {
@@ -277,7 +277,7 @@ const packagesPosts = [
       "AC-Bus",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
     mainImage: "https://placehold.co/600x300/png",
-    image1: "https://placehold.co/200x150/png",
+    image1: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723028195.9411/birla-temple-66b352c8a468c.webp",
     name: "Birla Temple (Laxminarayan Temple)",
   },
 
@@ -287,7 +287,7 @@ const packagesPosts = [
       "AC-Bus",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
     mainImage: "https://placehold.co/600x300/png",
-    image1: "https://placehold.co/200x150/png",
+    image1: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Untitled%20design%20(13).webp",
     name: "Albert hall/Museum",
   },
 
@@ -297,7 +297,7 @@ const packagesPosts = [
       "AC-Bus",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
     mainImage: "https://placehold.co/600x300/png",
-    image1: "https://placehold.co/200x150/png",
+    image1: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723028195.9411/ramnivwas-garden-66b352d155cdf.webp",
     name: "Ramniwas Bagh",
   },
   {
@@ -306,7 +306,7 @@ const packagesPosts = [
       "AC-Bus",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
     mainImage: "https://placehold.co/600x300/png",
-    image1: "https://placehold.co/200x150/png",
+    image1: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723028195.9411/pink-city-street-66b352cfeb9b2.webp",
     name: "Pink City(On the way)",
   },
   {
@@ -315,7 +315,7 @@ const packagesPosts = [
       "AC-Bus",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
     mainImage: "https://placehold.co/600x300/png",
-    image1: "https://placehold.co/200x150/png",
+    image1: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723028195.9411/hawa-mahal-66b352ca39693.webp",
     name: "Hawa Mahal(Front View)",
   },
   {
@@ -324,7 +324,7 @@ const packagesPosts = [
       "AC-Bus",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
     mainImage: "https://placehold.co/600x300/png",
-    image1: "https://placehold.co/200x150/png",
+    image1: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723028195.9411/jamtrmantr-66b352cce8357.webp",
     name: "Observatory (Jantar Mantar)",
   },
   {
@@ -333,7 +333,7 @@ const packagesPosts = [
       "AC-Bus",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
     mainImage: "https://placehold.co/600x300/png",
-    image1: "https://placehold.co/200x150/png",
+    image1: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723028195.9411/city-palace-66b352c8bf6e0.webp",
     name: "City Palace",
   },
   {
@@ -351,7 +351,7 @@ const packagesPosts = [
       "AC-Bus",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
     mainImage: "https://placehold.co/600x300/png",
-    image1: "https://placehold.co/200x150/png",
+    image1: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723028195.9411/gaitore-66b352ca068e8.webp",
     name: "Gaitor",
   },{
     slug: "double-decker-bus",
@@ -359,7 +359,7 @@ const packagesPosts = [
       "AC-Bus",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
     mainImage: "https://placehold.co/600x300/png",
-    image1: "https://placehold.co/200x150/png",
+    image1: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723028195.9411/jalmahal-66b352cba79f4.webp",
     name: "Jal Mahal(Front View)",
   },{
     slug: "double-decker-bus",
@@ -367,7 +367,7 @@ const packagesPosts = [
       "AC-Bus",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
     mainImage: "https://placehold.co/600x300/png",
-    image1: "https://placehold.co/200x150/png",
+    image1: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723028195.9411/amber-fort-66b352c748ff0.webp",
     name: "Amber Fort/Sarla Temple",
   },{
     slug: "double-decker-bus",
@@ -375,7 +375,7 @@ const packagesPosts = [
       "AC-Bus",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
     mainImage: "https://placehold.co/600x300/png",
-    image1: "https://placehold.co/200x150/png",
+    image1: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723028195.9411/maotha-lake-66b352ce5e824.webp",
     name: "Maotha Lake",
   },
   
@@ -388,7 +388,7 @@ const packagesPosts = [
       "Tour 2(Non-AC Bus)",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
     mainImage: "https://placehold.co/600x300/png",
-    image1: "https://placehold.co/200x150/png",
+    image1: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723028195.9411/jaigarh-66b352cb825cf.webp",
     name: "Jaigarh",
   },
   {
@@ -397,7 +397,7 @@ const packagesPosts = [
       "Non-AC-Bus",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
     mainImage: "https://placehold.co/600x300/png",
-    image1: "https://placehold.co/200x150/png",
+    image1: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723028195.9411/nahargarh-2-66b352ce6f6d4.webp",
     name: "Nahargarh fort/Palace",
   },
   {
@@ -406,7 +406,7 @@ const packagesPosts = [
       "Non-AC-Bus",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
     mainImage: "https://placehold.co/600x300/png",
-    image1: "https://placehold.co/200x150/png",
+    image1: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723028195.9411/wax-museum-66b352d2c47bf.webp",
     name: "Jaipur Wax Museum",
   },
 
@@ -416,7 +416,7 @@ const packagesPosts = [
       "Non-AC-Bus",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
     mainImage: "https://placehold.co/600x300/png",
-    image1: "https://placehold.co/200x150/png",
+    image1: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723028195.9411/amber-fort-66b352c748ff0.webp",
     name: "Amber Fort/Sarla Temple",
   },
 
@@ -426,7 +426,7 @@ const packagesPosts = [
       "Non-AC-Bus",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
     mainImage: "https://placehold.co/600x300/png",
-    image1: "https://placehold.co/200x150/png",
+    image1: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723028195.9411/maotha-lake-66b352ce5e824.webp",
     name: "Maotha Lake",
   },
   {
@@ -435,7 +435,7 @@ const packagesPosts = [
       "Non-AC-Bus",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
     mainImage: "https://placehold.co/600x300/png",
-    image1: "https://placehold.co/200x150/png",
+    image1: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723028195.9411/kanka-vrindavan-66b352cd211c5.webp",
     name: "Kanak Vrindavan",
   },
   {
@@ -444,7 +444,7 @@ const packagesPosts = [
       "Non-AC-Bus",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
     mainImage: "https://placehold.co/600x300/png",
-    image1: "https://placehold.co/200x150/png",
+    image1: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723028195.9411/raj-mandir-66b352d13f32f.webp",
     name: "Rajmandir(Front View).",
   },
   {
@@ -453,7 +453,7 @@ const packagesPosts = [
       "Non-AC-Bus",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
     mainImage: "https://placehold.co/600x300/png",
-    image1: "https://placehold.co/200x150/png",
+    image1: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723028195.9411/statue-cilce-66b352d2a4734.webp",
     name: "Statue Circle",
   },
   {
@@ -462,7 +462,7 @@ const packagesPosts = [
       "Non-AC-Bus",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
     mainImage: "https://placehold.co/600x300/png",
-    image1: "https://placehold.co/200x150/png",
+    image1: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723028195.9411/birla-temple-66b352c8a468c.webp",
     name: "Birla Temple (Laxminarayan Temple)",
   },
   {
@@ -471,7 +471,7 @@ const packagesPosts = [
       "Non-AC-Bus",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
     mainImage: "https://placehold.co/600x300/png",
-    image1: "https://placehold.co/200x150/png",
+    image1: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Untitled%20design%20(13).webp",
     name: "Albert hall/Museum",
   },
   // AC Buses places
@@ -481,7 +481,7 @@ const packagesPosts = [
       "Tour 2(AC Bus)",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
     mainImage: "https://placehold.co/600x300/png",
-    image1: "https://placehold.co/200x150/png",
+    image1: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723028195.9411/jaigarh-66b352cb825cf.webp",
     name: "Jaigarh",
   },
   {
@@ -490,7 +490,7 @@ const packagesPosts = [
       "AC-Bus",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
     mainImage: "https://placehold.co/600x300/png",
-    image1: "https://placehold.co/200x150/png",
+    image1: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723028195.9411/nahargarh-2-66b352ce6f6d4.webp",
     name: "Nahargarh fort/Palace",
   },
   {
@@ -499,7 +499,7 @@ const packagesPosts = [
       "AC-Bus",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
     mainImage: "https://placehold.co/600x300/png",
-    image1: "https://placehold.co/200x150/png",
+    image1: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723028195.9411/wax-museum-66b352d2c47bf.webp",
     name: "Jaipur Wax Museum",
   },
 
@@ -509,7 +509,7 @@ const packagesPosts = [
       "AC-Bus",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
     mainImage: "https://placehold.co/600x300/png",
-    image1: "https://placehold.co/200x150/png",
+    image1: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723028195.9411/amber-fort-66b352c748ff0.webp",
     name: "Amber Fort/Sarla Temple",
   },
 
@@ -519,7 +519,7 @@ const packagesPosts = [
       "AC-Bus",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
     mainImage: "https://placehold.co/600x300/png",
-    image1: "https://placehold.co/200x150/png",
+    image1: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723028195.9411/maotha-lake-66b352ce5e824.webp",
     name: "Maotha Lake",
   },
   {
@@ -528,7 +528,7 @@ const packagesPosts = [
       "AC-Bus",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
     mainImage: "https://placehold.co/600x300/png",
-    image1: "https://placehold.co/200x150/png",
+    image1: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723028195.9411/kanka-vrindavan-66b352cd211c5.webp",
     name: "Kanak Vrindavan",
   },
   {
@@ -537,7 +537,7 @@ const packagesPosts = [
       "AC-Bus",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
     mainImage: "https://placehold.co/600x300/png",
-    image1: "https://placehold.co/200x150/png",
+    image1: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723028195.9411/raj-mandir-66b352d13f32f.webp",
     name: "Rajmandir(Front View).",
   },
   {
@@ -546,7 +546,7 @@ const packagesPosts = [
       "AC-Bus",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
     mainImage: "https://placehold.co/600x300/png",
-    image1: "https://placehold.co/200x150/png",
+    image1: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723028195.9411/statue-cilce-66b352d2a4734.webp",
     name: "Statue Circle",
   },
   {
@@ -555,7 +555,7 @@ const packagesPosts = [
       "AC-Bus",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
     mainImage: "https://placehold.co/600x300/png",
-    image1: "https://placehold.co/200x150/png",
+    image1: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723028195.9411/birla-temple-66b352c8a468c.webp",
     name: "Birla Temple (Laxminarayan Temple)",
   },
   {
@@ -564,7 +564,7 @@ const packagesPosts = [
       "AC-Bus",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
     mainImage: "https://placehold.co/600x300/png",
-    image1: "https://placehold.co/200x150/png",
+    image1: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Untitled%20design%20(13).webp",
     name: "Albert hall/Museum",
   },
   // Double Decker Bus
@@ -574,7 +574,7 @@ const packagesPosts = [
       "Tour 2(Double Decker Bus)",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
     mainImage: "https://placehold.co/600x300/png",
-    image1: "https://placehold.co/200x150/png",
+    image1: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723028195.9411/jaigarh-66b352cb825cf.webp",
     name: "Jaigarh",
   },
   {
@@ -583,7 +583,7 @@ const packagesPosts = [
       "AC-Bus",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
     mainImage: "https://placehold.co/600x300/png",
-    image1: "https://placehold.co/200x150/png",
+    image1: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723028195.9411/nahargarh-2-66b352ce6f6d4.webp",
     name: "Nahargarh fort/Palace",
   },
   {
@@ -592,7 +592,7 @@ const packagesPosts = [
       "AC-Bus",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
     mainImage: "https://placehold.co/600x300/png",
-    image1: "https://placehold.co/200x150/png",
+    image1: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723028195.9411/wax-museum-66b352d2c47bf.webp",
     name: "Jaipur Wax Museum",
   },
 
@@ -602,7 +602,7 @@ const packagesPosts = [
       "AC-Bus",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
     mainImage: "https://placehold.co/600x300/png",
-    image1: "https://placehold.co/200x150/png",
+    image1: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723028195.9411/amber-fort-66b352c748ff0.webp",
     name: "Amber Fort/Sarla Temple",
   },
 
@@ -612,7 +612,7 @@ const packagesPosts = [
       "AC-Bus",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
     mainImage: "https://placehold.co/600x300/png",
-    image1: "https://placehold.co/200x150/png",
+    image1: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723028195.9411/maotha-lake-66b352ce5e824.webp",
     name: "Maotha Lake",
   },
   {
@@ -621,7 +621,7 @@ const packagesPosts = [
       "AC-Bus",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
     mainImage: "https://placehold.co/600x300/png",
-    image1: "https://placehold.co/200x150/png",
+    image1: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723028195.9411/kanka-vrindavan-66b352cd211c5.webp",
     name: "Kanak Vrindavan",
   },
   {
@@ -630,7 +630,7 @@ const packagesPosts = [
       "AC-Bus",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
     mainImage: "https://placehold.co/600x300/png",
-    image1: "https://placehold.co/200x150/png",
+    image1: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723028195.9411/raj-mandir-66b352d13f32f.webp",
     name: "Rajmandir(Front View).",
   },
   {
@@ -639,7 +639,7 @@ const packagesPosts = [
       "AC-Bus",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
     mainImage: "https://placehold.co/600x300/png",
-    image1: "https://placehold.co/200x150/png",
+    image1: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723028195.9411/statue-cilce-66b352d2a4734.webp",
     name: "Statue Circle",
   },
   {
@@ -648,7 +648,7 @@ const packagesPosts = [
       "AC-Bus",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
     mainImage: "https://placehold.co/600x300/png",
-    image1: "https://placehold.co/200x150/png",
+    image1: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723028195.9411/birla-temple-66b352c8a468c.webp",
     name: "Birla Temple (Laxminarayan Temple)",
   },
   {
@@ -657,7 +657,7 @@ const packagesPosts = [
       "AC-Bus",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
     mainImage: "https://placehold.co/600x300/png",
-    image1: "https://placehold.co/200x150/png",
+    image1: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Untitled%20design%20(13).webp",
     name: "Albert hall/Museum",
   },
   
