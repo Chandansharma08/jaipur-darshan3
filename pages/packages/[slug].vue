@@ -16,7 +16,7 @@
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 gap-4 md:gap-6 px-4 md:px-10 lg:px-20 py-10 bg-[#ffffff]">
         <NuxtLink v-for="(packageData, index) in packagesData" :key="index" class="relative overflow-hidden rounded-3xl group block">
             <img :src="packageData.image1" :alt="packageData.name" class="w-full h-auto object-cover transition-transform duration-500 group-hover:scale-110" />
-            <h1 class="md:text-xl bg-opacity-60 py-2 absolute bottom-0 left-0 w-full text-center text-black bg-white md:bottom-0 md:opacity-0 md:group-hover:opacity-100 transition-all duration-500 ease-in-out transform md:group-hover:translate-y-0">{{ packageData.name }}</h1>
+            <h1 class="md:text-xl bg-opacity-60 ml-2 py-2 absolute bottom-3 left-0  text-center rounded-full px-3 text-black bg-white md:opacity-0 md:group-hover:opacity-100 transition-all duration-500 ease-in-out transform md:translate-y-full md:group-hover:translate-y-0">{{ packageData.name }}</h1>
         </NuxtLink>
     </div>
     <Footer />
