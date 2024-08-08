@@ -106,7 +106,7 @@
                         <p class="text-gray-600">Per Person</p>
                     </nuxt-link>
                 </div>
-                <h1 class="font-bold text-2xl flex px-4 md:px-10 lg:px-20">Jaipur to Mehndipur Balaji ( Package For 1 Day )</h1>
+                <h1 class="font-bold text-2xl flex px-4 md:px-10 lg:px-20">Jaipur to Mehandipur balaji ( Package For 1 Day )</h1>
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap px-4 md:px-10 lg:px-20 py-10">
                     <nuxt-link rel="noopener noreferrer" v-for="(car6, index) in cars6" :key="index" :to="car6.link" class="flex flex-col border rounded-md hover:shadow-xl items-center p-4">
                         <img :src="car6.image" :alt="car6.name" class="w-auto h-auto" />
