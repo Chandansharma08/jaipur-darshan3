@@ -42,8 +42,7 @@
                                 <p class="text-red-500">INR</p>
                                 <p class="text-red-500 text-2xl">{{ car.price }} RS</p>
                             </div>
-                            <hr class="my-2 w-full h-0.5 bg-red-500" />
-                            <p class="text-gray-600">Per Person</p>
+                           
                         </nuxt-link>
                     </div>
                 </div>
