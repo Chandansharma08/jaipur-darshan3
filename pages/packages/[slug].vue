@@ -2,11 +2,12 @@
     <Navbar />
     <main class="pt-20 bg-[#ffffff]">
         <div class="py-5">
+            
             <h1 class="font-semibold mb-4 text-2xl md:text-3xl lg:text-5xl mx-8 text-black" v-html="packageData.title"></h1>
             <div class="flex flex-col-reverse md:flex-row shadow m-8 md:p-2 lg:p-6">
                 <div class="w-full md:w-1/2 flex flex-col justify-evenly">
                     <p class="px-6 py-4 text-xl" v-html="packageData.desc"></p>
-                    <nuxt-link to="/contact" class="px-3 py-2 mx-6 flex bg-emerald-500 lg:w-3/12 items-center justify-center text-center font-semibold rounded-full text-white">Book Now</nuxt-link>
+                    <nuxt-link to="/contact" class="px-3 py-2 mx-6 mb-2 flex bg-emerald-500 lg:w-3/12 items-center justify-center text-center font-semibold rounded-full text-white">Book Now</nuxt-link>
                 </div>
                 <img :src="packageData.mainImage" alt="packages Image" class="w-full md:w-1/2 object-cover mt-4 rounded-md">
             </div>
