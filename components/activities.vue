@@ -1,7 +1,7 @@
 <template>
-    <section class="bg-white py-12">
-      <div class="container mx-auto px-4">
-        <h2 class="text-2xl text-emerald-500 lg:text-4xl font-semibold mb-6">Popular Activities</h2>
+    <section class="bg-white ">
+      <div class="">
+        <h2 class="text-3xl  lg:text-4xl font-semibold mb-6">Popular Activities</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 items-start">
           <!-- Video Item -->
           <div v-for="video in videos" :key="video.id" class="bg-black rounded-lg overflow-hidden relative shadow-lg">
@@ -14,7 +14,7 @@
             </div>
           </div>
         </div>
-        <div class="text-center mt-12">
+        <div class="text-center md:text-right mt-12">
           <nuxt-link to="/review" class="text-emerald-500 bg-transparent hover:border-none border-2 border-emerald-500 hover:bg-emerald-600 rounded-full hover:text-white py-2 px-4">
             See More
           </nuxt-link>

@@ -1,6 +1,6 @@
 <template>
-  <section class="px-4 md:px-8 bg-white">
-    <h2 class="text-2xl text-emerald-500 lg:text-4xl font-semibold mb-6">Offers To Inspire You</h2>
+  <section class=" bg-white">
+    <h2 class="text-3xl  lg:text-4xl font-semibold mb-6">Offers To Inspire You</h2>
     <div class="flex flex-col md:flex-row justify-center gap-8">
       <!-- Card with Background and Gradient Overlay -->
       <div class="w-full  md:w-1/2 rounded-2xl overflow-hidden shadow-lg relative">

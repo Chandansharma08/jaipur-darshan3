@@ -1,171 +1,165 @@
 <template>
-    
-        <Navbar />
-        <div class="bg-white pt-20">
+  <Navbar />
+  <div class="bg-white pt-20">
+    <div class="w-full text-black">
+      <!-- Banner and Navigation Links -->
+      <div class="relative pt-2">
+        <img class="background-image" src="https://placehold.co/1400x700" alt="background" />
 
-            <div class="w-full text-black">
-                <!-- Banner and Navigation Links -->
-                <div class="relative">
-                    <img src="https://placehold.co/1600x400/png" alt="Banner Image" class="w-full h-auto" />
-                    <div
-                        class="absolute inset-0 flex flex-col items-center justify-center pt-16 md:pt-24 lg:pt-28 xl:pt-32">
-                        <h1 class="text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-center">Places</h1>
-                        <div class="hidden lg:flex flex-row justify-center items-center gap-4 my-4">
-                            <nuxt-link to="/"
-                                class="text-base hover:text-red-500 md:text-lg lg:text-xl xl:text-2xl">Home</nuxt-link>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                stroke-linejoin="round" class="lucide lucide-chevron-right mt-1">
-                                <path d="m9 18 6-6-6-6" />
-                            </svg>
-                            <p class="text-base md:text-lg lg:text-xl xl:text-2xl">Places</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Content Sections -->
-                <div class="mt-10 px-4 md:px-10 lg:px-10 mb-10">
-                    
-                    <div class="mt-4 flex gap-4 items-center">
-                        <div class="flex-1">
-                            <input type="text" placeholder="Search your places"
-                                class="w-full text-black px-4 py-2 border rounded bg-white" />
-                        </div>
-                    </div>
-                </div>
-            
-            <div class="bg-white px-4 md:px-8 ">
-                <h2 class="text-xl text-emerald-500 md:text-2xl font-semibold mb-6">
-                    Top Destination For Your Next Vacation
-                </h2>
-            </div>
-        
-
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 px-4 py-5">
-          <NuxtLink v-for="(destination, index) in destinations" :key="index" :to="destination.url"
-            class="relative overflow-hidden rounded-3xl group block">
-            <img :src="destination.image" :alt="destination.name"
-              class="w-full h-auto object-cover transition-transform duration-500 group-hover:scale-110" />
-            <div class="absolute inset-0 flex flex-col justify-end p-4 transition-opacity duration-500">
-              <!-- Name of the destination always visible -->
-              <h3 class="text-white text-lg md:text-3xl font-semibold mb-2">{{ destination.name }}</h3>
-              <!-- Description for mobile and tablet views, hidden on larger screens -->
-              <p class="text-white text-sm mb-4 lg:opacity-0 lg:group-hover:opacity-100">{{ destination.description }}</p>
-              <!-- Button for mobile and tablet views, hidden on larger screens -->
-              <NuxtLink :to="destination.url"
-                class="block lg:hidden">
-                <button
-                  class="px-6 py-2 bg-transparent text-white text-sm rounded-full border border-white hover:bg-white hover:text-black">
-                  More About
-                </button>
-              </NuxtLink>
-              <!-- Button for larger screens, appears on hover -->
-              <NuxtLink :to="destination.url"
-                class="hidden lg:flex lg:opacity-0 lg:group-hover:opacity-100 transition-opacity duration-500 absolute inset-0 items-center justify-center">
-                <button
-                  class="px-6 py-2 bg-transparent text-white text-sm rounded-full border border-white hover:bg-white hover:text-black">
-                  More About
-                </button>
-              </NuxtLink>
-            </div>
-          </NuxtLink>
-        </div>
       </div>
-      <Footer />
+
+      <!-- Content Sections -->
+      <div class="bg-white px-4 md:px-8 mt-5">
+        <h2 class="text-2xl lg:text-4xl  font-semibold mb-4">
+          Top Places For Your Next Vacation
+        </h2>
+        <p class="md:text-lg lg:text-xl ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, iste quia dolorem cupiditate odit sequi
+          voluptatem provident veniam magnam velit aperiam quas enim dolorum doloribus sint illo exercitationem ipsam!
+          Exercitationem sint vel dolorum minima, itaque totam quae architecto, iusto ipsum cumque ratione, culpa
+          pariatur repellendus ad earum in assumenda corporis.</p>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 px-4 py-5">
+        <NuxtLink v-for="(destination, index) in destinations" :key="index" :to="destination.url"
+          class="relative overflow-hidden rounded-3xl group block shadow-card">
+          <img :src="destination.image" :alt="destination.name"
+            class="w-full h-auto object-cover transition-transform duration-500 group-hover:scale-110" />
+          <div class="absolute inset-0 transition-opacity duration-500 shadow-gradient flex flex-col justify-end p-4">
+            <!-- Old heading (initially visible at the bottom) -->
+            <h3
+              class="text-white hidden lg:block text-lg md:text-3xl font-semibold mb-2 lg:absolute lg:bottom-0 lg:left-0 lg:w-full lg:p-4 lg:opacity-100 lg:group-hover:opacity-0 lg:transition-opacity lg:duration-500">
+              {{ destination.name }}
+            </h3>
+            <!-- New heading, description, and button -->
+            <div
+              class="opacity-100 translate-y-0 lg:opacity-0 lg:translate-y-full transition-all duration-500 lg:group-hover:opacity-100 lg:group-hover:translate-y-0 flex flex-col">
+              <h3 class="text-white text-lg md:text-3xl font-semibold mb-2">{{ destination.name }}</h3>
+              <p class="text-white text-sm mb-4">{{ destination.description }}</p>
+              <!-- Button centered for all views -->
+              <NuxtLink :to="destination.url" class="block">
+                <button
+                  class="px-6 py-2 bg-transparent text-white text-sm rounded-full border border-white hover:bg-white hover:text-black">
+                  More About
+                </button>
+              </NuxtLink>
+            </div>
+          </div>
+        </NuxtLink>
+      </div>
     </div>
-  </template>
-  
-  <script>
-  export default {
-    data() {
-      return {
-        destinations: [
-          {
-            name: "Bali",
-            image: "https://placehold.co/300x300.png",
-            description: "Discover Bali with our special tours",
-            url: "/places/car1",
-          },
-          {
-            name: "Bangkok",
-            image: "https://placehold.co/300x300.png",
-            description: "Discover Bangkok with our special tours",
-            url: "/places/car2",
-          },
-          {
-            name: "Cancun",
-            image: "https://placehold.co/300x300.png",
-            description: "Relax in Cancun with our beach tours",
-            url: "/places",
-          },
-         
-          {
-            name: "Nha Trang",
-            image: "https://placehold.co/300x300.png",
-            description: "Explore Nha Trang with our city tours",
-            url: "/places",
-          },
-          {
-            name: "Nha Trang",
-            image: "https://placehold.co/300x300.png",
-            description: "Explore Nha Trang with our city tours",
-            url: "/places",
-          },
-          {
-            name: "Nha Trang",
-            image: "https://placehold.co/300x300.png",
-            description: "Explore Nha Trang with our city tours",
-            url: "/places",
-          },
-          {
-            name: "Nha Trang",
-            image: "https://placehold.co/300x300.png",
-            description: "Explore Nha Trang with our city tours",
-            url: "/places",
-          },
-          {
-            name: "Nha Trang",
-            image: "https://placehold.co/300x300.png",
-            description: "Explore Nha Trang with our city tours",
-            url: "/places",
-          },
-          // Add more destinations as needed
-        ],
-      };
-    },
-  };
-  </script>
-  
-  <style scoped>
-  .group:hover .group-hover\:scale-110 {
-    transform: scale(1.1);
+    <Footer />
+  </div>
+</template>
+
+<script>
+export default {
+  data() {
+    return {
+      destinations: [
+        {
+          name: "Rajmandir",
+          image: "https://placehold.co/300x300.png",
+          description: "Discover Bali with our special tours",
+          url: "/places/car1",
+        },
+        {
+          name: "Statue circle",
+          image: "https://placehold.co/300x300.png",
+          description: "Discover Bangkok with our special tours",
+          url: "/places/car2",
+        },
+        {
+          name: "Birla Mandir",
+          image: "https://placehold.co/300x300.png",
+          description: "Relax in Cancun with our beach tours",
+          url: "/places/car3",
+        },
+        {
+          name: "Albert Hall",
+          image: "https://placehold.co/300x300.png",
+          description: "Explore Nha Trang with our city tours",
+          url: "/places/car4",
+        },
+        {
+          name: "Ramniwas Bagh",
+          image: "https://placehold.co/300x300.png",
+          description: "Explore Nha Trang with our city tours",
+          url: "/places/car5",
+        },{
+          name: "Pink City",
+          image: "https://placehold.co/300x300.png",
+          description: "Explore Nha Trang with our city tours",
+          url: "/places/car6",
+        },{
+          name: "Hawa Mahal",
+          image: "https://placehold.co/300x300.png",
+          description: "Explore Nha Trang with our city tours",
+          url: "/places/car7",
+        },{
+          name: "Jantar Mantar",
+          image: "https://placehold.co/300x300.png",
+          description: "Explore Nha Trang with our city tours",
+          url: "/places/car8",
+        },
+        // Add more destinations as needed
+      ],
+    };
+  },
+};
+</script>
+<style>
+.group:hover .group-hover\:scale-110 {
+  transform: scale(1.1);
+  /* Scale up image on hover */
+}
+
+.group .group-hover\:opacity-100,
+.group .group-hover\:translate-y-0 {
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+/* Blackish gradient inside the card from bottom */
+.shadow-gradient {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5), transparent);
+  /* Creates a gradient from bottom */
+}
+
+/* Hide the heading on hover for large screens */
+.group:hover .lg\:group-hover\:opacity-0 {
+  opacity: 0;
+}
+
+/* Show the hidden content on hover for large screens */
+.group:hover .lg\:group-hover\:opacity-100 {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.relative {
+  position: relative;
+}
+
+.background-image {
+  width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+  /* Rounded corners */
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  /* Shadow */
+}
+
+@media (max-width: 1023px) {
+  .background-image {
+    /* Image size for small and medium screens */
+    content: url("https://placehold.co/1400x700");
   }
-  
-  .group .group-hover\:opacity-100 {
-    transition: opacity 0.5s ease-in-out;
+}
+
+@media (min-width: 1024px) {
+  .background-image {
+    /* Image size for large, extra-large, and extra-extra-large screens */
+    content: url("https://placehold.co/1400x400");
   }
-  
-  @media (min-width: 1024px) {
-    .group .group-hover\:opacity-0 {
-      opacity: 0;
-    }
-  
-    .group:hover .group-hover\:opacity-0 {
-      opacity: 1;
-    }
-  
-    .group .group-hover\:opacity-100 {
-      opacity: 1;
-    }
-  }
-  
-  @media (max-width: 1023px) {
-    .group .group-hover\:opacity-100 {
-      opacity: 1 !important;
-    }
-  
-    .group .group-hover\:opacity-0 {
-      opacity: 1 !important;
-    }
-  }
-  </style>
+}
+
+</style>

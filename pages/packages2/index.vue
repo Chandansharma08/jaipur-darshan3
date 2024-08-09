@@ -2,11 +2,10 @@
     <div>
         <Navbar />
         <div class="bg-white pt-20">
-            
             <div class="w-full text-black">
                 <!-- Banner and Navigation Links -->
                 <div class="relative">
-                    <img src="https://placehold.co/1600x400/png" alt="Banner Image" class="w-full h-auto" />
+                    <img class="background-image" src="https://placehold.co/1400x700" alt="background" />
                     <div class="absolute inset-0 flex flex-col items-center justify-center pt-16 md:pt-24 lg:pt-28 xl:pt-32">
                         <h1 class="text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-center">Car Tours</h1>
                         <div class="hidden lg:flex flex-row justify-center items-center gap-4 my-4">
@@ -22,31 +21,27 @@
                 </div>
 
                 <!-- Content Sections -->
-                <div class="mt-10 px-4 md:px-10 lg:px-20">
+                <div class="mt-5 px-4 md:px-10 ">
                     <h1 class="text-2xl">Car Tour Services and Places</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit eveniet cumque saepe illo mollitia repellat, placeat unde, nam quae molestias enim esse adipisci ipsa recusandae laudantium. Sit, at nesciunt. Esse maxime vel molestiae corporis eligendi possimus ut nesciunt eos nulla consequatur dolorum delectus repellendus suscipit neque labore, optio in amet.</p>
                 </div>
-                
+
                 <!-- Car Tour Packages -->
                 <div v-for="(pkg, index) in packages" :key="index">
-                    <h1 class="font-bold text-2xl mt-8 px-4 md:px-10 lg:px-20">{{ pkg.title }}</h1>
-                    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 px-4 md:px-10 lg:px-20 py-10">
+                    <h1 class="font-bold text-2xl mt-8 px-4 md:px-10 ">{{ pkg.title }}</h1>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 px-4 md:px-10  py-10 ">
                         <nuxt-link 
                             v-for="(car, carIndex) in pkg.cars" 
                             :key="carIndex" 
                             :to="car.link" 
-                            class="card flex flex-col border rounded-md hover:shadow-xl items-center p-4 transition-transform transform hover:scale-105 hover:bg-gray-100">
-                            <img :src="car.image" :alt="car.name" class="w-auto h-auto" />
-                            <h1 class="text-red-500 mt-1 text-base">{{ car.name }}</h1>
-                            <div class="flex items-center">
-                                <p class="text-red-500">INR</p>
-                                <p class="text-red-500 text-2xl">{{ car.price }} RS</p>
-                            </div>
-                           
+                            class="card flex flex-col justify-center items-center bg-slate-100 rounded-lg p-6 text-white shadow-lg transform hover:scale-105 transition duration-300 ease-in-out">
+                            <img :src="car.image" :alt="car.name" class="w-full object-cover rounded-lg mb-4" />
+                            <h1 class="text-xl font-semibold">{{ car.name }}</h1>
+                            <div class="text-3xl font-bold mt-2">{{ car.price }} INR</div>
                         </nuxt-link>
                     </div>
                 </div>
-                
+
             </div>
         </div>
         <Footer />
@@ -126,10 +121,46 @@ export default {
 <style scoped>
 .card {
     transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    background-image: #f1f5f9;
+    color: black;
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    border-radius: 8px;
 }
 
 .card:hover {
     transform: scale(1.05);
-    background-color: #f7f7f7;
+    background-image: #f1f5f9;
+}
+
+.relative {
+  position: relative;
+}
+
+.background-image {
+  width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+  /* Rounded corners */
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  /* Shadow */
+}
+
+@media (max-width: 1023px) {
+  .background-image {
+    /* Image size for small and medium screens */
+    content: url("https://placehold.co/1400x700");
+  }
+}
+
+@media (min-width: 1024px) {
+  .background-image {
+    /* Image size for large, extra-large, and extra-extra-large screens */
+    content: url("https://placehold.co/1400x400");
+  }
 }
 </style>

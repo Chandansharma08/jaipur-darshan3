@@ -1,6 +1,6 @@
 <template>
-    <section class="bg-white mb-4">
-        <div class="flex justify-center py-6">
+    <section class="bg-white ">
+        <div class="flex justify-center ">
             <div class="grid grid-cols-1  md:grid-cols-2 lg:grid-cols-4 gap-4">
                 <!-- Feature Item with inline SVG -->
                 <div class="flex flex-col items-center text-center border lg:border-none  rounded-xl p-2 lg:p-4 max-w-xs md:max-w-sm">

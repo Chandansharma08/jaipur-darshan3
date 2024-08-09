@@ -1,6 +1,6 @@
 <template>
-  <div class="bg-white px-4 md:px-8">
-    <h2 class="text-2xl text-emerald-500 lg:text-4xl font-semibold mb-6">Top Destination For Your Next Vacation -</h2>
+  <div class="bg-white ">
+    <h2 class="text-3xl  lg:text-4xl font-semibold mb-6">Top Destination For Your Next Vacation -</h2>
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
       <NuxtLink
         v-for="(destination, index) in destinations"
@@ -48,7 +48,7 @@
         </div>
       </NuxtLink>
     </div>
-    <div class="text-center mt-8">
+    <div class="text-center md:text-right ">
       <button
         class="bg-transparent text-green-600 px-4 py-2 rounded-full hover:text-white border-2 border-emerald-500 hover:bg-emerald-500 mt-5"
       >
@@ -64,25 +64,25 @@ export default {
     return {
       destinations: [
         {
-          name: "Bali",
+          name: "Rajmandir",
           image: "https://placehold.co/300x300.png",
           description: "Discover Bali with our special tours",
           url: "/places" // Dynamic URL for Bali
         },
         {
-          name: "Bangkok",
+          name: "Statue circle",
           image: "https://placehold.co/300x300.png",
           description: "Discover Bangkok with our special tours",
           url: "/places" // Dynamic URL for Bangkok
         },
         {
-          name: "Cancun",
+          name: "Birla Mandir",
           image: "https://placehold.co/300x300.png",
           description: "Relax in Cancun with our beach tours",
           url: "/places" // Dynamic URL for Cancun
         },
         {
-          name: "Nha Trang",
+          name: "Albert Hall ",
           image: "https://placehold.co/300x300.png",
           description: "Explore Nha Trang with our city tours",
           url: "/places" // Dynamic URL for Nha Trang

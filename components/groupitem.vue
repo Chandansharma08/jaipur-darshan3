@@ -1,8 +1,8 @@
 <template>
-    <section class="bg-white py-12">
+    <section class="bg-white ">
         <div class="">
             <div class="flex justify-between items-center mb-8">
-                <h2 class="text-3xl text-emerald-500 font-bold">Inspiration, Guides, Stories</h2>
+                <h2 class="text-3xl lg:text-4xl font-bold">Inspiration, Guides, Stories</h2>
             </div>
             <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4">
                 <div v-for="(story, index) in stories" :key="index" class="bg-gray-100 rounded-lg shadow overflow-hidden">
@@ -21,7 +21,7 @@
                     </div>
                 </div>
             </div>
-            <div class="flex justify-center my-8">
+            <div class="flex justify-center lg:justify-end py-8">
                 <nuxt-link to="/"
                     class="border-2 border-emerald-500 font-semibold rounded-full px-4 py-2 text-emerald-500 hover:bg-emerald-500 hover:text-white">See
                     All Stories</nuxt-link>

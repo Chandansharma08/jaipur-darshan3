@@ -17,25 +17,24 @@
                 <div class="w-full px-2 md:w-1/6 mb-6 md:mb-0 flex flex-col md:items-end lg:items-center">
                     <h3 class="lg:text-xl font-semibold mb-2">Top Destination</h3>
                     <ul class="text-sm lg:text-base">
-                        <li><nuxt-link to="#" class="text-slate-500 hover:text-blue-500">Tokyo</nuxt-link></li>
-                        <li><nuxt-link to="#" class="text-slate-500 hover:text-blue-500">Los Angeles</nuxt-link></li>
-                        <li><nuxt-link to="#" class="text-slate-500 hover:text-blue-500">Rome</nuxt-link></li>
-                        <li><nuxt-link to="#" class="text-slate-500 hover:text-blue-500">Amsterdam</nuxt-link></li>
-                        <li><nuxt-link to="#" class="text-slate-500 hover:text-blue-500">San Francisco</nuxt-link></li>
-                        <li><nuxt-link to="#" class="text-slate-500 hover:text-blue-500">London</nuxt-link></li>
-                        <li><nuxt-link to="#" class="text-slate-500 hover:text-blue-500">More Destinations</nuxt-link>
-                        </li>
+                        <li><nuxt-link to="#" class="text-slate-500 hover:text-blue-500">Rajmandir</nuxt-link></li>
+                        <li><nuxt-link to="#" class="text-slate-500 hover:text-blue-500">Statue circle</nuxt-link></li>
+                        <li><nuxt-link to="#" class="text-slate-500 hover:text-blue-500">Birla Mandir</nuxt-link></li>
+                        <li><nuxt-link to="#" class="text-slate-500 hover:text-blue-500">Albert Hall</nuxt-link></li>
+                        <li><nuxt-link to="#" class="text-slate-500 hover:text-blue-500">City Palace</nuxt-link></li>
+                        <li><nuxt-link to="#" class="text-slate-500 hover:text-blue-500">Amber Fort</nuxt-link></li>
+                        
                     </ul>
                 </div>
                 <div class="w-full px-2 md:w-1/6 mb-6 md:mb-0 flex flex-col md:items-end lg:items-center">
                     <h3 class="lg:text-xl font-semibold mb-2">Information</h3>
                     <ul class="text-sm lg:text-base">
-                        <li><nuxt-link to="#" class="text-slate-500 hover:text-blue-500">Help & FAQs</nuxt-link></li>
-                        <li><nuxt-link to="#" class="text-slate-500 hover:text-blue-500">Press centre</nuxt-link></li>
+                        <li><nuxt-link to="#" class="text-slate-500 hover:text-blue-500">Places</nuxt-link></li>
                         <li><nuxt-link to="#" class="text-slate-500 hover:text-blue-500">About us</nuxt-link></li>
+                        <li><nuxt-link to="#" class="text-slate-500 hover:text-blue-500">Car Package</nuxt-link></li>
+                        <li><nuxt-link to="#" class="text-slate-500 hover:text-blue-500">Bus Package</nuxt-link></li>                       
                         <li><nuxt-link to="/contact" class="text-slate-500 hover:text-blue-500">Contact us</nuxt-link></li>
-                        <li><nuxt-link to="#" class="text-slate-500 hover:text-blue-500">Privacy policy</nuxt-link></li>
-                        <li><nuxt-link to="#" class="text-slate-500 hover:text-blue-500">Site map</nuxt-link></li>
+                        <li><nuxt-link to="/privacy-policy" class="text-slate-500 hover:text-blue-500">Privacy policy</nuxt-link></li>
                     </ul>
                 </div>
                 <div class="w-full px-2 md:w-2/6 flex flex-col md:items-end lg:items-center cursor-pointer">
