@@ -41,10 +41,10 @@
                     <div class="">
                         <h3 class="lg:text-xl font-semibold mb-2">Follow Us</h3>
                         <div class="flex space-x-2">
-                            <img src="https://placehold.co/50x50.png" alt="Facebook" class="w-10 h-10 rounded-full">
-                            <img src="https://placehold.co/50x50.png" alt="Instagram" class="w-10 h-10 rounded-full">
-                            <img src="https://placehold.co/50x50.png" alt="Twitter" class="w-10 h-10 rounded-full">
-                            <img src="https://placehold.co/50x50.png" alt="LinkedIN" class="w-10 h-10 rounded-full">
+                            <img src="https://ccdstest.b-cdn.net/Jaipur%20Darshan/communication.svg" alt="Facebook" class="w-10 h-10 rounded-full">
+                            <img src="https://ccdstest.b-cdn.net/Jaipur%20Darshan/instagram.svg" alt="Instagram" class="w-10 h-10 rounded-full">
+                            <img src="https://ccdstest.b-cdn.net/Jaipur%20Darshan/twitter%20(1).svg" alt="Twitter" class="w-10 h-10 rounded-full">
+                            <img src="https://ccdstest.b-cdn.net/Jaipur%20Darshan/social.svg" alt="Whatsapp" class="w-10 h-10 rounded-full">
                         </div>
                     </div>
                     <div class="mt-4">
