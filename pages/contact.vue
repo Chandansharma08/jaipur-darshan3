@@ -21,30 +21,30 @@
             <img src="https://placehold.co/150x150/png" alt="Location Icon" class="  mb-4" />
             <div class="text-center">
               <h1 class="text-xl md:text-2xl lg:text-3xl  font-semibold">Head Office</h1>
-              <p class="mt-1 text-base md:text-lg lg:text-xl ">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p class="mt-1 text-base md:text-lg lg:text-xl  hover:text-blue-500 ">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>
           </div>
           <div class="flex flex-col items-center border border-black p-4 md:p-5 rounded-md">
             <img src="https://placehold.co/150x150/png" alt="Phone Icon" class=" mb-4" />
             <div class="md:mr-5">
               <h1 class="text-xl md:text-2xl lg:text-3xl  font-semibold">Contact Number</h1>
-              <p class="mt-1 text-base md:text-lg lg:text-xl "><nuxt-link to="tel:+91-9929358785">+91-9929358785</nuxt-link></p>
-              <p class="text-base md:text-lg lg:text-xl "><nuxt-link to="tel:+91-9660220533">+91-9660220533</nuxt-link></p>
+              <p class="mt-1 text-base md:text-lg lg:text-xl  hover:text-blue-500 "><nuxt-link to="tel:+91-9929358785">+91-9929358785</nuxt-link></p>
+              <p class="text-base md:text-lg lg:text-xl  hover:text-blue-500 "><nuxt-link to="tel:+91-9660220533">+91-9660220533</nuxt-link></p>
             </div>
           </div>
           <div class="flex flex-col items-center border border-black p-4 md:p-5 rounded-md">
             <img src="https://placehold.co/150x150/png" alt="Email Icon" class=" mb-4" />
             <div class="text-center">
               <h1 class="text-xl md:text-2xl lg:text-3xl  font-semibold">Email</h1>
-              <p class="mt-1 text-base md:text-lg lg:text-xl "><nuxt-link to="mailto:example@gmail.com">example@gmail.com</nuxt-link></p>
-              <p class="text-base md:text-lg lg:text-xl "><nuxt-link to="mailto:example@gmail.com">example@gmail.com</nuxt-link></p>
+              <p class="mt-1 text-base md:text-lg lg:text-xl  hover:text-blue-500 "><nuxt-link to="mailto:example@gmail.com">example@gmail.com</nuxt-link></p>
+              <p class="text-base md:text-lg lg:text-xl  hover:text-blue-500 "><nuxt-link to="mailto:example@gmail.com">example@gmail.com</nuxt-link></p>
             </div>
           </div>
           <div class="flex flex-col items-center border border-black p-4 md:p-5 rounded-md">
             <img src="https://placehold.co/150x150/png" alt="Website Icon" class=" mb-4" />
             <div class="text-center">
               <h1 class="text-xl md:text-2xl lg:text-3xl  font-semibold">Website</h1>
-              <p class="mt-1 text-base md:text-lg lg:text-xl "><nuxt-link to="http://www.jaipur-darshan.com">www.jaipur-darshan.com</nuxt-link></p>
+              <p class="mt-1 text-base md:text-lg lg:text-xl hover:text-blue-500 "><nuxt-link to="http://www.jaipur-darshan.com">www.jaipur-darshan.com</nuxt-link></p>
             </div>
           </div>
         </div>
