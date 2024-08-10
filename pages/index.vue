@@ -1,7 +1,7 @@
 <template>
 
-    <Navbar class="font-poppins" />
-    <div class="px-4 md:px-10 space-y-11 bg-[#ffffff] pt-24">
+    
+    <div class="px-4 md:px-10 space-y-11 bg-[#ffffff] pt-24" >
         <Banner />
         <Features />
         <Groupcard />
@@ -12,7 +12,7 @@
         <Groupitem />       
              
     </div>
-    <Footer />
+  
 </template>
 
 <script>
