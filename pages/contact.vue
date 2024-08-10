@@ -62,7 +62,7 @@
       @click="openWhatsApp"
     >
       <img
-        src="https://ccdstest.b-cdn.net/Jaipur%20Darshan/whatsapp.svg"
+        src="https://ccdstest.b-cdn.net/Jaipur%20Darshan/social.svg"
         alt=""
       />
     </button>
