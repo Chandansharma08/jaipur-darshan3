@@ -59,41 +59,41 @@ export default {
       destinations: [
         {
           name: "Rajmandir",
-          image: "https://placehold.co/300x300.png",
+          image: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/best%20dst.%20(300%20x%20300%20px)/raj%20mandir.png",
           description: "Discover Bali with our special tours",
           url: "/places/car1",
         },
         {
           name: "Statue circle",
-          image: "https://placehold.co/300x300.png",
+          image: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/best%20dst.%20(300%20x%20300%20px)/statue%20cilce.png",
           description: "Discover Bangkok with our special tours",
           url: "/places/car2",
         },
         {
           name: "Birla Mandir",
-          image: "https://placehold.co/300x300.png",
+          image: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/best%20dst.%20(300%20x%20300%20px)/birla%20temple.png",
           description: "Relax in Cancun with our beach tours",
           url: "/places/car3",
         },
         {
           name: "Albert Hall",
-          image: "https://placehold.co/300x300.png",
+          image: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/best%20dst.%20(300%20x%20300%20px)/albert%20hall.png",
           description: "Explore Nha Trang with our city tours",
           url: "/places/car4",
         },
         {
           name: "Ramniwas Bagh",
-          image: "https://placehold.co/300x300.png",
+          image: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/best%20dst.%20(300%20x%20300%20px)/ramnivwas%20garden.png",
           description: "Explore Nha Trang with our city tours",
           url: "/places/car5",
         },{
           name: "Pink City",
-          image: "https://placehold.co/300x300.png",
+          image: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/best%20dst.%20(300%20x%20300%20px)/pink%20city%20street.png",
           description: "Explore Nha Trang with our city tours",
           url: "/places/car6",
         },{
           name: "Hawa Mahal",
-          image: "https://placehold.co/300x300.png",
+          image: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/best%20dst.%20(300%20x%20300%20px)/hawa%20mahal.png",
           description: "Explore Nha Trang with our city tours",
           url: "/places/car7",
         },{
