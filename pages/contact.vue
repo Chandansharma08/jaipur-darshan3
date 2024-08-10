@@ -1,6 +1,6 @@
 <template>
   <Navbar />
-  <div class="bg-[#ffffff] pt-[66px] lg:pt-[80px]">
+  <div class="bg-[#ffffff] pt-[66px] lg:pt-[80px] px-4 md:px-10 space-y-11">
     <div class="w-full text-black">
       <div class="relative">
         <img class="background-image" src="https://placehold.co/1400x700" alt="background" />

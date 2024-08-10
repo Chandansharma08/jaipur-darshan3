@@ -14,7 +14,7 @@
             <h3 class="lg:text-2xl font-semibold text-white">South Bali (Kuta, Canggu, Uluwatu, Jimbaran)</h3>
             <p class="text-white text-xs lg:text-base">Travel hassle-free within Bali, visit popular attractions, or do water activities!</p>
           </div>
-          <NuxtLink to="/" class="lg:w-1/2 w-full text-sm md:text-base text-center mt-4 bg-white text-[#11a191] font-bold py-1 lg:py-2 px-2 rounded-full hover:bg-[#11a191] hover:text-white transition-colors">
+          <NuxtLink to="/packages" class="lg:w-1/2 w-full text-sm md:text-base text-center mt-4 bg-white text-[#11a191] font-bold py-1 lg:py-2 px-2 rounded-full hover:bg-[#11a191] hover:text-white transition-colors">
             See All Activities
           </NuxtLink>
         </div>
@@ -29,7 +29,7 @@
             <h3 class="lg:text-2xl font-semibold text-white">Beyond the City</h3>
             <p class="text-white text-xs lg:text-base">Discover the wonders that lie outside the walls of Da Nang with these exciting tours of surrounding areas.</p>
           </div>
-          <NuxtLink to="/" class="lg:w-1/2 w-full text-sm md:text-base text-center mt-4 bg-white text-[#11a191] font-bold py-1 lg:py-2 px-2 rounded-full hover:bg-[#11a191] hover:text-white transition-colors">
+          <NuxtLink to="/packages2" class="lg:w-1/2 w-full text-sm md:text-base text-center mt-4 bg-white text-[#11a191] font-bold py-1 lg:py-2 px-2 rounded-full hover:bg-[#11a191] hover:text-white transition-colors">
             See All Activities
           </NuxtLink>
         </div>

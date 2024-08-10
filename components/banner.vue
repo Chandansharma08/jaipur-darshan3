@@ -5,7 +5,7 @@
         src="https://placehold.co/1400x700"
         alt="background"
       />
-      <div class="absolute inset-0 flex items-center justify-start p-8 lg:p-16 text-white">
+      <div class="absolute inset-0 flex items-center justify-start p-8 lg:p-10 text-white">
         <div class="text-content max-w-md">
           <h2 class="text-2xl lg:text-4xl font-bold mb-4">Your Heading</h2>
           <p class="text-base lg:text-lg">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus, dolore.</p>

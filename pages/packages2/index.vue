@@ -1,7 +1,7 @@
 <template>
     <div>
         <Navbar />
-        <div class="bg-white pt-20">
+        <div class="bg-white pt-20 px-4 md:px-10 space-y-11">
             <div class="w-full text-black">
                 <!-- Banner and Navigation Links -->
                 <div class="relative">
