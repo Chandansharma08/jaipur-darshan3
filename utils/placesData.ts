@@ -2,68 +2,62 @@ const placesPosts = [
     
   
     {
-      slug: "car1",
+      slug: "rajmandir",
       title:
-        "Bali",
+        "Rajmandir",
       desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
       mainImage: "https://placehold.co/600x300/png",
     },
     {
-      slug: "car2",
+      slug: "statue circle",
       title:
-        "Bali",
+        "Statue circle",
       desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
       mainImage: "https://placehold.co/600x300/png",
     },
     {
-      slug: "car3",
+      slug: "birla-mandir",
       title:
-        "Bali",
+        "Birla Mandir",
       desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
       mainImage: "https://placehold.co/600x300/png",
     },
     {
-      slug: "car4",
+      slug: "albert-hall",
       title:
-        "Bali",
+        "Albert Hall",
       desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
       mainImage: "https://placehold.co/600x300/png",
     },
     {
-      slug: "car5",
+      slug: "ramniwas-bagh",
       title:
-        "Bali",
+        "Ramniwas Bagh",
       desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
       mainImage: "https://placehold.co/600x300/png",
     },
     {
-      slug: "car6",
+      slug: "pink-city",
       title:
-        "Bali",
+        "Pink City",
       desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
       mainImage: "https://placehold.co/600x300/png",
     },
     {
-      slug: "car7",
+      slug: "hawa-mahal",
       title:
-        "Bali",
+        "Hawa Mahal",
       desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
       mainImage: "https://placehold.co/600x300/png",
     },
     {
-      slug: "car8",
+      slug: "jantar-mantar",
       title:
-        "Bali",
+        "Jantar Mantar",
       desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
       mainImage: "https://placehold.co/600x300/png",
     },
-    {
-      slug: "car9",
-      title:
-        "Bali",
-      desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
-      mainImage: "https://placehold.co/600x300/png",
-    },
+    
     
   
   

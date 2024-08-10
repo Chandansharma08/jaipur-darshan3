@@ -1,5 +1,5 @@
 <template>
-  <Navbar />
+  
   <div class="bg-white pt-20 px-4 md:px-10 space-y-11">
     <div class="w-full text-black">
       <!-- Banner and Navigation Links -->
@@ -49,7 +49,7 @@
     </div>
    
   </div>
-  <Footer />
+
 </template>
 
 <script>
@@ -61,46 +61,46 @@ export default {
           name: "Rajmandir",
           image: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/best%20dst%202300by%20300/raj-mandir-66b704d3951e9.webp",
           description: "Discover Bali with our special tours",
-          url: "/places/car1",
+          url: "/places/rajmandir",
         },
         {
           name: "Statue circle",
           image: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/best%20dst%202300by%20300/statue-cilce-66b704d63b8f8.webp",
           description: "Discover Bangkok with our special tours",
-          url: "/places/car2",
+          url: "/places/nahargarh",
         },
         {
           name: "Birla Mandir",
           image: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/best%20dst%202300by%20300/birla-temple-66b704c30c726.webp",
           description: "Relax in Cancun with our beach tours",
-          url: "/places/car3",
+          url: "/places/birla-mandir",
         },
         {
           name: "Albert Hall",
           image: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/best%20dst%202300by%20300/albert-hall-66b704bfd4f95.webp",
           description: "Explore Nha Trang with our city tours",
-          url: "/places/car4",
+          url: "/places/albert-hall",
         },
         {
           name: "Ramniwas Bagh",
           image: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/best%20dst%202300by%20300/ramnivwas-garden-66b704d4159f0.webp",
           description: "Explore Nha Trang with our city tours",
-          url: "/places/car5",
+          url: "/places/ramniwas-bagh",
         },{
           name: "Pink City",
           image: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/best%20dst%202300by%20300/pink-city-street-66b704d13e4fe.webp",
           description: "Explore Nha Trang with our city tours",
-          url: "/places/car6",
+          url: "/places/pink-city",
         },{
           name: "Hawa Mahal",
           image: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/best%20dst%202300by%20300/hawa-mahal-66b704c84dd91.webp",
           description: "Explore Nha Trang with our city tours",
-          url: "/places/car7",
+          url: "/places/hawa-mahal",
         },{
           name: "Jantar Mantar",
           image: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/best%20dst%202300by%20300/jamtrmantr-66b704cb3cc11.webp",
           description: "Explore Nha Trang with our city tours",
-          url: "/places/car8",
+          url: "/places/jantar-mantar",
         },
         // Add more destinations as needed
       ],
