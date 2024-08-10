@@ -15,7 +15,7 @@ const packages2Posts = [
       },
       {
         title: "Places Of Attraction For Day 2",
-        places: [{ image: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723028195.9411/amber-fort-66b352c748ff0.webp", name: "Amer" }, { image: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723028195.9411/nahargarh-2-66b352ce6f6d4.webp", name: "Nahargarh" }, { image: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723028195.9411/jaigarh-66b352cb825cf.webp", name: "Jaigarh" }, { image: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723028195.9411/wax-museum-66b352d2c47bf.webp", name: "Wex Museum" }, { image: "https://placehold.co/200x150/png", name: "Art Gallery" }, { image: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723028195.9411/gaitore-66b352ca068e8.webp", name: "Gaitor" },]
+        places: [{ image: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723028195.9411/amber-fort-66b352c748ff0.webp", name: "Amer" }, { image: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723028195.9411/nahargarh-2-66b352ce6f6d4.webp", name: "Nahargarh" }, { image: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723028195.9411/jaigarh-66b352cb825cf.webp", name: "Jaigarh" }, { image: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723028195.9411/wax-museum-66b352d2c47bf.webp", name: "Wex Museum" }, { image: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/art%20gallery.webp", name: "Art Gallery" }, { image: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723028195.9411/gaitore-66b352ca068e8.webp", name: "Gaitor" },]
       }]
   },
   {
@@ -32,7 +32,7 @@ const packages2Posts = [
     },
     {
       title: "Places Of Attraction For Day 2",
-      places: [{ image: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723028195.9411/amber-fort-66b352c748ff0.webp", name: "Amer" }, { image: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723028195.9411/nahargarh-2-66b352ce6f6d4.webp", name: "Nahargarh" }, { image: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723028195.9411/jaigarh-66b352cb825cf.webp", name: "Jaigarh" }, { image: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723028195.9411/wax-museum-66b352d2c47bf.webp", name: "Wex Museum" }, { image: "https://placehold.co/200x150/png", name: "Art Gallery" }, { image: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723028195.9411/gaitore-66b352ca068e8.webp", name: "Gaitor" },]
+      places: [{ image: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723028195.9411/amber-fort-66b352c748ff0.webp", name: "Amer" }, { image: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723028195.9411/nahargarh-2-66b352ce6f6d4.webp", name: "Nahargarh" }, { image: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723028195.9411/jaigarh-66b352cb825cf.webp", name: "Jaigarh" }, { image: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723028195.9411/wax-museum-66b352d2c47bf.webp", name: "Wex Museum" }, { image: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/art%20gallery.webp", name: "Art Gallery" }, { image: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723028195.9411/gaitore-66b352ca068e8.webp", name: "Gaitor" },]
     }]
 },
   {
@@ -49,7 +49,7 @@ const packages2Posts = [
     },
     {
       title: "Places Of Attraction For Day 2",
-      places: [{ image: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723028195.9411/amber-fort-66b352c748ff0.webp", name: "Amer" }, { image: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723028195.9411/nahargarh-2-66b352ce6f6d4.webp", name: "Nahargarh" }, { image: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723028195.9411/jaigarh-66b352cb825cf.webp", name: "Jaigarh" }, { image: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723028195.9411/wax-museum-66b352d2c47bf.webp", name: "Wex Museum" }, { image: "https://placehold.co/200x150/png", name: "Art Gallery" }, { image: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723028195.9411/gaitore-66b352ca068e8.webp", name: "Gaitor" },]
+      places: [{ image: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723028195.9411/amber-fort-66b352c748ff0.webp", name: "Amer" }, { image: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723028195.9411/nahargarh-2-66b352ce6f6d4.webp", name: "Nahargarh" }, { image: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723028195.9411/jaigarh-66b352cb825cf.webp", name: "Jaigarh" }, { image: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723028195.9411/wax-museum-66b352d2c47bf.webp", name: "Wex Museum" }, { image: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/art%20gallery.webp", name: "Art Gallery" }, { image: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723028195.9411/gaitore-66b352ca068e8.webp", name: "Gaitor" },]
     }]
 },{
     slug: "car4",

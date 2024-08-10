@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Navbar />
+    
 
     <div class="px-4 md:px-10 bg-white pt-20">
       <!-- Content Before Team Section -->
@@ -104,7 +104,7 @@
         </div>
       </div>
     </div>
-    <Footer />
+   
   </div>
 </template>
 

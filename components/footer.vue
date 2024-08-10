@@ -29,10 +29,10 @@
                 <div class="w-full px-2 md:w-1/6 mb-6 md:mb-0 flex flex-col md:items-end lg:items-center">
                     <h3 class="lg:text-xl font-semibold mb-2">Information</h3>
                     <ul class="text-sm lg:text-base">
-                        <li><nuxt-link to="#" class="text-slate-500 hover:text-blue-500">Places</nuxt-link></li>
-                        <li><nuxt-link to="#" class="text-slate-500 hover:text-blue-500">About us</nuxt-link></li>
-                        <li><nuxt-link to="#" class="text-slate-500 hover:text-blue-500">Car Package</nuxt-link></li>
-                        <li><nuxt-link to="#" class="text-slate-500 hover:text-blue-500">Bus Package</nuxt-link></li>                       
+                        <li><nuxt-link to="places" class="text-slate-500 hover:text-blue-500">Places</nuxt-link></li>
+                        <li><nuxt-link to="about_us" class="text-slate-500 hover:text-blue-500">About us</nuxt-link></li>
+                        <li><nuxt-link to="packages2" class="text-slate-500 hover:text-blue-500">Car Package</nuxt-link></li>
+                        <li><nuxt-link to="packages" class="text-slate-500 hover:text-blue-500">Bus Package</nuxt-link></li>                       
                         <li><nuxt-link to="/contact" class="text-slate-500 hover:text-blue-500">Contact us</nuxt-link></li>
                         <li><nuxt-link to="/privacy-policy" class="text-slate-500 hover:text-blue-500">Privacy policy</nuxt-link></li>
                     </ul>

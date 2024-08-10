@@ -1,5 +1,5 @@
 <template>
-    <Navbar />
+    
     <main class="pt-20 bg-[#ffffff]">
         <div class="">
             <div class="relative">
@@ -16,7 +16,7 @@
         </div>
     </main>
     
-    <Footer />
+    
 </template>
 
 <script setup>

@@ -65,25 +65,25 @@ export default {
       destinations: [
         {
           name: "Rajmandir",
-          image: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/best%20dst.%20(300%20x%20300%20px)/raj%20mandir.png",
+          image: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/best%20dst%202300by%20300/raj-mandir-66b704d3951e9.webp",
           description: "Discover Bali with our special tours",
           url: "/places" // Dynamic URL for Bali
         },
         {
           name: "Nahargarh",
-          image: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/best%20dst.%20(300%20x%20300%20px)/nahargarh.png",
+          image: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/best%20dst%202300by%20300/nahargarh-66b704d13c226.webp",
           description: "Discover Bangkok with our special tours",
           url: "/places" // Dynamic URL for Bangkok
         },
         {
           name: "Birla Mandir",
-          image: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/best%20dst.%20(300%20x%20300%20px)/birla%20temple.png",
+          image: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/best%20dst%202300by%20300/birla-temple-66b704c30c726.webp",
           description: "Relax in Cancun with our beach tours",
           url: "/places" // Dynamic URL for Cancun
         },
         {
           name: "Albert Hall ",
-          image: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/best%20dst.%20(300%20x%20300%20px)/albert%20hall.png",
+          image: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/best%20dst%202300by%20300/albert-hall-66b704bfd4f95.webp",
           description: "Explore Nha Trang with our city tours",
           url: "/places" // Dynamic URL for Nha Trang
         },

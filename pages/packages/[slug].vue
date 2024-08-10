@@ -1,5 +1,5 @@
 <template>
-    <Navbar />
+    
     <main class="pt-16 bg-[#ffffff]">
         <div class="py-5">
             
@@ -20,7 +20,7 @@
             <h1 class="text-xl md:text-2xl bg-opacity-60 p-2 absolute bottom-4 rounded-full left-4 text-center  text-black bg-white md:opacity-0 md:group-hover:opacity-100 transition-all duration-500 ease-in-out">{{ packageData.name }}</h1>
         </NuxtLink>
     </div>
-    <Footer />
+    
 </template>
 
 <script setup>

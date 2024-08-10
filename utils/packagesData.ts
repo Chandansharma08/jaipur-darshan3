@@ -89,7 +89,7 @@ const packagesPosts = [
       "Non-AC-Bus",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
     mainImage: "https://placehold.co/600x300/png",
-    image1: "https://placehold.co/200x150/png",
+    image1: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/art%20gallery.webp",
     name: "Art Gallery",
   },
   {
@@ -215,7 +215,7 @@ const packagesPosts = [
       "AC-Bus",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
     mainImage: "https://placehold.co/600x300/png",
-    image1: "https://placehold.co/200x150/png",
+    image1: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/art%20gallery.webp",
     name: "Art Gallery",
   },
   {
@@ -342,7 +342,7 @@ const packagesPosts = [
       "AC-Bus",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
     mainImage: "https://placehold.co/600x300/png",
-    image1: "https://placehold.co/200x150/png",
+    image1: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/art%20gallery.webp",
     name: "Art Gallery",
   },
   {
