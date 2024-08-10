@@ -1,6 +1,6 @@
 <template>
     
-    <main class="pt-16 bg-[#ffffff]">
+    <main class="pt-16 bg-[#ffffff]" >
         <div class="py-5">
             <h1 class="font-semibold mb-4 text-2xl md:text-3xl lg:text-5xl mx-8 text-black" v-html="package2Data.title">
             </h1>
