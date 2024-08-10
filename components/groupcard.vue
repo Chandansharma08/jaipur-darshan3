@@ -75,17 +75,18 @@ export default {
           description: "Discover Bangkok with our special tours",
           url: "/places" // Dynamic URL for Bangkok
         },
-        {
-          name: "Birla Mandir",
-          image: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/best%20dst%202300by%20300/birla-temple-66b704c30c726.webp",
-          description: "Relax in Cancun with our beach tours",
-          url: "/places" // Dynamic URL for Cancun
-        },
+        
         {
           name: "Albert Hall ",
           image: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/best%20dst%202300by%20300/albert-hall-66b704bfd4f95.webp",
           description: "Explore Nha Trang with our city tours",
           url: "/places" // Dynamic URL for Nha Trang
+        },
+        {
+          name: "Birla Mandir",
+          image: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/best%20dst%202300by%20300/birla-temple-66b704c30c726.webp",
+          description: "Relax in Cancun with our beach tours",
+          url: "/places" // Dynamic URL for Cancun
         },
         // Add more destinations as needed
       ],

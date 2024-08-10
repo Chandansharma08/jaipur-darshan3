@@ -1,5 +1,5 @@
 <template>
-    
+    <Navbar />
     <main class="pt-16 bg-[#ffffff]">
         <div class="py-5">
             
@@ -20,19 +20,75 @@
             <h1 class="text-xl md:text-2xl bg-opacity-60 p-2 absolute bottom-4 rounded-full left-4 text-center  text-black bg-white md:opacity-0 md:group-hover:opacity-100 transition-all duration-500 ease-in-out">{{ packageData.name }}</h1>
         </NuxtLink>
     </div>
-    
+    <Footer />
+    <!-- back to top button -->
+  <div class="fixed bottom-5 right-5 p-4 z-50">
+    <button
+      class="rounded-full w-10 h-10 flex items-center justify-center"
+      @click="openWhatsApp"
+    >
+      <img
+        src="https://ccdstest.b-cdn.net/Jaipur%20Darshan/whatsapp.svg"
+        alt=""
+      />
+    </button>
+  </div>
+  <div class="fixed bottom-5 left-5 p-4">
+    <button
+      class="bg-accent text-base-100 rounded-full w-10 h-10 flex items-center justify-center"
+      @click="backToTop"
+    >
+      <svg
+        class="w-6 h-6"
+        fill="none"
+        stroke="currentColor"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M5 10l7-7m0 0l7 7m-7-7v18"
+        ></path>
+      </svg>
+    </button>
+  </div>
 </template>
 
 <script setup>
-import { getAllPackagesData, getPackagesData } from "~/utils/packagesData.ts"
+import { onMounted } from 'vue';
+import { useRoute } from 'vue-router';
+import { getAllPackagesData, getPackagesData } from '~/utils/packagesData.ts';
 
-const route = useRoute()
-const slug = route.params.slug
+const route = useRoute();
+const slug = route.params.slug;
 
-const packagesData = getPackagesData(slug)
-const packageData = packagesData[0]
-// const allPackagesData = getAllPackagesData()
+const packagesData = getPackagesData(slug);
+const packageData = packagesData[0];
+// const allPackagesData = getAllPackagesData();
+
+function backToTop() {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth', // This smoothens the scroll
+  });
+}
+
+function openWhatsApp() {
+  const phoneNumber = '7742484939';
+  const message = 'Hello!'; // You can customize the initial message here
+  const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+  window.open(url, '_blank');
+}
+
+// Optionally, you can use onMounted to trigger these functions when the component is mounted
+onMounted(() => {
+  // backToTop(); // Uncomment if you want to scroll to top on mount
+  // openWhatsApp(); // Uncomment if you want to open WhatsApp on mount
+});
 </script>
+
 
 <style scoped>
 .md\:group-hover\:translate-y-0:hover {
