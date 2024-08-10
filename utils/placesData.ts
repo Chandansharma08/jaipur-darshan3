@@ -5,7 +5,7 @@ const placesPosts = [
       slug: "rajmandir",
       title:
         "Rajmandir",
-      desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
+      desc: "Digital  transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
       mainImage: "https://placehold.co/600x300/png",
     },
     {
