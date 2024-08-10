@@ -8,7 +8,7 @@
   <!-- back to top button -->
   <div class="fixed bottom-0 right-0 p-4 z-50">
     <button
-      class="rounded-full w-12 h-12 flex items-center justify-center"
+      class="rounded-full w-10 h-10 flex items-center justify-center"
       @click="openWhatsApp"
     >
       <img
