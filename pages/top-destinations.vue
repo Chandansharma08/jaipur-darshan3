@@ -84,7 +84,7 @@
   </div>
   <div class="fixed bottom-5 left-5 p-4">
     <button
-      class="bg-accent text-base-100 rounded-full w-10 h-10 flex items-center justify-center"
+      class="bg-primary text-base-100 rounded-full w-10 h-10 flex items-center justify-center"
       @click="backToTop"
     >
       <svg
@@ -112,7 +112,7 @@ export default {
       destinations: [
         {
           title: "Amer Fort",
-          description: `Amer Palace Fort, one of Jaipur's premier tourist attractions, majestically perches on a small hill approximately 11 km from the city center. This impressive fort, known as Amer Fort, is an expansive palace complex constructed with pale yellow and pink sandstone, accented by white marble. The fort is divided into four main sections, each with its own courtyard. Visitors to Amer Fort can explore numerous attractions, including the Diwan-e-Aam, various temples, and the famous Sheesh Mahal. The fort also features a network of underground tunnels connecting it to Jaigarh Fort, some of which have been restored and are now open to the public. Amer Fort is a stunning example of Rajasthani architecture and is a must-see destination. The experience is further enhanced by a captivating light and sound show that tells the rich history of the fort, offering an unforgettable spectacle.`,
+          description: `Amer Palace Fort, one of Jaipur's premier tourist attractions, majestically perches on a small hill approximately 11 km from the city center. This impressive fort, known as Amer Fort, is an expansive palace complex constructed with pale yellow and pink sandstone, primaryed by white marble. The fort is divided into four main sections, each with its own courtyard. Visitors to Amer Fort can explore numerous attractions, including the Diwan-e-Aam, various temples, and the famous Sheesh Mahal. The fort also features a network of underground tunnels connecting it to Jaigarh Fort, some of which have been restored and are now open to the public. Amer Fort is a stunning example of Rajasthani architecture and is a must-see destination. The experience is further enhanced by a captivating light and sound show that tells the rich history of the fort, offering an unforgettable spectacle.`,
           image: "https://placehold.co/600x300",
         },
         {

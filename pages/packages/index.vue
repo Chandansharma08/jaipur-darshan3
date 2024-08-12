@@ -17,10 +17,10 @@
                     </div>
                 </div>
                 <div class="mt-5 px-4 md:px-10 ">
-                    <h1 class="text-2xl ">Bus Tour Services and Places</h1>
+                    <h1 class="text-2xl text-primary mb-2">Bus Tour Services and Places</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit eveniet cumque saepe illo mollitia repellat, placeat unde, nam quae molestias enim esse adipisci ipsa recusandae laudantium. Sit, at nesciunt. Esse maxime vel molestiae corporis eligendi possimus ut nesciunt eos nulla consequatur dolorum delectus repellendus suscipit neque labore, optio in amet.</p>
                 </div>
-                <h1 class="font-bold text-2xl mt-8 flex px-4 md:px-10 lg:px-20">Tour 1 (Places of Attractions)</h1>
+                <h1 class="font-bold text-2xl mt-8 flex px-4 md:px-10 lg:px-20 text-primary">Tour 1 (Places of Attractions)</h1>
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap px-4 md:px-10 lg:px-20 py-10">
                     <nuxt-link v-for="(bus, index) in buses" :key="index" :to="bus.link" class="flex flex-col items-center bg-slate-100  rounded-lg p-6 text-black shadow-lg transform hover:scale-105 transition duration-300 ease-in-out">
                         <img :src="bus.image" :alt="bus.name" class="w-full  object-cover rounded-lg mb-4" />
@@ -30,7 +30,7 @@
                     </nuxt-link>
                 </div>
 
-                <h1 class="font-bold text-2xl flex px-4 md:px-10 lg:px-20">Tour 2 (Places of Attractions)</h1>
+                <h1 class="font-bold text-2xl flex px-4 md:px-10 lg:px-20 text-primary">Tour 2 (Places of Attractions)</h1>
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap px-4 md:px-10 lg:px-20 py-10">
                     <nuxt-link v-for="(bus1, index) in buses1" :key="index" :to="bus1.link" class="flex flex-col items-center bg-slate-100 rounded-lg p-6 text-black shadow-lg transform hover:scale-105 transition duration-300 ease-in-out">
                         <img :src="bus1.image" :alt="bus1.name" class="w-full object-cover rounded-lg mb-4" />
@@ -56,7 +56,7 @@
   </div>
   <div class="fixed bottom-5 left-5 p-4">
     <button
-      class="bg-accent text-base-100 rounded-full w-10 h-10 flex items-center justify-center"
+      class="bg-primary text-base-100 rounded-full w-10 h-10 flex items-center justify-center"
       @click="backToTop"
     >
       <svg

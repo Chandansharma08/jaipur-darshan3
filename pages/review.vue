@@ -50,7 +50,7 @@
             <iframe :src="video.url" frameborder="0" class="w-full h-full min-h-[300px]"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <div class="absolute bottom-0 left-0 w-full p-4 bg-gradient-to-t from-gray-900 to-transparent">
-              <h3 class="text-white text-lg">{{ video.title }}</h3>
+              <h3 class="text-secondary text-lg">{{ video.title }}</h3>
             </div>
           </div>
         </div>
@@ -72,7 +72,7 @@
   </div>
   <div class="fixed bottom-5 left-5 p-4">
     <button
-      class="bg-accent text-base-100 rounded-full w-10 h-10 flex items-center justify-center"
+      class="bg-primary text-base-100 rounded-full w-10 h-10 flex items-center justify-center"
       @click="backToTop"
     >
       <svg

@@ -6,7 +6,7 @@
         <div class="relative ml-4 mt-72 " >
             <h2>{{ props.placeName }}</h2>
             <p class="mb-2">{{ props.placeDes }}</p>
-            <a class=" p-1  text-green-600 rounded-sm  hover:text-white hover:bg-slate-600" :href=props.url>click here</a>
+            <a class=" p-1  text-primary rounded-sm  hover:text-secondary hover:bg-slate-600" :href=props.url>click here</a>
         </div>
     </div>
 </template> 

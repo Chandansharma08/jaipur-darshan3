@@ -1,7 +1,7 @@
 <template>
     <section class="bg-white ">
       <div class="">
-        <h2 class="text-3xl  lg:text-4xl font-semibold mb-6">Popular Activities</h2>
+        <h2 class="text-3xl text-primary lg:text-4xl font-semibold mb-6">Popular Activities</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 items-start">
           <!-- Video Item -->
           <div v-for="video in videos" :key="video.id" class="bg-black rounded-lg overflow-hidden relative shadow-lg">
@@ -10,12 +10,12 @@
                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
             <div class="absolute bottom-0 left-0 w-full p-4 bg-gradient-to-t from-gray-900 to-transparent">
-              <h3 class="text-white text-lg">{{ video.title }}</h3>
+              <h3 class="text-secondary text-lg">{{ video.title }}</h3>
             </div>
           </div>
         </div>
         <div class="text-center md:text-right mt-12">
-          <nuxt-link to="/review" class="text-emerald-500 bg-transparent hover:border-none border-2 border-emerald-500 hover:bg-emerald-600 rounded-full hover:text-white py-2 px-4">
+          <nuxt-link to="/review" class="text-primary bg-transparent hover:border-none border-2 border-primary hover:bg-primary rounded-full hover:text-secondary py-2 px-4">
             See More
           </nuxt-link>
         </div>

@@ -27,7 +27,7 @@
   </div>
   <div class="fixed bottom-5 left-5 p-4">
     <button
-      class="bg-accent text-base-100 rounded-full w-10 h-10 flex items-center justify-center"
+      class="bg-primary text-base-100 rounded-full w-10 h-10 flex items-center justify-center"
       @click="backToTop"
     >
       <svg

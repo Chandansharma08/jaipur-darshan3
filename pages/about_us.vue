@@ -13,7 +13,7 @@
       <section class="bg-white py-10">
         <div class="flex flex-col text-center items-center justify-center">
           <div class=" mb-4">
-            <h2 class="text-3xl lg:text-5xl font-bold text-emerald-500">Provide the best travel experience for you</h2>
+            <h2 class="text-3xl lg:text-5xl font-bold text-primary">Provide the best travel experience for you</h2>
             <p class="text-gray-600 my-4">
               We understand that every journey has unique needs. Therefore, we offer customized travel packages designed
               according to your preferences and budget.
@@ -43,9 +43,9 @@
         </div>
       </section>
 
-      <div class="py-10 bg-[#01806c] flex flex-col items-center justify-center my-6 text-center px-6">
-        <h1 class="text-3xl lg:text-4xl font-bold text-white mb-2">Finding Your Dream Destination Is Our Priority</h1>
-        <p class="text-white">
+      <div class="py-10 bg-primary flex flex-col items-center justify-center my-6 text-center px-6">
+        <h1 class="text-3xl lg:text-4xl font-bold text-secondary mb-2">Finding Your Dream Destination Is Our Priority</h1>
+        <p class="text-secondary">
           With a collection of destinations that include stunning natural landscapes, vibrant cosmopolitan cities, and
           enchanting tropical islands, we take you to the world's most stunning places.
         </p>
@@ -80,7 +80,7 @@
       <div class="bg-gray-100 p-10">
         <div class="mx-auto">
           <div class="text-center mb-10">
-            <h2 class="text-3xl lg:text-4xl font-bold text-emerald-500">Experienced Professionals With Best Service</h2>
+            <h2 class="text-3xl lg:text-4xl font-bold text-primary">Experienced Professionals With Best Service</h2>
             <p class="py-2 text-gray-600">Our team consists of experienced professionals highly committed to providing
               the best service to our customers.</p>
           </div>
@@ -91,13 +91,13 @@
               <!-- Overlay for large screens -->
               <div
                 class="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-4">
-                <p class="text-2xl font-semibold text-white">{{ member.name }}</p>
-                <p class="text-white">{{ member.role }}</p>
+                <p class="text-2xl font-semibold text-secondary">{{ member.name }}</p>
+                <p class="text-secondary">{{ member.role }}</p>
               </div>
               <!-- Always visible for mobile and tablet -->
               <div class=" lg:hidden absolute inset-0 flex flex-col justify-center items-center p-4">
-                <p class="text-2xl font-semibold text-white">{{ member.name }}</p>
-                <p class="text-white">{{ member.role }}</p>
+                <p class="text-2xl font-semibold text-secondary">{{ member.name }}</p>
+                <p class="text-secondary">{{ member.role }}</p>
               </div>
             </div>
           </div>
@@ -120,7 +120,7 @@
   </div>
   <div class="fixed bottom-5 left-5 p-4">
     <button
-      class="bg-accent text-base-100 rounded-full w-10 h-10 flex items-center justify-center"
+      class="bg-primary text-base-100 rounded-full w-10 h-10 flex items-center justify-center"
       @click="backToTop"
     >
       <svg

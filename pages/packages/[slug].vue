@@ -3,17 +3,17 @@
     <main class="pt-16 bg-[#ffffff]">
         <div class="py-5">
             
-            <h1 class="font-semibold mb-4 text-2xl md:text-3xl lg:text-5xl mx-8 text-black" v-html="packageData.title"></h1>
+            <h1 class="font-semibold mb-4 text-2xl md:text-3xl lg:text-5xl mx-8 text-primary" v-html="packageData.title"></h1>
             <div class="flex flex-col-reverse md:flex-row shadow m-4 p-2 lg:p-6">
                 <div class="w-full md:w-1/2 flex flex-col justify-evenly">
                     <p class="px-1 py-4 text-xl" v-html="packageData.desc"></p>
-                    <nuxt-link to="/contact" class="px-3 py-2 mx-6 mb-2 flex bg-emerald-500 lg:w-3/12 items-center justify-center text-center font-semibold rounded-full text-white">Book Now</nuxt-link>
+                    <nuxt-link to="/contact" class="px-3 py-2 mx-6 mb-2 flex bg-primary lg:w-3/12 items-center justify-center text-center font-semibold rounded-full text-secondary">Book Now</nuxt-link>
                 </div>
                 <img :src="packageData.mainImage" alt="packages Image" class="w-full md:w-1/2 object-cover mt-4 rounded-md">
             </div>
         </div>
     </main>
-    <h2 class="text-2xl font-semibold lg:text-4xl px-10 bg-[#ffffff]">Places Of Attractions:- </h2>
+    <h2 class="text-2xl font-semibold lg:text-4xl px-10 bg-[#ffffff] text-primary">Places Of Attractions:- </h2>
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 gap-4 md:gap-6 px-4 md:px-10 py-10 bg-[#ffffff]">
         <NuxtLink v-for="(packageData, index) in packagesData" :key="index" class="relative overflow-hidden rounded-3xl group block">
             <img :src="packageData.image1" :alt="packageData.name" class="w-full h-auto object-cover transition-transform duration-500 group-hover:scale-110" />
@@ -35,7 +35,7 @@
   </div>
   <div class="fixed bottom-5 left-5 p-4">
     <button
-      class="bg-accent text-base-100 rounded-full w-10 h-10 flex items-center justify-center"
+      class="bg-primary text-base-100 rounded-full w-10 h-10 flex items-center justify-center"
       @click="backToTop"
     >
       <svg

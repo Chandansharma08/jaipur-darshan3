@@ -23,7 +23,7 @@
             </div>
             <div class="flex justify-center lg:justify-end py-8">
                 <nuxt-link to="/"
-                    class="border-2 border-emerald-500 font-semibold rounded-full px-4 py-2 text-emerald-500 hover:bg-emerald-500 hover:text-white">See
+                    class="border-2 border-primary font-semibold rounded-full px-4 py-2 text-primary hover:bg-primary hover:text-secondary">See
                     All Stories</nuxt-link>
             </div>
         </div>

@@ -11,7 +11,7 @@
           <p class="px-1 py-4 text-xl" v-html="package2Data.desc"></p>
           <nuxt-link
             to="/contact"
-            class="px-3 py-2 md:mx-6 lg:mx-0 flex mb-2 bg-emerald-500 lg:w-3/12 items-center justify-center text-center font-semibold rounded-full text-white"
+            class="px-3 py-2 md:mx-6 lg:mx-0 flex mb-2 bg-primary lg:w-3/12 items-center justify-center text-center font-semibold rounded-full text-secondary"
             >Book Now</nuxt-link
           >
         </div>
@@ -24,7 +24,7 @@
     </div>
   </main>
   <div v-for="day in package2Data?.days" :key="day.title">
-    <h2 class="text-2xl font-semibold lg:text-4xl px-10 bg-[#ffffff]">
+    <h2 class="text-2xl font-semibold lg:text-4xl px-10 bg-[#ffffff] text-primary">
       {{ day.title }}
     </h2>
     <div
@@ -62,7 +62,7 @@
   </div>
   <div class="fixed bottom-5 left-5 p-4">
     <button
-      class="bg-accent text-base-100 rounded-full w-10 h-10 flex items-center justify-center"
+      class="bg-primary text-base-100 rounded-full w-10 h-10 flex items-center justify-center"
       @click="backToTop"
     >
       <svg

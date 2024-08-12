@@ -10,7 +10,7 @@
 
       <!-- Content Sections -->
       <div class="bg-white px-4 md:px-8 mt-5">
-        <h2 class="text-2xl lg:text-4xl  font-semibold mb-4">
+        <h2 class="text-2xl lg:text-4xl text-primary font-semibold mb-4">
           Top Places For Your Next Vacation
         </h2>
         <p class="md:text-lg lg:text-xl ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, iste quia dolorem cupiditate odit sequi
@@ -27,18 +27,18 @@
           <div class="absolute inset-0 transition-opacity duration-500 shadow-gradient flex flex-col justify-end p-4">
             <!-- Old heading (initially visible at the bottom) -->
             <h3
-              class="text-white hidden lg:block text-lg md:text-3xl font-semibold mb-2 lg:absolute lg:bottom-0 lg:left-0 lg:w-full lg:p-4 lg:opacity-100 lg:group-hover:opacity-0 lg:transition-opacity lg:duration-500">
+              class="text-secondary hidden lg:block text-lg md:text-3xl font-semibold mb-2 lg:absolute lg:bottom-0 lg:left-0 lg:w-full lg:p-4 lg:opacity-100 lg:group-hover:opacity-0 lg:transition-opacity lg:duration-500">
               {{ destination.name }}
             </h3>
             <!-- New heading, description, and button -->
             <div
               class="opacity-100 translate-y-0 lg:opacity-0 lg:translate-y-full transition-all duration-500 lg:group-hover:opacity-100 lg:group-hover:translate-y-0 flex flex-col">
-              <h3 class="text-white text-lg md:text-3xl font-semibold mb-2">{{ destination.name }}</h3>
-              <p class="text-white text-sm mb-4">{{ destination.description }}</p>
+              <h3 class="text-secondary text-lg md:text-3xl font-semibold mb-2">{{ destination.name }}</h3>
+              <p class="text-secondary text-sm mb-4">{{ destination.description }}</p>
               <!-- Button centered for all views -->
               <NuxtLink :to="destination.url" class="block">
                 <button
-                  class="px-6 py-2 bg-transparent text-white text-sm rounded-full border border-white hover:bg-white hover:text-black">
+                  class="px-6 py-2 bg-transparent text-secondary text-sm rounded-full border border-white hover:bg-white hover:text-black">
                   More About
                 </button>
               </NuxtLink>
@@ -63,7 +63,7 @@
   </div>
   <div class="fixed bottom-5 left-5 p-4">
     <button
-      class="bg-accent text-base-100 rounded-full w-10 h-10 flex items-center justify-center"
+      class="bg-primary text-base-100 rounded-full w-10 h-10 flex items-center justify-center"
       @click="backToTop"
     >
       <svg

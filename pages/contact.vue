@@ -13,38 +13,38 @@
         </div>
       </div>
       <div class="text-black mt-5 px-4 md:px-8 lg:px-12 xl:px-16 py-8 md:py-10">
-        <h1 class="text-2xl text-emerald-500 md:text-3xl lg:text-3xl  font-semibold text-center">HAVE A QUESTION OR PROBLEM?</h1>
-        <p class="text-lg text-emerald-500 md:text-xl lg:text-2xl xl:text-4xl font-semibold text-center">WE CAN HELP</p>
+        <h1 class="text-2xl text-primary md:text-3xl lg:text-3xl  font-semibold text-center">HAVE A QUESTION OR PROBLEM?</h1>
+        <p class="text-lg text-primary md:text-xl lg:text-2xl xl:text-4xl font-semibold text-center">WE CAN HELP</p>
 
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6 lg:gap-8 xl:gap-10 mt-8 md:mt-10">
           <div class="flex flex-col items-center border border-black p-4 md:p-5 rounded-md">
             <img src="https://placehold.co/150x150/png" alt="Location Icon" class="  mb-4" />
             <div class="text-center">
-              <h1 class="text-xl md:text-2xl lg:text-3xl  font-semibold">Head Office</h1>
-              <p class="mt-1 text-base md:text-lg lg:text-xl  hover:text-blue-500 ">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <h1 class="text-xl md:text-2xl lg:text-3xl text-primary font-semibold">Head Office</h1>
+              <p class="mt-1 text-base md:text-lg lg:text-xl  hover:text-primary ">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>
           </div>
           <div class="flex flex-col items-center border border-black p-4 md:p-5 rounded-md">
             <img src="https://placehold.co/150x150/png" alt="Phone Icon" class=" mb-4" />
             <div class="md:mr-5">
-              <h1 class="text-xl md:text-2xl lg:text-3xl  font-semibold">Contact Number</h1>
-              <p class="mt-1 text-base md:text-lg lg:text-xl  hover:text-blue-500 "><nuxt-link to="tel:+91-9929358785">+91-9929358785</nuxt-link></p>
-              <p class="text-base md:text-lg lg:text-xl  hover:text-blue-500 "><nuxt-link to="tel:+91-9660220533">+91-9660220533</nuxt-link></p>
+              <h1 class="text-xl md:text-2xl lg:text-3xl text-primary font-semibold">Contact Number</h1>
+              <p class="mt-1 text-base md:text-lg lg:text-xl  hover:text-primary "><nuxt-link to="tel:+91-9929358785">+91-9929358785</nuxt-link></p>
+              <p class="text-base md:text-lg lg:text-xl  hover:text-primary "><nuxt-link to="tel:+91-9660220533">+91-9660220533</nuxt-link></p>
             </div>
           </div>
           <div class="flex flex-col items-center border border-black p-4 md:p-5 rounded-md">
             <img src="https://placehold.co/150x150/png" alt="Email Icon" class=" mb-4" />
             <div class="text-center">
-              <h1 class="text-xl md:text-2xl lg:text-3xl  font-semibold">Email</h1>
-              <p class="mt-1 text-base md:text-lg lg:text-xl  hover:text-blue-500 "><nuxt-link to="mailto:example@gmail.com">example@gmail.com</nuxt-link></p>
-              <p class="text-base md:text-lg lg:text-xl  hover:text-blue-500 "><nuxt-link to="mailto:example@gmail.com">example@gmail.com</nuxt-link></p>
+              <h1 class="text-xl md:text-2xl lg:text-3xl text-primary font-semibold">Email</h1>
+              <p class="mt-1 text-base md:text-lg lg:text-xl  hover:text-primary "><nuxt-link to="mailto:example@gmail.com">example@gmail.com</nuxt-link></p>
+              <p class="text-base md:text-lg lg:text-xl  hover:text-primary "><nuxt-link to="mailto:example@gmail.com">example@gmail.com</nuxt-link></p>
             </div>
           </div>
           <div class="flex flex-col items-center border border-black p-4 md:p-5 rounded-md">
             <img src="https://placehold.co/150x150/png" alt="Website Icon" class=" mb-4" />
             <div class="text-center">
-              <h1 class="text-xl md:text-2xl lg:text-3xl  font-semibold">Website</h1>
-              <p class="mt-1 text-base md:text-lg lg:text-xl hover:text-blue-500 "><nuxt-link to="http://www.jaipur-darshan.com">www.jaipur-darshan.com</nuxt-link></p>
+              <h1 class="text-xl md:text-2xl lg:text-3xl text-primary font-semibold">Website</h1>
+              <p class="mt-1 text-base md:text-lg lg:text-xl hover:text-primary "><nuxt-link to="http://www.jaipur-darshan.com">www.jaipur-darshan.com</nuxt-link></p>
             </div>
           </div>
         </div>
@@ -69,7 +69,7 @@
   </div>
   <div class="fixed bottom-5 left-5 p-4">
     <button
-      class="bg-accent text-base-100 rounded-full w-10 h-10 flex items-center justify-center"
+      class="bg-primary text-base-100 rounded-full w-10 h-10 flex items-center justify-center"
       @click="backToTop"
     >
       <svg

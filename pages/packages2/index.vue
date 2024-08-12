@@ -22,19 +22,19 @@
 
                 <!-- Content Sections -->
                 <div class="mt-5 px-4 md:px-10 ">
-                    <h1 class="text-2xl">Car Tour Services and Places</h1>
+                    <h1 class="text-2xl text-primary mb-2">Car Tour Services and Places</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit eveniet cumque saepe illo mollitia repellat, placeat unde, nam quae molestias enim esse adipisci ipsa recusandae laudantium. Sit, at nesciunt. Esse maxime vel molestiae corporis eligendi possimus ut nesciunt eos nulla consequatur dolorum delectus repellendus suscipit neque labore, optio in amet.</p>
                 </div>
 
                 <!-- Car Tour Packages -->
                 <div v-for="(pkg, index) in packages" :key="index">
-                    <h1 class="font-bold text-2xl mt-8 px-4 md:px-10 ">{{ pkg.title }}</h1>
+                    <h1 class="font-bold text-2xl mt-8 px-4 md:px-10 text-primary">{{ pkg.title }}</h1>
                     <div class="grid grid-cols-1 md:grid-cols-3 gap-4 px-4 md:px-10  py-10 ">
                         <nuxt-link 
                             v-for="(car, carIndex) in pkg.cars" 
                             :key="carIndex" 
                             :to="car.link" 
-                            class="card flex flex-col justify-center items-center bg-slate-100 rounded-lg p-6 text-white shadow-lg transform hover:scale-105 transition duration-300 ease-in-out">
+                            class="card flex flex-col justify-center items-center bg-slate-100 rounded-lg p-6 text-secondary shadow-lg transform hover:scale-105 transition duration-300 ease-in-out">
                             <img :src="car.image" :alt="car.name" class="w-full object-cover rounded-lg mb-4" />
                             <h1 class="text-xl font-semibold">{{ car.name }}</h1>
                             <div class="text-3xl font-bold mt-2">{{ car.price }} INR</div>
@@ -59,7 +59,7 @@
   </div>
   <div class="fixed bottom-5 left-5 p-4">
     <button
-      class="bg-accent text-base-100 rounded-full w-10 h-10 flex items-center justify-center"
+      class="bg-primary text-base-100 rounded-full w-10 h-10 flex items-center justify-center"
       @click="backToTop"
     >
       <svg

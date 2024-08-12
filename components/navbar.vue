@@ -49,7 +49,7 @@
       </ul>
     </div>
     <div class="navbar-end">
-      <nuxt-link to="/contact" class="px-3 py-2 flex items-center justify-center bg-emerald-500 hover:bg-emerald-600  text-white rounded-full"
+      <nuxt-link to="/contact" class="px-3 py-2 flex items-center justify-center bg-primary hover:bg-primary  text-secondary rounded-full"
         >Book Now</nuxt-link
       >
     </div>
