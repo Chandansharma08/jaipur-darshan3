@@ -27,6 +27,7 @@
             <nuxt-link to="/about_us">About Us</nuxt-link>
           </li>
           <li><nuxt-link to="/places">Places</nuxt-link></li>
+        <li><nuxt-link to="/top-destinations">Top Destinations</nuxt-link></li>
           <li><nuxt-link to="/packages2">Car Package</nuxt-link></li>
           <li><nuxt-link to="/packages">Bus Package</nuxt-link></li>
           <li><nuxt-link to="/contact">Contact Us</nuxt-link></li>
@@ -41,6 +42,7 @@
           <nuxt-link to="/about_us">About Us</nuxt-link>
         </li>
         <li><nuxt-link to="/places">Places</nuxt-link></li>
+        <li><nuxt-link to="/top-destinations">Top Destinations</nuxt-link></li>
         <li><nuxt-link to="/packages2">Car Package</nuxt-link></li>
         <li><nuxt-link to="/packages">Bus Package</nuxt-link></li>
         <li><nuxt-link to="/contact">Contact Us</nuxt-link></li>
