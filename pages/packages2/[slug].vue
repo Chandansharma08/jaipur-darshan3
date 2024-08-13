@@ -2,18 +2,72 @@
   <Navbar />
   <main class="pt-16 bg-[#ffffff]">
     <div class="py-5">
-      <h1
-        class="font-semibold mb-4 text-2xl md:text-3xl lg:text-5xl mx-8 text-black"
-        v-html="package2Data.title"
-      ></h1>
-      <div class="flex flex-col-reverse md:flex-row shadow m-4 p-2 lg:p-6">
-        <div class="w-full md:w-1/2 flex flex-col justify-evenly">
-          <p class="px-1 py-4 text-xl" v-html="package2Data.desc"></p>
-          <nuxt-link
-            to="/contact"
-            class="px-3 py-2 md:mx-6 lg:mx-0 flex mb-2 bg-primary lg:w-3/12 items-center justify-center text-center font-semibold rounded-full text-secondary"
-            >Book Now</nuxt-link
-          >
+      
+      <div class="flex flex-col-reverse md:flex-row shadow m-4 p-2 lg:p-6 gap-4">
+        <div class="flex flex-col w-1/2 justify-evenly">
+          <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+            <h2 class="text-3xl font-semibold text-primary mb-6">
+              {{ package2Data.title }}
+            </h2>
+            <div class="flex justify-between">
+              <div class="text-center flex items-center gap-5">
+                <div
+                  class="text-2xl bg-white rounded-full w-12 h-12 px-1 py-1  flex items-center justify-center"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width=""
+                    height=""
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="#cd821c"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-circle-dollar-sign"
+                  >
+                    <circle cx="12" cy="12" r="10" />
+                    <path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8" />
+                    <path d="M12 18V6" />
+                  </svg>
+                </div>
+                <div class="flex flex-col text-left">
+                  <h4 class="text-black text-xl font-semibold">Cost</h4>
+                  <p class="text-gray-600">Enquiry About Cost</p>
+                </div>
+              </div>
+              <div class="text-center flex items-center gap-5">
+                <div
+                  class="text-2xl bg-white rounded-full w-12 h-12 px-1 py-1  flex items-center justify-center"
+                >
+                <svg xmlns="http://www.w3.org/2000/svg" width="" height="" viewBox="0 0 24 24" fill="none" stroke="#cd821c" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-history"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/><path d="M12 7v5l4 2"/></svg>
+                </div>
+                <div class="flex flex-col text-left">
+                  <h4 class="text-black text-xl font-semibold">Duration</h4>
+                  <p class="text-gray-600">{{ package2Data.time }}</p>
+                </div>
+              </div>
+              <div class="text-center flex items-center gap-5">
+                <div
+                  class="text-2xl bg-white rounded-full w-12 h-12 px-1 py-1  flex items-center justify-center"
+                >
+                <svg xmlns="http://www.w3.org/2000/svg" width="" height="" viewBox="0 0 24 24" fill="none" stroke="#cd821c" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/></svg>
+                </div>
+                <div class="flex flex-col text-left">
+                  <h4 class="text-black text-xl font-semibold">Loaction</h4>
+                  <p class="text-gray-600">{{ package2Data.location }}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="w-full flex flex-col justify-evenly">
+            <p class="px-1 py-4 text-xl" v-html="package2Data.desc"></p>
+            <nuxt-link
+              to="/contact"
+              class="px-3 py-2 mx-6 mb-2 flex bg-primary lg:w-3/12 items-center justify-center text-center font-semibold rounded-full text-secondary"
+              >Book Now</nuxt-link
+            >
+          </div>
         </div>
         <img
           :src="package2Data.mainImage"
