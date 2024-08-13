@@ -7,8 +7,8 @@
       />
       <div class="absolute inset-0 flex items-center justify-start p-8 lg:p-10 text-black">
         <div class="text-content max-w-md">
-          <h2 class="text-2xl lg:text-3xl font-bold mb-4">Your Heading</h2>
-          <p class="text-base lg:text-lg">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+          <h2 class="text-2xl lg:text-3xl font-bold mb-6">Majestic Jaipur Adventure</h2>
+          <p class="text-base lg:text-lg">Discover Jaipur's royal heritage, vibrant markets, and stunning architectural wonders.</p>
         </div>
       </div>
     </div>
