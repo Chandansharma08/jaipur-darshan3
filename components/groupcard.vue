@@ -48,12 +48,12 @@
         </div>
       </NuxtLink>
     </div>
-    <div class="text-center md:text-right ">
-      <button
+    <div class="text-center md:text-right mt-5">
+      <nuxt-link to="/places"
         class="bg-transparent text-primary px-4 py-2 rounded-full hover:text-secondary border-2 border-primary hover:bg-primary mt-5"
       >
         See All Destinations
-      </button>
+      </nuxt-link>
     </div>
   </div>
 </template>
@@ -64,23 +64,22 @@ export default {
     return {
       destinations: [
         {
-          name: "Rajmandir",
-          image: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/best%20dst%202300by%20300/raj-mandir-66b704d3951e9.webp",
+          name: "Amber Fort",
+          image: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/best%20dst%202300by%20300/amber-fort-66b704bfdf5d2.webp",
           description: "Discover Bali with our special tours",
           url: "/places" // Dynamic URL for Bali
+        },       
+        {
+          name: "Albert Hall ",
+          image: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/best%20dst%202300by%20300/albert-hall-66b704bfd4f95.webp",
+          description: "Explore Nha Trang with our city tours",
+          url: "/places" // Dynamic URL for Nha Trang
         },
         {
           name: "Nahargarh",
           image: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/best%20dst%202300by%20300/nahargarh-66b704d13c226.webp",
           description: "Discover Bangkok with our special tours",
           url: "/places" // Dynamic URL for Bangkok
-        },
-        
-        {
-          name: "Albert Hall ",
-          image: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/best%20dst%202300by%20300/albert-hall-66b704bfd4f95.webp",
-          description: "Explore Nha Trang with our city tours",
-          url: "/places" // Dynamic URL for Nha Trang
         },
         {
           name: "Birla Mandir",

@@ -6,13 +6,13 @@
                 <div class="relative">
                     <img class="background-image" src="https://placehold.co/1400x700" alt="background" />
                     <div class="absolute inset-0 flex flex-col items-center justify-center pt-16 md:pt-24 lg:pt-28 xl:pt-32">
-                        <h1 class="text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-center">Bus Tours</h1>
-                        <div class="hidden lg:flex flex-row justify-center items-center gap-4 my-4">
+                        <h1 class="text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-center font-semibold">Bus Tours</h1>
+                        <div class="hidden lg:flex flex-row justify-center items-center gap-4 my-4 font-bold">
                             <nuxt-link to="/" class="text-base hover:text-red-500 md:text-lg lg:text-xl xl:text-2xl">Home</nuxt-link>
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right mt-1">
                                 <path d="m9 18 6-6-6-6" />
                             </svg>
-                            <p class="text-base md:text-lg lg:text-xl xl:text-2xl">Bus Tours</p>
+                            <p class="text-base md:text-lg lg:text-xl xl:text-2xl ">Bus Tours</p>
                         </div>
                     </div>
                 </div>

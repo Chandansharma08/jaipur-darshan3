@@ -3,9 +3,34 @@
   <div class="bg-white pt-20 px-4 md:px-10 space-y-11">
     <div class="w-full text-black">
       <!-- Banner and Navigation Links -->
-      <div class="relative pt-2 ">
-        <img class="background-image" src="https://placehold.co/1400x700" alt="background" />
-
+      <div class="relative pt-2">
+        <img
+          class="background-image1"
+          src="https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723444765.705/1400-by-400-at-2x-66b9ae167a844.webp"
+          alt="background"
+        />
+        <div
+        class="absolute inset-0 flex flex-col items-center justify-center pt-16 md:pt-24 lg:pt-28 xl:pt-32"
+      >
+        <h1
+          class="text-2xl md:text-3xl lg:text-4xl text-center text-black font-semibold"
+        >
+          Places
+        </h1>
+        <div class="hidden lg:flex flex-row justify-center gap-4 mt-4">
+          <nuxt-link
+            to="/"
+            class="text-base hover:text-red-500 md:text-lg lg:text-xl text-black font-bold"
+            >Home</nuxt-link
+          >
+          <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right mt-1">
+                                <path d="m9 18 6-6-6-6" />
+                            </svg></p>
+          <p class="text-base md:text-lg lg:text-xl text-black font-bold">
+             Places
+          </p>
+        </div>
+      </div>
       </div>
 
       <!-- Content Sections -->
@@ -13,32 +38,54 @@
         <h2 class="text-2xl lg:text-4xl text-primary font-semibold mb-4">
           Top Places For Your Next Vacation
         </h2>
-        <p class="md:text-lg lg:text-xl ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, iste quia dolorem cupiditate odit sequi
-          voluptatem provident veniam magnam velit aperiam quas enim dolorum doloribus sint illo exercitationem ipsam!
-          Exercitationem sint vel dolorum minima, itaque totam quae architecto, iusto ipsum cumque ratione, culpa
-          pariatur repellendus ad earum in assumenda corporis.</p>
+        <p class="md:text-lg lg:text-xl">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque,
+          iste quia dolorem cupiditate odit sequi voluptatem provident veniam
+          magnam velit aperiam quas enim dolorum doloribus sint illo
+          exercitationem ipsam! Exercitationem sint vel dolorum minima, itaque
+          totam quae architecto, iusto ipsum cumque ratione, culpa pariatur
+          repellendus ad earum in assumenda corporis.
+        </p>
       </div>
 
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 px-4 py-5">
-        <NuxtLink v-for="(destination, index) in destinations" :key="index" :to="destination.url"
-          class="relative overflow-hidden rounded-3xl group block shadow-card">
-          <img :src="destination.image" :alt="destination.name"
-            class="w-full h-auto object-cover transition-transform duration-500 group-hover:scale-110" />
-          <div class="absolute inset-0 transition-opacity duration-500 shadow-gradient flex flex-col justify-end p-4">
+      <div
+        class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 px-4 py-5"
+      >
+        <NuxtLink
+          v-for="(destination, index) in destinations"
+          :key="index"
+          :to="destination.url"
+          class="relative overflow-hidden rounded-3xl group block shadow-card"
+        >
+          <img
+            :src="destination.image"
+            :alt="destination.name"
+            class="w-full h-auto object-cover transition-transform duration-500 group-hover:scale-110"
+          />
+          <div
+            class="absolute inset-0 transition-opacity duration-500 shadow-gradient flex flex-col justify-end p-4"
+          >
             <!-- Old heading (initially visible at the bottom) -->
             <h3
-              class="text-secondary hidden lg:block text-lg md:text-3xl font-semibold mb-2 lg:absolute lg:bottom-0 lg:left-0 lg:w-full lg:p-4 lg:opacity-100 lg:group-hover:opacity-0 lg:transition-opacity lg:duration-500">
+              class="text-secondary hidden lg:block text-lg md:text-3xl font-semibold mb-2 lg:absolute lg:bottom-0 lg:left-0 lg:w-full lg:p-4 lg:opacity-100 lg:group-hover:opacity-0 lg:transition-opacity lg:duration-500"
+            >
               {{ destination.name }}
             </h3>
             <!-- New heading, description, and button -->
             <div
-              class="opacity-100 translate-y-0 lg:opacity-0 lg:translate-y-full transition-all duration-500 lg:group-hover:opacity-100 lg:group-hover:translate-y-0 flex flex-col">
-              <h3 class="text-secondary text-lg md:text-3xl font-semibold mb-2">{{ destination.name }}</h3>
-              <p class="text-secondary text-sm mb-4">{{ destination.description }}</p>
+              class="opacity-100 translate-y-0 lg:opacity-0 lg:translate-y-full transition-all duration-500 lg:group-hover:opacity-100 lg:group-hover:translate-y-0 flex flex-col"
+            >
+              <h3 class="text-secondary text-lg md:text-3xl font-semibold mb-2">
+                {{ destination.name }}
+              </h3>
+              <p class="text-secondary text-sm mb-4">
+                {{ destination.description }}
+              </p>
               <!-- Button centered for all views -->
               <NuxtLink :to="destination.url" class="block">
                 <button
-                  class="px-6 py-2 bg-transparent text-secondary text-sm rounded-full border border-white hover:bg-white hover:text-black">
+                  class="px-6 py-2 bg-transparent text-secondary text-sm rounded-full border border-white hover:bg-white hover:text-black"
+                >
                   More About
                 </button>
               </NuxtLink>
@@ -47,7 +94,6 @@
         </NuxtLink>
       </div>
     </div>
-   
   </div>
   <Footer />
   <div class="fixed bottom-5 right-5 p-4 z-50">
@@ -107,48 +153,129 @@ export default {
       destinations: [
         {
           name: "Rajmandir",
-          image: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/best%20dst%202300by%20300/raj-mandir-66b704d3951e9.webp",
+          image:
+            "https://ccdstest.b-cdn.net/Jaipur%20Darshan/best%20dst%202300by%20300/raj-mandir-66b704d3951e9.webp",
           description: "Discover Bali with our special tours",
           url: "/places/rajmandir",
         },
         {
           name: "Statue circle",
-          image: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/best%20dst%202300by%20300/statue-cilce-66b704d63b8f8.webp",
+          image:
+            "https://ccdstest.b-cdn.net/Jaipur%20Darshan/best%20dst%202300by%20300/statue-cilce-66b704d63b8f8.webp",
           description: "Discover Bangkok with our special tours",
-          url: "/places/nahargarh",
+          url: "/places/statue-circle",
         },
         {
           name: "Birla Mandir",
-          image: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/best%20dst%202300by%20300/birla-temple-66b704c30c726.webp",
+          image:
+            "https://ccdstest.b-cdn.net/Jaipur%20Darshan/best%20dst%202300by%20300/birla-temple-66b704c30c726.webp",
           description: "Relax in Cancun with our beach tours",
           url: "/places/birla-mandir",
         },
         {
           name: "Albert Hall",
-          image: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/best%20dst%202300by%20300/albert-hall-66b704bfd4f95.webp",
+          image:
+            "https://ccdstest.b-cdn.net/Jaipur%20Darshan/best%20dst%202300by%20300/albert-hall-66b704bfd4f95.webp",
           description: "Explore Nha Trang with our city tours",
           url: "/places/albert-hall",
         },
         {
           name: "Ramniwas Bagh",
-          image: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/best%20dst%202300by%20300/ramnivwas-garden-66b704d4159f0.webp",
+          image:
+            "https://ccdstest.b-cdn.net/Jaipur%20Darshan/best%20dst%202300by%20300/ramnivwas-garden-66b704d4159f0.webp",
           description: "Explore Nha Trang with our city tours",
           url: "/places/ramniwas-bagh",
-        },{
+        },
+        {
           name: "Pink City",
-          image: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/best%20dst%202300by%20300/pink-city-street-66b704d13e4fe.webp",
+          image:
+            "https://ccdstest.b-cdn.net/Jaipur%20Darshan/best%20dst%202300by%20300/pink-city-street-66b704d13e4fe.webp",
           description: "Explore Nha Trang with our city tours",
           url: "/places/pink-city",
-        },{
+        },
+        {
           name: "Hawa Mahal",
-          image: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/best%20dst%202300by%20300/hawa-mahal-66b704c84dd91.webp",
+          image:
+            "https://ccdstest.b-cdn.net/Jaipur%20Darshan/best%20dst%202300by%20300/hawa-mahal-66b704c84dd91.webp",
           description: "Explore Nha Trang with our city tours",
           url: "/places/hawa-mahal",
-        },{
+        },
+        {
           name: "Jantar Mantar",
-          image: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/best%20dst%202300by%20300/jamtrmantr-66b704cb3cc11.webp",
+          image:
+            "https://ccdstest.b-cdn.net/Jaipur%20Darshan/best%20dst%202300by%20300/jamtrmantr-66b704cb3cc11.webp",
           description: "Explore Nha Trang with our city tours",
           url: "/places/jantar-mantar",
+        },
+        {
+          name: "Amber Fort",
+          image:
+            "https://ccdstest.b-cdn.net/Jaipur%20Darshan/best%20dst%202300by%20300/amber-fort-66b704bfdf5d2.webp",
+          description: "Explore Nha Trang with our city tours",
+          url: "/places/amber-fort",
+        },
+        {
+          name: "Art Gallery",
+          image:
+            "https://ccdstest.b-cdn.net/Jaipur%20Darshan/best%20dst%202300by%20300/art-gallery-300-by-300-66b704c2d734e.webp",
+          description: "Explore Nha Trang with our city tours",
+          url: "/places/art-gallery",
+        },
+        {
+          name: "City Palace",
+          image:
+            "https://ccdstest.b-cdn.net/Jaipur%20Darshan/best%20dst%202300by%20300/city-palace-66b704c57d6a5.webp",
+          description: "Explore Nha Trang with our city tours",
+          url: "/places/city-palace",
+        },
+        {
+          name: "Gaitore",
+          image:
+            "https://ccdstest.b-cdn.net/Jaipur%20Darshan/best%20dst%202300by%20300/gaitore-66b704c5951bb.webp",
+          description: "Explore Nha Trang with our city tours",
+          url: "/places/gaitore",
+        },
+        {
+          name: "Jaigarh",
+          image:
+            "https://ccdstest.b-cdn.net/Jaipur%20Darshan/best%20dst%202300by%20300/jaigarh-66b704c89f427.webp",
+          description: "Explore Nha Trang with our city tours",
+          url: "/places/jaigarh",
+        },
+        {
+          name: "Jalmahal",
+          image:
+            "https://ccdstest.b-cdn.net/Jaipur%20Darshan/best%20dst%202300by%20300/jalmahal-66b704cb17925.webp",
+          description: "Explore Nha Trang with our city tours",
+          url: "/places/jalmahal",
+        },
+        {
+          name: "Nahargarh",
+          image:
+            "https://ccdstest.b-cdn.net/Jaipur%20Darshan/best%20dst%202300by%20300/nahargarh-66b704d13c226.webp",
+          description: "Explore Nha Trang with our city tours",
+          url: "/places/nahargarh",
+        },
+        {
+          name: "Kanak Vrindavan",
+          image:
+            "https://ccdstest.b-cdn.net/Jaipur%20Darshan/best%20dst%202300by%20300/kanka-vrindavan-66b704cde7cc5.webp",
+          description: "Explore Nha Trang with our city tours",
+          url: "/places/kanak-vrindavan",
+        },
+        {
+          name: "Maotha Lake",
+          image:
+            "https://ccdstest.b-cdn.net/Jaipur%20Darshan/best%20dst%202300by%20300/maotha-lake-66b704ce4c377.webp",
+          description: "Explore Nha Trang with our city tours",
+          url: "/places/maotha-lake",
+        },
+        {
+          name: "Wax Museum",
+          image:
+            "https://ccdstest.b-cdn.net/Jaipur%20Darshan/best%20dst%202300by%20300/wax-museum-66b704d6aa5cb.webp",
+          description: "Explore Nha Trang with our city tours",
+          url: "/places/wax-museum",
         },
         // Add more destinations as needed
       ],
@@ -198,16 +325,18 @@ export default {
 }
 
 @media (max-width: 1023px) {
-  .background-image {
+  .background-image1 {
     /* Image size for small and medium screens */
     content: url("https://placehold.co/1400x700");
+    border-radius: 8px;
   }
 }
 
 @media (min-width: 1024px) {
-  .background-image {
+  .background-image1 {
     /* Image size for large, extra-large, and extra-extra-large screens */
-    content: url("https://placehold.co/1400x400");
+    content: url("https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723444765.705/1400-by-400-at-2x-66b9ae167a844.webp");
+    border-radius: 8px;
   }
 }
 

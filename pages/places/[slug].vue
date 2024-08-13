@@ -1,22 +1,58 @@
 <template>
-    <Navbar />
-    <main class="pt-20 bg-[#ffffff]">
-        <div class="">
-            <div class="relative">
-                <img class="background-image" src="https://placehold.co/1400x700" alt="background" />
-                    <div
-                        class="absolute inset-0 flex flex-col items-center justify-center pt-16 md:pt-24 lg:pt-28 xl:pt-32">
-                        <h1 class="text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-center">{{ placeData.title }}</h1>
-                        
-                    </div>
-                </div>
-            <div class="div">
-                <p class="px-10 py-5 text-xl">{{ placeData.desc }}</p>
-            </div>
+  <Navbar />
+  <main class="pt-20 px-4 md:px-10 space-y-11 bg-[#ffffff]">
+    <div>
+      <div class="relative">
+        <picture>
+          <!-- Image for small and medium screens (sm and md) -->
+          <source media="(max-width: 1023px)" :srcset="placeData.mainImage1" />
+          <!-- Image for large and extra-large screens (lg and xl) -->
+          <source media="(min-width: 1024px)" :srcset="placeData.mainImage2" />
+          <!-- Fallback image (if no media queries match) -->
+          <img
+            :src="placeData.mainImage2"
+            class="background-image"
+            alt="background"
+          />
+        </picture>
+        <div
+          class="absolute inset-0 flex flex-col items-center justify-center pt-16 md:pt-24 lg:pt-28 xl:pt-32"
+        >
+          <h1
+            class="text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-center font-semibold"
+          >
+            {{ placeData.title }}
+          </h1>
+          <div class="hidden lg:flex flex-row justify-center items-center font-bold gap-4 mt-4">
+            <nuxt-link
+              to="/"
+              class="text-base hover:text-red-500 md:text-lg lg:text-xl text-black font-bold"
+              >Home</nuxt-link
+            >
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right mt-1">
+                                <path d="m9 18 6-6-6-6" />
+                            </svg></p>
+            <nuxt-link
+              to="/places"
+              class="text-base hover:text-red-500 md:text-lg lg:text-xl text-black font-bold"
+              >Places</nuxt-link
+            >
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right mt-1">
+                                <path d="m9 18 6-6-6-6" />
+                            </svg></p>
+            <p class="text-base md:text-lg lg:text-xl text-black font-bold">
+               {{ placeData.title }}
+            </p>
+          </div>
         </div>
-    </main>
-    <Footer />
-    <!-- back to top button -->
+      </div>
+      <div class="div">
+        <p class="px-10 py-5 text-xl">{{ placeData.desc }}</p>
+      </div>
+    </div>
+  </main>
+  <Footer />
+  <!-- back to top button -->
   <div class="fixed bottom-5 right-5 p-4 z-50">
     <button
       class="rounded-full w-10 h-10 flex items-center justify-center"
@@ -52,14 +88,14 @@
 </template>
 
 <script setup>
-import { getAllPlacesData, getPlacesData } from "~/utils/placesData.ts"
+import { getAllPlacesData, getPlacesData } from "~/utils/placesData.ts";
 
-const route = useRoute()
-const slug = route.params.slug
+const route = useRoute();
+const slug = route.params.slug;
 
-const placesData = getPlacesData(slug)
-const placeData = placesData[0]
-// const allplacesData = getAllplacesData()
+const placesData = getPlacesData(slug);
+const placeData = placesData[0];
+
 function backToTop() {
   window.scrollTo({
     top: 0,
@@ -78,32 +114,6 @@ function openWhatsApp() {
 </script>
 
 <style scoped>
-.md\:group-hover\:translate-y-0:hover {
-    transform: translateY(0);
-}
-.md\:group-hover\:translate-y-full {
-    transform: translateY(100%);
-}
-.group-hover\:scale-110:hover {
-    transform: scale(1.10);
-}
-@media (max-width: 768px) {
-    .group-hover\:scale-110:hover {
-        transform: none;
-    }
-    .group h1 {
-        opacity: 1 !important;
-        position: static !important;
-        background-color: rgba(255, 255, 255, 0.8); /* Ensure the text background is visible */
-        width: 100%; /* Ensure the text background covers the full width */
-        text-align: center; /* Center align the text */
-    }
-}
-
-.relative {
-  position: relative;
-}
-
 .background-image {
   width: 100%;
   height: auto;
@@ -111,19 +121,5 @@ function openWhatsApp() {
   /* Rounded corners */
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
   /* Shadow */
-}
-
-@media (max-width: 1023px) {
-  .background-image {
-    /* Image size for small and medium screens */
-    content: url("https://placehold.co/1400x700");
-  }
-}
-
-@media (min-width: 1024px) {
-  .background-image {
-    /* Image size for large, extra-large, and extra-extra-large screens */
-    content: url("https://placehold.co/1400x400");
-  }
 }
 </style>
