@@ -286,15 +286,15 @@ const packages2Posts = [
       {
         title: "Places Of Attraction For Day 1",
         places: [
-          { image: "https://placehold.co/200x150/png", name: "Stay Hotel" },
-          { image: "https://placehold.co/200x150/png", name: "Sight View" },
+          { image: "https://placehold.co/300x250/png", name: "Stay Hotel" },
+          { image: "https://placehold.co/300x250/png", name: "Sight View" },
         ],
       },
       {
         title: "Places Of Attraction For Day 2",
         places: [
-          { image: "https://placehold.co/200x150/png", name: "Tiger Safari" },
-          { image: "https://placehold.co/200x150/png", name: "Ganesh Temple" },
+          { image: "https://placehold.co/300x250/png", name: "Tiger Safari" },
+          { image: "https://placehold.co/300x250/png", name: "Ganesh Temple" },
         ],
       },
     ],
@@ -311,22 +311,22 @@ const packages2Posts = [
       {
         title: "Places Of Attraction For Day 1",
         places: [
-          { image: "https://placehold.co/200x150/png", name: "Stay Hotel" },
-          { image: "https://placehold.co/200x150/png", name: "Sight View" },
+          { image: "https://placehold.co/300x250/png", name: "Stay Hotel" },
+          { image: "https://placehold.co/300x250/png", name: "Sight View" },
         ],
       },
       {
         title: "Places Of Attraction For Day 2",
         places: [
-          { image: "https://placehold.co/200x150/png", name: "Tiger Safari" },
-          { image: "https://placehold.co/200x150/png", name: "Ganesh Temple" },
+          { image: "https://placehold.co/300x250/png", name: "Tiger Safari" },
+          { image: "https://placehold.co/300x250/png", name: "Ganesh Temple" },
         ],
       },
     ],
   },
   {
     slug: "car6",
-    title: "Jaipur to Ranthanbhor",
+    title: "Jaipur to Ranthambhor",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
     mainImage: "https://placehold.co/900x300/png",
     time: "7-8 hours",
@@ -336,15 +336,15 @@ const packages2Posts = [
       {
         title: "Places Of Attraction For Day 1",
         places: [
-          { image: "https://placehold.co/200x150/png", name: "Stay Hotel" },
-          { image: "https://placehold.co/200x150/png", name: "Sight View" },
+          { image: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723028195.9411/raj-mandir-66b352d13f32f.webp", name: "Stay Hotel" },
+          { image: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723028195.9411/raj-mandir-66b352d13f32f.webp", name: "Sight View" },
         ],
       },
       {
         title: "Places Of Attraction For Day 2",
         places: [
-          { image: "https://placehold.co/200x150/png", name: "Tiger Safari" },
-          { image: "https://placehold.co/200x150/png", name: "Ganesh Temple" },
+          { image: "https://placehold.co/300x250/png", name: "Tiger Safari" },
+          { image: "https://placehold.co/300x250/png", name: "Ganesh Temple" },
         ],
       },
     ],
@@ -361,12 +361,12 @@ const packages2Posts = [
       {
         title: "Single Day Trip",
         places: [
-          { image: "https://placehold.co/200x150/png", name: "Dargah" },
-          { image: "https://placehold.co/200x150/png", name: "Anna Sagar" },
-          { image: "https://placehold.co/200x150/png", name: "Ajne View" },
-          { image: "https://placehold.co/200x150/png", name: "Brahma Temple" },
-          { image: "https://placehold.co/200x150/png", name: "Brahma Sarover" },
-          { image: "https://placehold.co/200x150/png", name: "Desert Safari" },
+          { image: "https://placehold.co/300x250/png", name: "Dargah" },
+          { image: "https://placehold.co/300x250/png", name: "Anna Sagar" },
+          { image: "https://placehold.co/300x250/png", name: "Ajne View" },
+          { image: "https://placehold.co/300x250/png", name: "Brahma Temple" },
+          { image: "https://placehold.co/300x250/png", name: "Brahma Sarover" },
+          { image: "https://placehold.co/300x250/png", name: "Desert Safari" },
         ],
       },
     ],
@@ -383,12 +383,12 @@ const packages2Posts = [
       {
         title: "Single Day Trip",
         places: [
-          { image: "https://placehold.co/200x150/png", name: "Dargah" },
-          { image: "https://placehold.co/200x150/png", name: "Anna Sagar" },
-          { image: "https://placehold.co/200x150/png", name: "Ajne View" },
-          { image: "https://placehold.co/200x150/png", name: "Brahma Temple" },
-          { image: "https://placehold.co/200x150/png", name: "Brahma Sarover" },
-          { image: "https://placehold.co/200x150/png", name: "Desert Safari" },
+          { image: "https://placehold.co/300x250/png", name: "Dargah" },
+          { image: "https://placehold.co/300x250/png", name: "Anna Sagar" },
+          { image: "https://placehold.co/300x250/png", name: "Ajne View" },
+          { image: "https://placehold.co/300x250/png", name: "Brahma Temple" },
+          { image: "https://placehold.co/300x250/png", name: "Brahma Sarover" },
+          { image: "https://placehold.co/300x250/png", name: "Desert Safari" },
         ],
       },
     ],
@@ -405,12 +405,12 @@ const packages2Posts = [
       {
         title: "Single Day Trip",
         places: [
-          { image: "https://placehold.co/200x150/png", name: "Dargah" },
-          { image: "https://placehold.co/200x150/png", name: "Anna Sagar" },
-          { image: "https://placehold.co/200x150/png", name: "Ajne View" },
-          { image: "https://placehold.co/200x150/png", name: "Brahma Temple" },
-          { image: "https://placehold.co/200x150/png", name: "Brahma Sarover" },
-          { image: "https://placehold.co/200x150/png", name: "Desert Safari" },
+          { image: "https://placehold.co/300x250/png", name: "Dargah" },
+          { image: "https://placehold.co/300x250/png", name: "Anna Sagar" },
+          { image: "https://placehold.co/300x250/png", name: "Ajne View" },
+          { image: "https://placehold.co/300x250/png", name: "Brahma Temple" },
+          { image: "https://placehold.co/300x250/png", name: "Brahma Sarover" },
+          { image: "https://placehold.co/300x250/png", name: "Desert Safari" },
         ],
       },
     ],
@@ -428,10 +428,10 @@ const packages2Posts = [
       {
         title: "Single Day Trip",
         places: [
-          { image: "https://placehold.co/200x150/png", name: "Akhbar Museum" },
-          { image: "https://placehold.co/200x150/png", name: "Taj Mahal" },
-          { image: "https://placehold.co/200x150/png", name: "Agra Fort" },
-          { image: "https://placehold.co/200x150/png", name: "Buland Darwaza" },
+          { image: "https://placehold.co/300x250/png", name: "Akhbar Museum" },
+          { image: "https://placehold.co/300x250/png", name: "Taj Mahal" },
+          { image: "https://placehold.co/300x250/png", name: "Agra Fort" },
+          { image: "https://placehold.co/300x250/png", name: "Buland Darwaza" },
         ],
       },
     ],
@@ -449,10 +449,10 @@ const packages2Posts = [
       {
         title: "Single Day Trip",
         places: [
-          { image: "https://placehold.co/200x150/png", name: "Akhbar Museum" },
-          { image: "https://placehold.co/200x150/png", name: "Taj Mahal" },
-          { image: "https://placehold.co/200x150/png", name: "Agra Fort" },
-          { image: "https://placehold.co/200x150/png", name: "Buland Darwaza" },
+          { image: "https://placehold.co/300x250/png", name: "Akhbar Museum" },
+          { image: "https://placehold.co/300x250/png", name: "Taj Mahal" },
+          { image: "https://placehold.co/300x250/png", name: "Agra Fort" },
+          { image: "https://placehold.co/300x250/png", name: "Buland Darwaza" },
         ],
       },
     ],
@@ -469,7 +469,7 @@ const packages2Posts = [
       {
         title: "Single Day Trip",
         places: [
-          { image: "https://placehold.co/200x150/png", name: "Khatu Shyamji" },
+          { image: "https://placehold.co/300x250/png", name: "Khatu Shyamji" },
         ],
       },
     ],
@@ -486,7 +486,7 @@ const packages2Posts = [
       {
         title: "Single Day Trip",
         places: [
-          { image: "https://placehold.co/200x150/png", name: "Khatu Shyamji" },
+          { image: "https://placehold.co/300x250/png", name: "Khatu Shyamji" },
         ],
       },
     ],
@@ -503,7 +503,7 @@ const packages2Posts = [
       {
         title: "Single Day Trip",
         places: [
-          { image: "https://placehold.co/200x150/png", name: "Khatu Shyamji" },
+          { image: "https://placehold.co/300x250/png", name: "Khatu Shyamji" },
         ],
       },
     ],
@@ -520,8 +520,8 @@ const packages2Posts = [
       {
         title: "Single Day Trip",
         places: [
-          { image: "https://placehold.co/200x150/png", name: "Khatu Shyam ji" },
-          { image: "https://placehold.co/200x150/png", name: "Salasar Balaji" },
+          { image: "https://placehold.co/300x250/png", name: "Khatu Shyam ji" },
+          { image: "https://placehold.co/300x250/png", name: "Salasar Balaji" },
         ],
       },
     ],
@@ -538,8 +538,8 @@ const packages2Posts = [
       {
         title: "Single Day Trip",
         places: [
-          { image: "https://placehold.co/200x150/png", name: "Khatu Shyam ji" },
-          { image: "https://placehold.co/200x150/png", name: "Salasar Balaji" },
+          { image: "https://placehold.co/300x250/png", name: "Khatu Shyam ji" },
+          { image: "https://placehold.co/300x250/png", name: "Salasar Balaji" },
         ],
       },
     ],
@@ -557,7 +557,7 @@ const packages2Posts = [
         title: "Single Day Trip",
         places: [
           {
-            image: "https://placehold.co/200x150/png",
+            image: "https://placehold.co/300x250/png",
             name: "Mehandipur balaji",
           },
         ],
@@ -577,7 +577,7 @@ const packages2Posts = [
         title: "Single Day Trip",
         places: [
           {
-            image: "https://placehold.co/200x150/png",
+            image: "https://placehold.co/300x250/png",
             name: "Mehandipur balaji",
           },
         ],
@@ -596,8 +596,8 @@ const packages2Posts = [
       {
         title: "Single Day Trip",
         places: [
-          { image: "https://placehold.co/200x150/png", name: "Abhaneri" },
-          { image: "https://placehold.co/200x150/png", name: "Bhangarh" },
+          { image: "https://placehold.co/300x250/png", name: "Abhaneri" },
+          { image: "https://placehold.co/300x250/png", name: "Bhangarh" },
         ],
       },
     ],

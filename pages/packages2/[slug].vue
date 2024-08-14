@@ -140,7 +140,7 @@
         <img
           :src="place.image"
           :alt="place.name"
-          class=" object-cover transition-transform duration-500 group-hover:scale-110"
+          class="w-full object-cover transition-transform duration-500 group-hover:scale-110"
         />
         <h1
           class="text-xl md:text-2xl font-semibold bg-opacity-60 p-2 absolute bottom-4 rounded-full left-4 text-center text-black bg-white md:opacity-0 md:group-hover:opacity-100 transition-all duration-500 ease-in-out"
