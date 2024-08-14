@@ -19,8 +19,8 @@
                         </svg>
 
                     </div>
-                    <h3 class="font-semibold text-lg mb-2">Discover the possibilities</h3>
-                    <p>With nearly half a million attractions, hotels & more, you're sure to find joy.</p>
+                    <h3 class="font-semibold text-lg mb-2">Quality and Services</h3>
+                    <p>Exceptional quality and dedicated services ensure superior customer satisfaction and experience.</p>
                 </div>
                 <div class="flex flex-col items-center text-center border lg:border-none rounded-xl p-2 lg:p-4 max-w-xs md:max-w-sm">
                     <!-- Inline SVG for Globe -->
@@ -49,8 +49,8 @@
                             </g>
                         </svg>
                     </div>
-                    <h3 class="font-semibold text-lg mb-2">Discover the possibilities</h3>
-                    <p>With nearly half a million attractions, hotels & more, you're sure to find joy.</p>
+                    <h3 class="font-semibold text-lg mb-2">Client Satisfaction</h3>
+                    <p>Client satisfaction achieved through personalized service, attention to detail, and timely solutions.</p>
                 </div>
                 <div class="flex flex-col items-center text-center border lg:border-none rounded-xl p-2 lg:p-4 max-w-xs md:max-w-sm">
                     <!-- Inline SVG for Globe -->
@@ -82,8 +82,8 @@
                         </svg>
 
                     </div>
-                    <h3 class="font-semibold text-lg mb-2">Discover the possibilities</h3>
-                    <p>With nearly half a million attractions, hotels & more, you're sure to find joy.</p>
+                    <h3 class="font-semibold text-lg mb-2">Support 24/7</h3>
+                    <p>Round-the-clock support ensures assistance anytime, with prompt and reliable solutions available.</p>
                 </div>
 
                 <!-- Repeat similarly for other items with appropriate SVGs -->
@@ -113,8 +113,8 @@
                             </g>
                         </svg>
                     </div>
-                    <h3 class="font-semibold text-lg mb-2">Enjoy deals & delights</h3>
-                    <p>Quality activities. Great prices. Plus, earn credits to save more.</p>
+                    <h3 class="font-semibold text-lg mb-2">Time and Cost Saving</h3>
+                    <p>Efficient solutions that save both time and cost while maintaining high quality.</p>
                 </div>
 
             </div>

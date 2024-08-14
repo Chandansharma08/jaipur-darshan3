@@ -4,8 +4,8 @@
     <div class="px-4 md:px-10 space-y-11 bg-[#ffffff] pt-24" >
         <Banner />
         <Features />
-        <Groupcard />
         <Carbus />
+        <Groupcard />        
         <Activities />
         <Booking />
         <Gallery />

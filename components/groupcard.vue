@@ -15,7 +15,7 @@
         />
         <div class="absolute inset-0 transition-opacity duration-500 shadow-gradient flex flex-col justify-end p-4">
           <!-- Name for larger screens, always visible but hidden on hover -->
-          <h3 class="text-secondary text-lg md:text-3xl font-semibold mb-2 lg:absolute lg:bottom-0 lg:left-0 lg:w-full lg:p-4 lg:opacity-100 lg:group-hover:opacity-0 lg:transition-opacity lg:duration-500">
+          <h3 class="text-secondary text-2xl md:text-3xl font-semibold mb-2 lg:absolute lg:bottom-0 lg:left-0 lg:w-full lg:p-4 lg:opacity-100 lg:group-hover:opacity-0 lg:transition-opacity lg:duration-500">
             {{ destination1.name }}
           </h3>
           <!-- Description and Button for mobile and tablet views, hidden on larger screens -->
@@ -66,25 +66,25 @@ export default {
         {
           name: "Amber Fort",
           image: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/best%20dst%202300by%20300/amber-fort-66b704bfdf5d2.webp",
-          description: "Discover Bali with our special tours",
+          description: "Majestic fort with stunning Rajasthan architecture",
           url: "/places" // Dynamic URL for Bali
         },       
         {
           name: "Albert Hall",
           image: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/best%20dst%202300by%20300/albert-hall-66b704bfd4f95.webp",
-          description: "Explore Nha Trang with our city tours",
+          description: "Historic hall showcasing cultural heritage and art",
           url: "/places" // Dynamic URL for Nha Trang
         },
         {
           name: "Nahargarh",
           image: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/best%20dst%202300by%20300/nahargarh-66b704d13c226.webp",
-          description: "Discover Bangkok with our special tours",
+          description: "Historic palace with panoramic city views",
           url: "/places" // Dynamic URL for Bangkok
         },
         {
           name: "Birla Mandir",
           image: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/best%20dst%202300by%20300/birla-temple-66b704c30c726.webp",
-          description: "Relax in Cancun with our beach tours",
+          description: "Grand temple dedicated to Hindu deities",
           url: "/places" // Dynamic URL for Cancun
         },
         // Add more destinations as needed

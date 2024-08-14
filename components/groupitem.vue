@@ -6,7 +6,7 @@
             </div>
             <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4">
                 <div v-for="(story, index) in stories" :key="index" class="bg-gray-100 rounded-lg shadow overflow-hidden">
-                    <img :src="story.image" alt="story.title" class="w-full">
+                    <img :src="story.image" alt="story.title" class="">
                     <div class="p-4">
                         <div class="text-sm bg-gray-200 rounded px-4 py-2 mb-2 flex justify-between">
                             <div>
@@ -40,28 +40,28 @@ export default {
                     categories: ['Business'],
                     date: '6 Sep, 2016',
                     description: 'Lacus ut nisi ultrices faucibus. Pellentesque porta felis id erat...',
-                    image: 'https://via.placeholder.com/150'
+                    image: 'https://placehold.co/450x400'
                 },
                 {
                     title: 'You big profit',
                     categories: ['Business', 'Sports'],
                     date: '6 Sep, 2016',
                     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam...',
-                    image: 'https://via.placeholder.com/150'
+                    image: 'https://placehold.co/450x400'
                 },
                 {
                     title: 'A happy family',
                     categories: ['Business', 'Sports'],
                     date: '6 Sep, 2016',
                     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam...',
-                    image: 'https://via.placeholder.com/150'
+                    image: 'https://placehold.co/450x400'
                 },
                 {
                     title: 'A smile is a sign of friendliness',
                     categories: ['Business'],
                     date: '6 Sep, 2016',
                     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam...',
-                    image: 'https://via.placeholder.com/150'
+                    image: 'https://placehold.co/450x400'
                 }
             ]
         };

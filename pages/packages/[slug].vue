@@ -3,22 +3,23 @@
   <main class="pt-16 bg-[#ffffff]">
     <div class="py-5">
       <div
-        class="flex flex-col-reverse md:flex-row shadow m-4 p-2 lg:p-6 gap-4"
+        class="flex flex-col-reverse lg:flex-row shadow m-4 p-2 lg:p-6 gap-4"
       >
-        <div class="flex flex-col w-1/2 justify-evenly">
-          <div class="bg-gray-100 p-6 rounded-lg shadow-md">
-            <h2 class="text-3xl font-semibold text-primary mb-6">
+        <!-- Content Section -->
+        <div class="flex flex-col w-full lg:w-1/2 gap-5">
+          <div class="bg-gray-100 p-2 lg:mt-4 rounded-lg shadow-md">
+            <h2
+              class="text-2xl lg:text-3xl xl:text-4xl font-semibold text-primary mb-4 sm:mb-6"
+            >
               {{ packageData.title }}
             </h2>
-            <div class="flex justify-between">
-              <div class="text-center flex items-center gap-5">
+            <div class="flex flex-col sm:flex-row justify-between gap-4">
+              <div class="text-center flex items-center gap-4">
                 <div
-                  class="text-2xl bg-white rounded-full w-12 h-12 px-1 py-1  flex items-center justify-center"
+                  class="text-2xl bg-white rounded-full w-12 h-12 px-2 border flex items-center justify-center"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width=""
-                    height=""
                     viewBox="0 0 24 24"
                     fill="none"
                     stroke="#cd821c"
@@ -33,47 +34,90 @@
                   </svg>
                 </div>
                 <div class="flex flex-col text-left">
-                  <h4 class="text-black text-xl font-semibold">Cost</h4>
-                  <p class="text-gray-600">Enquiry About Cost</p>
+                  <h4 class="text-lg md:text-xl lg:text-xl font-semibold">
+                    Cost
+                  </h4>
+                  <p class="text-gray-600 lg:text-sm xl:text-base">Get Quote</p>
                 </div>
               </div>
-              <div class="text-center flex items-center gap-5">
+              <div class="text-center flex items-center gap-4">
                 <div
-                  class="text-2xl bg-white rounded-full w-12 h-12 px-1 py-1  flex items-center justify-center"
+                  class="text-2xl bg-white rounded-full w-12 h-12 px-2 border flex items-center justify-center"
                 >
-                <svg xmlns="http://www.w3.org/2000/svg" width="" height="" viewBox="0 0 24 24" fill="none" stroke="#cd821c" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-history"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/><path d="M12 7v5l4 2"/></svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="#cd821c"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-history"
+                  >
+                    <path
+                      d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"
+                    />
+                    <path d="M3 3v5h5" />
+                    <path d="M12 7v5l4 2" />
+                  </svg>
                 </div>
                 <div class="flex flex-col text-left">
-                  <h4 class="text-black text-xl font-semibold">Duration</h4>
-                  <p class="text-gray-600">{{ packageData.time }}</p>
+                  <h4 class="text-lg md:text-xl lg:text-xl font-semibold">
+                    Duration
+                  </h4>
+                  <p class="text-gray-600 lg:text-sm xl:text-base">
+                    {{ packageData.time }}
+                  </p>
                 </div>
               </div>
-              <div class="text-center flex items-center gap-5">
+              <div class="text-center flex items-center gap-4">
                 <div
-                  class="text-2xl bg-white rounded-full w-12 h-12 px-1 py-1  flex items-center justify-center"
+                  class="text-2xl bg-white rounded-full w-12 h-12 px-2 border flex items-center justify-center"
                 >
-                <svg xmlns="http://www.w3.org/2000/svg" width="" height="" viewBox="0 0 24 24" fill="none" stroke="#cd821c" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/></svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="#cd821c"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-map-pin"
+                  >
+                    <path
+                      d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"
+                    />
+                    <circle cx="12" cy="10" r="3" />
+                  </svg>
                 </div>
                 <div class="flex flex-col text-left">
-                  <h4 class="text-black text-xl font-semibold">Loaction</h4>
-                  <p class="text-gray-600">{{ packageData.location }}</p>
+                  <h4 class="text-lg md:text-xl lg:text-xl font-semibold">
+                    Location
+                  </h4>
+                  <p class="text-gray-600 lg:text-sm xl:text-base">
+                    {{ packageData.location }}
+                  </p>
                 </div>
               </div>
             </div>
           </div>
-          <div class="w-full flex flex-col justify-evenly">
-            <p class="px-1 py-4 text-xl" v-html="packageData.desc"></p>
+          <div class="w-full flex flex-col justify-between gap-10">
+            <p
+              class="text-base md:text-lg lg:text-xl"
+              v-html="packageData.desc"
+            ></p>
             <nuxt-link
               to="/contact"
-              class="px-3 py-2 mx-6 mb-2 flex bg-primary lg:w-3/12 items-center justify-center text-center font-semibold rounded-full text-secondary"
+              class="px-3 py-2 mb-2 flex bg-primary lg:w-3/12 items-center justify-center text-center font-semibold rounded-full text-secondary"
               >Book Now</nuxt-link
             >
           </div>
         </div>
+        <!-- Image Section -->
         <img
           :src="packageData.mainImage"
-          alt="packages Image"
-          class="w-full md:w-1/2 object-cover mt-4 rounded-md"
+          alt="package Image"
+          class="w-full lg:w-1/2 object-cover mt-4 rounded-md"
         />
       </div>
     </div>

@@ -16,7 +16,7 @@
           />
         </picture>
         <div
-          class="absolute inset-0 flex flex-col items-center justify-center pt-16 md:pt-24 lg:pt-28 xl:pt-32"
+          class="absolute inset-0 flex flex-col text-secondary items-center justify-center pt-16 md:pt-24 lg:pt-28 xl:pt-32"
         >
           <h1
             class="text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-center font-semibold"
@@ -26,7 +26,7 @@
           <div class="hidden lg:flex flex-row justify-center items-center font-bold gap-4 mt-4">
             <nuxt-link
               to="/"
-              class="text-base hover:text-red-500 md:text-lg lg:text-xl text-black font-bold"
+              class="text-base hover:text-red-500 md:text-lg lg:text-xl  font-bold"
               >Home</nuxt-link
             >
             <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right mt-1">
@@ -34,20 +34,21 @@
                             </svg></p>
             <nuxt-link
               to="/places"
-              class="text-base hover:text-red-500 md:text-lg lg:text-xl text-black font-bold"
+              class="text-base hover:text-red-500 md:text-lg lg:text-xl  font-bold"
               >Places</nuxt-link
             >
             <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right mt-1">
                                 <path d="m9 18 6-6-6-6" />
                             </svg></p>
-            <p class="text-base md:text-lg lg:text-xl text-black font-bold">
+            <p class="text-base md:text-lg lg:text-xl  font-bold">
                {{ placeData.title }}
             </p>
           </div>
         </div>
       </div>
       <div class="div">
-        <p class="px-10 py-5 text-xl">{{ placeData.desc }}</p>
+        <div class="px-10 py-5 text-xl" v-html="placeData.desc"></div>
+       
       </div>
     </div>
   </main>

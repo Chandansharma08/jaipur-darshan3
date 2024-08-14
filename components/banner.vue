@@ -5,10 +5,10 @@
         src="https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723444765.705/artboard-3-at-2x-66b9ae168a4ac.webp"
         alt="background"
       />
-      <div class="absolute inset-0 flex items-center justify-start p-8 lg:p-10 text-black">
+      <div class="absolute inset-0 flex items-center justify-start w-1/2 lg:p-10 text-black">
         <div class="text-content max-w-md">
-          <h2 class="text-2xl lg:text-3xl font-bold mb-6">Majestic Jaipur Adventure</h2>
-          <p class="text-base lg:text-lg">Discover Jaipur's royal heritage, vibrant markets, and stunning architectural wonders.</p>
+          <h3 class="text-2xl lg:text-4xl font-bold mb-6">Majestic Jaipur Adventure</h3>
+          <p class="text-base lg:text-lg hidden lg:block">Discover Jaipur's royal heritage, vibrant markets, and stunning architectural wonders.</p>
         </div>
       </div>
     </div>

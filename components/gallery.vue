@@ -5,7 +5,7 @@
                 <div v-for="(photo, index) in photos" :key="index"
                     class="relative group cursor-pointer overflow-hidden">
                     <img :src="photo.image" alt=""
-                        class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110">
+                        class=" object-cover transition-transform duration-300 group-hover:scale-110">
                     <div
                         class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                         <a :href="photo.instagramLink" target="_blank">
@@ -30,11 +30,11 @@ export default {
         return {
             photos: [
                 { image: 'https://ccdstest.b-cdn.net/Jaipur%20Darshan/434647155_1081293049610448_743026641637841177_n.jpg', instagramLink: 'https://instagram.com/yourlink1' },
-                { image: 'https://via.placeholder.com/500', instagramLink: 'https://instagram.com/yourlink2' },
+                { image: 'https://placehold.co/320x400', instagramLink: 'https://instagram.com/yourlink2' },
                 { image: 'https://ccdstest.b-cdn.net/Jaipur%20Darshan/434647155_1081293049610448_743026641637841177_n.jpg', instagramLink: 'https://instagram.com/yourlink3' },
-                { image: 'https://via.placeholder.com/500', instagramLink: 'https://instagram.com/yourlink4' },
+                { image: 'https://placehold.co/320x400', instagramLink: 'https://instagram.com/yourlink4' },
                 { image: 'https://ccdstest.b-cdn.net/Jaipur%20Darshan/434647155_1081293049610448_743026641637841177_n.jpg', instagramLink: 'https://instagram.com/yourlink4' },
-                { image: 'https://via.placeholder.com/500', instagramLink: 'https://instagram.com/yourlink4' },
+                { image: 'https://placehold.co/320x400', instagramLink: 'https://instagram.com/yourlink4' },
 
                 // Add more photos and Instagram links as needed
             ]
