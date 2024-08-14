@@ -5,7 +5,7 @@ const packages2Posts = [
     slug: "car1",
     title: "Jaipur Darshan",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
-    mainImage: "https://placehold.co/600x300/png",
+    mainImage: "https://placehold.co/900x300/png",
     time: "7-8 hours",
     location: "Jaipur City",
 
@@ -96,7 +96,7 @@ const packages2Posts = [
     slug: "car2",
     title: "Jaipur Darshan",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
-    mainImage: "https://placehold.co/600x300/png",
+    mainImage: "https://placehold.co/900x300/png",
     time: "7-8 hours",
     location: "Jaipur City",
 
@@ -187,7 +187,7 @@ const packages2Posts = [
     slug: "car3",
     title: "Jaipur Darshan",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
-    mainImage: "https://placehold.co/600x300/png",
+    mainImage: "https://placehold.co/900x300/png",
     time: "7-8 hours",
     location: "Jaipur City",
 
@@ -278,7 +278,7 @@ const packages2Posts = [
     slug: "car4",
     title: "Jaipur to Ranthanbhor",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
-    mainImage: "https://placehold.co/600x300/png",
+    mainImage: "https://placehold.co/900x300/png",
     time: "7-8 hours",
     location: "Jaipur City",
 
@@ -303,7 +303,7 @@ const packages2Posts = [
     slug: "car5",
     title: "Jaipur to Ranthanbhor",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
-    mainImage: "https://placehold.co/600x300/png",
+    mainImage: "https://placehold.co/900x300/png",
     time: "7-8 hours",
     location: "Jaipur City",
 
@@ -328,7 +328,7 @@ const packages2Posts = [
     slug: "car6",
     title: "Jaipur to Ranthanbhor",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
-    mainImage: "https://placehold.co/600x300/png",
+    mainImage: "https://placehold.co/900x300/png",
     time: "7-8 hours",
     location: "Jaipur City",
 
@@ -353,7 +353,7 @@ const packages2Posts = [
     slug: "car7",
     title: "Jaipur to Ajmer&Pushkar",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
-    mainImage: "https://placehold.co/600x300/png",
+    mainImage: "https://placehold.co/900x300/png",
     time: "7-8 hours",
     location: "Jaipur City",
 
@@ -375,7 +375,7 @@ const packages2Posts = [
     slug: "car8",
     title: "Jaipur to Ajmer&Pushkar",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
-    mainImage: "https://placehold.co/600x300/png",
+    mainImage: "https://placehold.co/900x300/png",
     time: "7-8 hours",
     location: "Jaipur City",
 
@@ -397,7 +397,7 @@ const packages2Posts = [
     slug: "car9",
     title: "Jaipur to Ajmer&Pushkar",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
-    mainImage: "https://placehold.co/600x300/png",
+    mainImage: "https://placehold.co/900x300/png",
     time: "7-8 hours",
     location: "Jaipur City",
 
@@ -420,7 +420,7 @@ const packages2Posts = [
     title: "Jaipur to Agra&Fathapur Sikri",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
 
-    mainImage: "https://placehold.co/600x300/png",
+    mainImage: "https://placehold.co/900x300/png",
     time: "7-8 hours",
     location: "Jaipur City",
 
@@ -441,7 +441,7 @@ const packages2Posts = [
     title: "Jaipur to Agra&Fathapur Sikri",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
 
-    mainImage: "https://placehold.co/600x300/png",
+    mainImage: "https://placehold.co/900x300/png",
     time: "7-8 hours",
     location: "Jaipur City",
 
@@ -461,7 +461,7 @@ const packages2Posts = [
     slug: "car12",
     title: "Jaipur To Khatu shyamji",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
-    mainImage: "https://placehold.co/600x300/png",
+    mainImage: "https://placehold.co/900x300/png",
     time: "7-8 hours",
     location: "Jaipur City",
 
@@ -478,7 +478,7 @@ const packages2Posts = [
     slug: "car13",
     title: "Jaipur To Khatu shyamji",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
-    mainImage: "https://placehold.co/600x300/png",
+    mainImage: "https://placehold.co/900x300/png",
     time: "7-8 hours",
     location: "Jaipur City",
 
@@ -495,7 +495,7 @@ const packages2Posts = [
     slug: "car14",
     title: "Jaipur To Khatu Shyamji",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
-    mainImage: "https://placehold.co/600x300/png",
+    mainImage: "https://placehold.co/900x300/png",
     time: "7-8 hours",
     location: "Jaipur City",
 
@@ -512,7 +512,7 @@ const packages2Posts = [
     slug: "car15",
     title: "Jaipur to Khatu Shyamji&Salasar Balaji",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
-    mainImage: "https://placehold.co/600x300/png",
+    mainImage: "https://placehold.co/900x300/png",
     time: "7-8 hours",
     location: "Jaipur City",
 
@@ -530,7 +530,7 @@ const packages2Posts = [
     slug: "car16",
     title: "Jaipur to Khatu Shyamji&Salasar Balaji",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
-    mainImage: "https://placehold.co/600x300/png",
+    mainImage: "https://placehold.co/900x300/png",
     time: "7-8 hours",
     location: "Jaipur City",
 
@@ -548,7 +548,7 @@ const packages2Posts = [
     slug: "car17",
     title: "Jaipur to Mehandipur balaji",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
-    mainImage: "https://placehold.co/600x300/png",
+    mainImage: "https://placehold.co/900x300/png",
     time: "7-8 hours",
     location: "Jaipur City",
 
@@ -568,7 +568,7 @@ const packages2Posts = [
     slug: "car18",
     title: "Jaipur to Mehandipur balaji",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
-    mainImage: "https://placehold.co/600x300/png",
+    mainImage: "https://placehold.co/900x300/png",
     time: "7-8 hours",
     location: "Jaipur City",
 
@@ -588,7 +588,7 @@ const packages2Posts = [
     slug: "car19",
     title: "Jaipur Darshan",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
-    mainImage: "https://placehold.co/600x300/png",
+    mainImage: "https://placehold.co/900x300/png",
     time: "7-8 hours",
     location: "Jaipur City",
 

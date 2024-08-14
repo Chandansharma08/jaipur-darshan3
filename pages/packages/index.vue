@@ -33,7 +33,7 @@
                 <h1 class="font-bold text-2xl flex px-4 md:px-10 lg:px-20 text-primary">Tour 2 (Places of Attractions)</h1>
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap px-4 md:px-10 lg:px-20 py-10">
                     <nuxt-link v-for="(bus1, index) in buses1" :key="index" :to="bus1.link" class="flex flex-col items-center bg-slate-100 rounded-lg p-6 text-black shadow-lg transform hover:scale-105 transition duration-300 ease-in-out">
-                        <img :src="bus1.image" :alt="bus1.name" class="w-full object-cover rounded-lg mb-4" />
+                        <img :src="bus1.image" :alt="bus1.name" class="object-cover rounded-lg mb-4" />
                         <h1 class="text-xl font-semibold">{{ bus1.name }}</h1>
                         <div class="text-3xl font-bold mt-2">{{ bus1.price }} INR</div>
                         <p class="text-sm opacity-80 mt-1">Per Person</p>
@@ -100,12 +100,12 @@ export default {
             buses: [
                 { name: 'Non-AC Bus', price: 250, image: 'https://placehold.co/500x350/png', link: '/packages/non-ac-bus' },
                 { name: 'AC Bus', price: 300, image: 'https://placehold.co/500x350/png', link: '/packages/ac-bus' },
-                { name: 'Double Decker Bus', price: 250, image: 'https://placehold.co/500x350/png', link: '/packages/double-decker-bus' }
+                { name: 'Double Decker Bus', price: 250, image: 'https://ccdstest.b-cdn.net/Jaipur%20Darshan/jaipur-darshan-double-decker-bus.jpg', link: '/packages/double-decker-bus' }
             ],
             buses1: [
                 { name: 'Non-AC Bus', price: 250, image: 'https://placehold.co/500x350/png', link: '/packages/non-ac-bus1' },
                 { name: 'AC Bus', price: 300, image: 'https://placehold.co/500x350/png', link: '/packages/ac-bus1' },
-                { name: 'Double Decker Bus', price: 250, image: 'https://placehold.co/500x350/png', link: '/packages/double-decker-bus1' }
+                { name: 'Double Decker Bus', price: 250, image: 'https://ccdstest.b-cdn.net/Jaipur%20Darshan/jaipur-darshan-double-decker-bus.jpg', link: '/packages/double-decker-bus1' }
             ]
         };
     }

@@ -35,7 +35,7 @@
                             :key="carIndex" 
                             :to="car.link" 
                             class="card flex flex-col justify-center items-center bg-slate-100 rounded-lg p-6 text-secondary shadow-lg transform hover:scale-105 transition duration-300 ease-in-out">
-                            <img :src="car.image" :alt="car.name" class="w-full object-cover rounded-lg mb-4" />
+                            <img :src="car.image" :alt="car.name" class="object-cover rounded-lg mb-4" />
                             <h1 class="text-xl font-semibold">{{ car.name }}</h1>
                             <div class="text-3xl font-bold mt-2">{{ car.price }} INR</div>
                         </nuxt-link>

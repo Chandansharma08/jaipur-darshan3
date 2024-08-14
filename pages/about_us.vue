@@ -154,11 +154,11 @@
             <img
               :src="member.photo"
               :alt="member.name"
-              class="w-full h-full object-cover rounded-lg"
+              class=" object-cover rounded-lg"
             />
             <!-- Overlay for large screens -->
             <div
-              class="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-4"
+              class="absolute rounded-lg max-w-[400px] inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-4"
             >
               <p class="text-2xl font-semibold text-secondary">
                 {{ member.name }}
@@ -241,25 +241,25 @@ export default {
           id: 1,
           name: "John Marvel",
           role: "Travel Expert Team",
-          photo: "https://via.placeholder.com/150",
+          photo: "https://via.placeholder.com/400x400",
         },
         {
           id: 2,
           name: "Jane Doe",
           role: "Booking Specialist",
-          photo: "https://via.placeholder.com/150",
+          photo: "https://via.placeholder.com/400x400",
         },
         {
           id: 3,
           name: "Sam Smith",
           role: "Customer Service Lead",
-          photo: "https://via.placeholder.com/150",
+          photo: "https://via.placeholder.com/400x400",
         },
         {
           id: 4,
           name: "Alex Johnson",
           role: "Tour Guide",
-          photo: "https://via.placeholder.com/150",
+          photo: "https://via.placeholder.com/400x400",
         },
       ],
     };
