@@ -33,7 +33,7 @@
           <li><nuxt-link to="/contact">Contact Us</nuxt-link></li>
         </ul>
       </div>
-      <nuxt-link class="btn btn-ghost text-2xl text-primary">Jaipur Darshan</nuxt-link>
+      <nuxt-link to="/" class="btn btn-ghost text-2xl text-primary">Jaipur Darshan</nuxt-link>
     </div>
     <div class="navbar-center hidden lg:flex">
       <ul class="menu menu-horizontal px-1 text-lg">
