@@ -1,5 +1,5 @@
 <template>  
-  <div class="navbar bg-[#ffffff] md:px-10 fixed z-50 shadow-sm">
+  <div class="navbar bg-[#ffffff] md:px-10 fixed z-50 shadow-sm font-serif">
     <div class="navbar-start">
       <div class="dropdown">
         <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -48,8 +48,8 @@
         <li><nuxt-link to="/contact">Contact Us</nuxt-link></li>
       </ul>
     </div>
-    <div class="navbar-end ">
-      <nuxt-link to="/contact" class="px-3 py-2 flex items-center justify-center bg-primary hover:bg-primary  text-secondary rounded-full transition duration-700 ease-in-out"
+    <div class="navbar-end">
+      <nuxt-link to="/contact" class="px-3 py-2 flex items-center justify-center bg-primary hover:bg-primary  text-secondary rounded-full"
         >Book Now</nuxt-link
       >
     </div>

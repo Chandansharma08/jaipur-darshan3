@@ -1,151 +1,155 @@
 <template>
   <Navbar />
-  <main class="pt-16 bg-[#ffffff]">
-    <div class="py-5">
-      <div
-        class="flex flex-col-reverse lg:flex-row shadow m-4 p-2 lg:p-6 gap-4"
-      >
-        <!-- Content Section -->
-        <div class="flex flex-col w-full lg:w-1/2 gap-5">
-          <div class="bg-gray-100 p-2 lg:mt-4 rounded-lg shadow-md">
-            <h2
-              class="text-2xl lg:text-3xl xl:text-4xl font-semibold text-primary mb-4 sm:mb-6"
-            >
-              {{ packageData.title }}
-            </h2>
-            <div class="flex flex-col sm:flex-row justify-between gap-4">
-              <div class="text-center flex items-center gap-4">
-                <div
-                  class="text-2xl bg-white rounded-full w-12 h-12 px-2 border flex items-center justify-center"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="#cd821c"
-                    stroke-width="1.5"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    class="lucide lucide-circle-dollar-sign"
+  <div class="font-serif">
+    <main class="pt-16 bg-[#ffffff] font-serif">
+      <div class="py-5">
+        <div
+          class="flex flex-col-reverse lg:flex-row shadow m-4 p-2 lg:p-6 gap-4"
+        >
+          <!-- Content Section -->
+          <div class="flex flex-col w-full lg:w-1/2 gap-5">
+            <div class="bg-gray-100 p-2 lg:mt-4 rounded-lg shadow-md">
+              <h2
+                class="text-2xl lg:text-3xl xl:text-4xl font-semibold text-primary mb-4 sm:mb-6"
+              >
+                {{ packageData.title }}
+              </h2>
+              <div class="flex flex-col sm:flex-row justify-between gap-4">
+                <div class="text-center flex items-center gap-4">
+                  <div
+                    class="text-2xl bg-white rounded-full w-12 h-12 px-2 border flex items-center justify-center"
                   >
-                    <circle cx="12" cy="12" r="10" />
-                    <path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8" />
-                    <path d="M12 18V6" />
-                  </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="#cd821c"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="lucide lucide-circle-dollar-sign"
+                    >
+                      <circle cx="12" cy="12" r="10" />
+                      <path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8" />
+                      <path d="M12 18V6" />
+                    </svg>
+                  </div>
+                  <div class="flex flex-col text-left">
+                    <h4 class="text-lg md:text-xl lg:text-xl font-semibold">
+                      Cost
+                    </h4>
+                    <p class="text-gray-600 lg:text-sm xl:text-base">
+                      Get Quote
+                    </p>
+                  </div>
                 </div>
-                <div class="flex flex-col text-left">
-                  <h4 class="text-lg md:text-xl lg:text-xl font-semibold">
-                    Cost
-                  </h4>
-                  <p class="text-gray-600 lg:text-sm xl:text-base">Get Quote</p>
-                </div>
-              </div>
-              <div class="text-center flex items-center gap-4">
-                <div
-                  class="text-2xl bg-white rounded-full w-12 h-12 px-2 border flex items-center justify-center"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="#cd821c"
-                    stroke-width="1.5"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    class="lucide lucide-history"
+                <div class="text-center flex items-center gap-4">
+                  <div
+                    class="text-2xl bg-white rounded-full w-12 h-12 px-2 border flex items-center justify-center"
                   >
-                    <path
-                      d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"
-                    />
-                    <path d="M3 3v5h5" />
-                    <path d="M12 7v5l4 2" />
-                  </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="#cd821c"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="lucide lucide-history"
+                    >
+                      <path
+                        d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"
+                      />
+                      <path d="M3 3v5h5" />
+                      <path d="M12 7v5l4 2" />
+                    </svg>
+                  </div>
+                  <div class="flex flex-col text-left">
+                    <h4 class="text-lg md:text-xl lg:text-xl font-semibold">
+                      Duration
+                    </h4>
+                    <p class="text-gray-600 lg:text-sm xl:text-base">
+                      {{ packageData.time }}
+                    </p>
+                  </div>
                 </div>
-                <div class="flex flex-col text-left">
-                  <h4 class="text-lg md:text-xl lg:text-xl font-semibold">
-                    Duration
-                  </h4>
-                  <p class="text-gray-600 lg:text-sm xl:text-base">
-                    {{ packageData.time }}
-                  </p>
-                </div>
-              </div>
-              <div class="text-center flex items-center gap-4">
-                <div
-                  class="text-2xl bg-white rounded-full w-12 h-12 px-2 border flex items-center justify-center"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="#cd821c"
-                    stroke-width="1.5"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    class="lucide lucide-map-pin"
+                <div class="text-center flex items-center gap-4">
+                  <div
+                    class="text-2xl bg-white rounded-full w-12 h-12 px-2 border flex items-center justify-center"
                   >
-                    <path
-                      d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"
-                    />
-                    <circle cx="12" cy="10" r="3" />
-                  </svg>
-                </div>
-                <div class="flex flex-col text-left">
-                  <h4 class="text-lg md:text-xl lg:text-xl font-semibold">
-                    Location
-                  </h4>
-                  <p class="text-gray-600 lg:text-sm xl:text-base">
-                    {{ packageData.location }}
-                  </p>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="#cd821c"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="lucide lucide-map-pin"
+                    >
+                      <path
+                        d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"
+                      />
+                      <circle cx="12" cy="10" r="3" />
+                    </svg>
+                  </div>
+                  <div class="flex flex-col text-left">
+                    <h4 class="text-lg md:text-xl lg:text-xl font-semibold">
+                      Location
+                    </h4>
+                    <p class="text-gray-600 lg:text-sm xl:text-base">
+                      {{ packageData.location }}
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
+            <div class="w-full flex flex-col justify-between gap-10">
+              <p
+                class="text-base md:text-lg lg:text-xl"
+                v-html="packageData.desc"
+              ></p>
+              <nuxt-link
+                to="/contact"
+                class="px-3 py-2 mb-2 flex bg-primary lg:w-3/12 items-center justify-center text-center font-semibold rounded-full text-secondary"
+                >Book Now</nuxt-link
+              >
+            </div>
           </div>
-          <div class="w-full flex flex-col justify-between gap-10">
-            <p
-              class="text-base md:text-lg lg:text-xl"
-              v-html="packageData.desc"
-            ></p>
-            <nuxt-link
-              to="/contact"
-              class="px-3 py-2 mb-2 flex bg-primary lg:w-3/12 items-center justify-center text-center font-semibold rounded-full text-secondary"
-              >Book Now</nuxt-link
-            >
-          </div>
+          <!-- Image Section -->
+          <img
+            :src="packageData.mainImage"
+            alt="package Image"
+            class="object-cover mt-4 rounded-md"
+          />
         </div>
-        <!-- Image Section -->
-        <img
-          :src="packageData.mainImage"
-          alt="package Image"
-          class=" object-cover mt-4 rounded-md"
-        />
       </div>
-    </div>
-  </main>
-  <h2
-    class="text-2xl font-semibold lg:text-4xl px-10 bg-[#ffffff] text-primary"
-  >
-    Places Of Attractions:-
-  </h2>
-  <div
-    class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 gap-4 md:gap-6 px-4 md:px-10 py-10 bg-[#ffffff]"
-  >
-    <NuxtLink
-      v-for="(packageData, index) in packagesData"
-      :key="index"
-      class="relative overflow-hidden rounded-3xl group block"
+    </main>
+    <h2
+      class="text-2xl font-semibold lg:text-4xl px-10 bg-[#ffffff] text-primary"
     >
-      <img
-        :src="packageData.image1"
-        :alt="packageData.name"
-        class=" object-cover transition-transform duration-500 group-hover:scale-110"
-      />
-      <h1
-        class="text-xl md:text-2xl font-semibold bg-opacity-60 p-2 absolute bottom-4 rounded-full left-4 text-center text-black bg-white md:opacity-0 md:group-hover:opacity-100 transition-all duration-500 ease-in-out"
+      Places Of Attractions:-
+    </h2>
+    <div
+      class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 gap-4 md:gap-6 px-4 md:px-10 py-10 bg-[#ffffff]"
+    >
+      <NuxtLink
+        v-for="(packageData, index) in packagesData"
+        :key="index"
+        class="relative overflow-hidden rounded-3xl group block"
       >
-        {{ packageData.name }}
-      </h1>
-    </NuxtLink>
+        <img
+          :src="packageData.image1"
+          :alt="packageData.name"
+          class="object-cover transition-transform duration-500 group-hover:scale-110"
+        />
+        <h1
+          class="text-xl md:text-2xl font-semibold bg-opacity-60 p-2 absolute bottom-4 rounded-full left-4 text-center text-black bg-white md:opacity-0 md:group-hover:opacity-100 transition-all duration-500 ease-in-out"
+        >
+          {{ packageData.name }}
+        </h1>
+      </NuxtLink>
+    </div>
   </div>
   <Footer />
   <!-- back to top button -->

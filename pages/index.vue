@@ -1,18 +1,18 @@
 <template>
 
     <Navbar />
-    <div class="px-4 md:px-10 space-y-11 bg-[#ffffff] pt-24" >
+    <div class="px-4 md:px-10 space-y-11 bg-[#ffffff] pt-24 font-serif" >
         <Banner />
         <Features />
-        <Carbus />
-        <Groupcard />        
+        <Groupcard /> 
+        <Carbus />     
         <Activities />
         <Booking />
         <Gallery />
         <Groupitem />       
              
     </div>
-  <Footer />
+  <Footer class="font-serif" />
   <!-- back to top button -->
   <div class="fixed bottom-5 right-5 p-4 z-50">
     <button

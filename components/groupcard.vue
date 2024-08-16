@@ -3,25 +3,25 @@
     <h2 class="text-3xl text-primary lg:text-4xl font-semibold mb-6">Top Destination For Your Next Vacation -</h2>
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
       <NuxtLink
-        v-for="(destination1, index) in destinations1"
+        v-for="(destination2, index) in destinations2"
         :key="index"
-        :to="destination1.url"
+        :to="destination2.url"
         class="relative overflow-hidden rounded-3xl group block shadow-card"
       >
         <img
-          :src="destination1.image"
-          :alt="destination1.name"
+          :src="destination2.image"
+          :alt="destination2.name"
           class="w-full h-auto object-cover transition-transform duration-500 group-hover:scale-110"
         />
         <div class="absolute inset-0 transition-opacity duration-500 shadow-gradient flex flex-col justify-end p-4">
           <!-- Name for larger screens, always visible but hidden on hover -->
           <h3 class="text-secondary text-2xl md:text-3xl font-semibold mb-2 lg:absolute lg:bottom-0 lg:left-0 lg:w-full lg:p-4 lg:opacity-100 lg:group-hover:opacity-0 lg:transition-opacity lg:duration-500">
-            {{ destination1.name }}
+            {{ destination2.name }}
           </h3>
           <!-- Description and Button for mobile and tablet views, hidden on larger screens -->
           <div class="lg:hidden">
-            <p class="text-secondary text-sm mb-4">{{ destination1.description }}</p>
-            <NuxtLink :to="destination1.url" class="block">
+            <p class="text-secondary text-sm mb-4">{{ destination2.description }}</p>
+            <NuxtLink :to="destination2.url" class="block">
               <button
                 class="px-6 py-2 bg-transparent text-secondary text-sm rounded-full border border-white hover:bg-white hover:text-black"
               >
@@ -32,12 +32,12 @@
           <!-- Heading, Description and Button for larger screens, appears on hover with animation -->
           <div class="hidden lg:flex lg:flex-col lg:justify-end lg:transition-opacity lg:duration-500 lg:opacity-0 lg:group-hover:opacity-100 lg:group-hover:translate-y-0 lg:transform lg:group-hover:translate-y-0">
             <h3 class="text-secondary text-lg md:text-3xl font-semibold mb-2 lg:opacity-100 lg:transition-opacity lg:duration-500">
-              {{ destination1.name }}
+              {{ destination2.name }}
             </h3>
             <p class="text-secondary text-sm mb-4 lg:opacity-100 lg:transition-opacity lg:duration-500">
-              {{ destination1.description }}
+              {{ destination2.description }}
             </p>
-            <NuxtLink :to="destination1.url">
+            <NuxtLink :to="destination2.url">
               <button
                 class="mt-1 px-4 py-2 bg-transparent text-secondary text-sm rounded-full border border-white hover:bg-white hover:text-black lg:opacity-100 lg:transition-opacity lg:duration-500"
               >
@@ -62,7 +62,7 @@
 export default {
   data() {
     return {
-      destinations1: [
+      destinations2: [
         {
           name: "Amber Fort",
           image: "https://ccdstest.b-cdn.net/Jaipur%20Darshan/best%20dst%202300by%20300/amber-fort-66b704bfdf5d2.webp",

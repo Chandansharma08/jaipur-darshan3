@@ -1,97 +1,114 @@
 <template>
   <Navbar />
-  <div class="bg-white pt-20 px-4 md:px-10 space-y-11">
-    <div class="w-full text-black">
-      <!-- Banner and Navigation Links -->
-      <div class="relative pt-2">
-        <img
-          class="background-image1"
-          src="https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723444765.705/1400-by-400-at-2x-66b9ae167a844.webp"
-          alt="background"
-        />
-        <div
-        class="absolute inset-0 flex flex-col items-center justify-center pt-16 md:pt-24 lg:pt-28 xl:pt-32"
-      >
-        <h1
-          class="text-2xl md:text-3xl lg:text-4xl text-center text-black font-semibold"
-        >
-          Places
-        </h1>
-        <div class="hidden lg:flex flex-row justify-center gap-4 mt-4">
-          <nuxt-link
-            to="/"
-            class="text-base hover:text-red-500 md:text-lg lg:text-xl text-black font-bold"
-            >Home</nuxt-link
-          >
-          <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right mt-1">
-                                <path d="m9 18 6-6-6-6" />
-                            </svg></p>
-          <p class="text-base md:text-lg lg:text-xl text-black font-bold">
-             Places
-          </p>
-        </div>
-      </div>
-      </div>
-
-      <!-- Content Sections -->
-      <div class="bg-white px-4 md:px-8 mt-5">
-        <h2 class="text-2xl lg:text-4xl text-primary font-semibold mb-4">
-          Top Places For Your Next Vacation
-        </h2>
-        <p class="md:text-lg lg:text-xl">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque,
-          iste quia dolorem cupiditate odit sequi voluptatem provident veniam
-          magnam velit aperiam quas enim dolorum doloribus sint illo
-          exercitationem ipsam! Exercitationem sint vel dolorum minima, itaque
-          totam quae architecto, iusto ipsum cumque ratione, culpa pariatur
-          repellendus ad earum in assumenda corporis.
-        </p>
-      </div>
-
-      <div
-        class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 px-4 py-5"
-      >
-        <NuxtLink
-          v-for="(destination, index) in destinations"
-          :key="index"
-          :to="destination.url"
-          class="relative overflow-hidden rounded-3xl group block shadow-card"
-        >
+  <div class="font-serif">
+    <div class="bg-white pt-20 px-4 md:px-10 space-y-11">
+      <div class="w-full text-black">
+        <!-- Banner and Navigation Links -->
+        <div class="relative pt-2">
           <img
-            :src="destination.image"
-            :alt="destination.name"
-            class="w-full h-auto object-cover transition-transform duration-500 group-hover:scale-110"
+            class="background-image1"
+            src="https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723444765.705/1400-by-400-at-2x-66b9ae167a844.webp"
+            alt="background"
           />
           <div
-            class="absolute inset-0 transition-opacity duration-500 shadow-gradient flex flex-col justify-end p-4"
+            class="absolute inset-0 flex flex-col items-center justify-center pt-16 md:pt-24 lg:pt-28 xl:pt-32"
           >
-            <!-- Old heading (initially visible at the bottom) -->
-            <h3
-              class="text-secondary hidden lg:block text-lg md:text-3xl font-semibold mb-2 lg:absolute lg:bottom-0 lg:left-0 lg:w-full lg:p-4 lg:opacity-100 lg:group-hover:opacity-0 lg:transition-opacity lg:duration-500"
+            <h1
+              class="text-2xl md:text-3xl lg:text-4xl text-center text-black font-semibold"
             >
-              {{ destination.name }}
-            </h3>
-            <!-- New heading, description, and button -->
-            <div
-              class="opacity-100 translate-y-0 lg:opacity-0 lg:translate-y-full transition-all duration-500 lg:group-hover:opacity-100 lg:group-hover:translate-y-0 flex flex-col"
-            >
-              <h3 class="text-secondary text-lg md:text-3xl font-semibold mb-2">
-                {{ destination.name }}
-              </h3>
-              <p class="text-secondary text-sm mb-4">
-                {{ destination.description }}
-              </p>
-              <!-- Button centered for all views -->
-              <NuxtLink :to="destination.url" class="block">
-                <button
-                  class="px-6 py-2 bg-transparent text-secondary text-sm rounded-full border border-white hover:bg-white hover:text-black"
+              Places
+            </h1>
+            <div class="hidden lg:flex flex-row justify-center gap-4 mt-4">
+              <nuxt-link
+                to="/"
+                class="text-base hover:text-red-500 md:text-lg lg:text-xl text-black font-bold"
+                >Home</nuxt-link
+              >
+              <p>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-chevron-right mt-1"
                 >
-                  More About
-                </button>
-              </NuxtLink>
+                  <path d="m9 18 6-6-6-6" />
+                </svg>
+              </p>
+              <p class="text-base md:text-lg lg:text-xl text-black font-bold">
+                Places
+              </p>
             </div>
           </div>
-        </NuxtLink>
+        </div>
+
+        <!-- Content Sections -->
+        <div class="bg-white px-4 md:px-8 mt-5">
+          <h2 class="text-2xl lg:text-4xl text-primary font-semibold mb-4">
+            Top Places For Your Next Vacation
+          </h2>
+          <p class="md:text-lg lg:text-xl">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque,
+            iste quia dolorem cupiditate odit sequi voluptatem provident veniam
+            magnam velit aperiam quas enim dolorum doloribus sint illo
+            exercitationem ipsam! Exercitationem sint vel dolorum minima, itaque
+            totam quae architecto, iusto ipsum cumque ratione, culpa pariatur
+            repellendus ad earum in assumenda corporis.
+          </p>
+        </div>
+
+        <div
+          class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 px-4 py-5"
+        >
+          <NuxtLink
+            v-for="(destination, index) in destinations"
+            :key="index"
+            :to="destination.url"
+            class="relative overflow-hidden rounded-3xl group block shadow-card"
+          >
+            <img
+              :src="destination.image"
+              :alt="destination.name"
+              class="w-full h-auto object-cover transition-transform duration-500 group-hover:scale-110"
+            />
+            <div
+              class="absolute inset-0 transition-opacity duration-500 shadow-gradient flex flex-col justify-end p-4"
+            >
+              <!-- Old heading (initially visible at the bottom) -->
+              <h3
+                class="text-secondary hidden lg:block text-lg md:text-3xl font-semibold mb-2 lg:absolute lg:bottom-0 lg:left-0 lg:w-full lg:p-4 lg:opacity-100 lg:group-hover:opacity-0 lg:transition-opacity lg:duration-500"
+              >
+                {{ destination.name }}
+              </h3>
+              <!-- New heading, description, and button -->
+              <div
+                class="opacity-100 translate-y-0 lg:opacity-0 lg:translate-y-full transition-all duration-500 lg:group-hover:opacity-100 lg:group-hover:translate-y-0 flex flex-col"
+              >
+                <h3
+                  class="text-secondary text-lg md:text-3xl font-semibold mb-2"
+                >
+                  {{ destination.name }}
+                </h3>
+                <p class="text-secondary text-sm mb-4">
+                  {{ destination.description }}
+                </p>
+                <!-- Button centered for all views -->
+                <NuxtLink :to="destination.url" class="block">
+                  <button
+                    class="px-6 py-2 bg-transparent text-secondary text-sm rounded-full border border-white hover:bg-white hover:text-black"
+                  >
+                    More About
+                  </button>
+                </NuxtLink>
+              </div>
+            </div>
+          </NuxtLink>
+        </div>
       </div>
     </div>
   </div>
@@ -339,5 +356,4 @@ export default {
     border-radius: 8px;
   }
 }
-
 </style>

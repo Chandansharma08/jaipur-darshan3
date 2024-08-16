@@ -1,5 +1,6 @@
 <template>
   <Navbar />
+  <div class="font-serif">
   <main class="pt-16 bg-[#ffffff]">
     <div class="py-5">
       <div
@@ -150,6 +151,7 @@
       </NuxtLink>
     </div>
   </div>
+</div>
   <Footer />
   <div class="fixed bottom-5 right-5 p-4 z-50">
     <button

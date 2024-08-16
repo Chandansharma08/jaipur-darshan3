@@ -1,6 +1,6 @@
 <template>
   <Navbar />
-  <main class="pt-20 px-4 md:px-10 space-y-11 bg-[#ffffff]">
+  <main class="pt-20 px-4 md:px-10 space-y-11 bg-[#ffffff] font-serif">
     <div>
       <div class="relative">
         <picture>

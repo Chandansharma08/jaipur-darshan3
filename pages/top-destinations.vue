@@ -1,85 +1,106 @@
 <template>
   <Navbar />
-  <div class="relative pt-20 px-4 md:px-10 bg-[#ffffff]">
-    <picture>
-      <!-- Image for small and medium screens (sm and md) -->
-      <source media="(max-width: 1023px)" :srcset="mainImage1" />
-      <!-- Image for large and extra-large screens (lg and xl) -->
-      <source media="(min-width: 1024px)" :srcset="mainImage2" />
-      <!-- Fallback image (if no media queries match) -->
-      <img :src="mainImage2" class="background-image" alt="background" />
-    </picture>
-    <div
-      class="absolute inset-0 flex flex-col items-center justify-center pt-16 md:pt-24 lg:pt-28 xl:pt-32"
-    >
-      <h1 class="text-2xl md:text-3xl lg:text-4xl text-center text-black font-semibold">
-        Top Destinations
-      </h1>
-      <div class="hidden lg:flex flex-row justify-center gap-4 mt-4">
-        <nuxt-link
-          to="/"
-          class="text-base hover:text-red-500 md:text-lg lg:text-xl text-black font-bold "
-          >Home</nuxt-link
+  <div class="font-serif">
+    <div class="relative pt-20 px-4 md:px-10 bg-[#ffffff]">
+      <picture>
+        <!-- Image for small and medium screens (sm and md) -->
+        <source media="(max-width: 1023px)" :srcset="mainImage1" />
+        <!-- Image for large and extra-large screens (lg and xl) -->
+        <source media="(min-width: 1024px)" :srcset="mainImage2" />
+        <!-- Fallback image (if no media queries match) -->
+        <img :src="mainImage2" class="background-image" alt="background" />
+      </picture>
+      <div
+        class="absolute inset-0 flex flex-col items-center justify-center pt-16 md:pt-24 lg:pt-28 xl:pt-32"
+      >
+        <h1
+          class="text-2xl md:text-3xl lg:text-4xl text-center text-black font-semibold"
         >
-        <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right mt-1">
-                                <path d="m9 18 6-6-6-6" />
-                            </svg></p>
-        <p class="text-base md:text-lg lg:text-xl text-black font-bold"> Top Destinations</p>
-      </div>
-    </div>
-  </div>
-  <div class="px-4 md:px-24 space-y-11 bg-[#ffffff] py-10 text-center">
-    <!-- Loop through the destinations array and create a card for each destination -->
-    <div class="mb-4">
-      <h2 class="text-3xl lg:text-5xl font-bold text-primary">
-        ***** Explore Jaipur's Top Travel Spots *****
-      </h2>
-      <p class="text-black my-4">
-        Discover Jaipur's most iconic landmarks and hidden gems. From majestic forts to stunning palaces, immerse yourself in the city's rich history.
-      </p>
-    </div>
-    <div
-      v-for="(destination, index) in destinations"
-      :key="destination.title"
-      class="bg-white shadow-lg rounded-lg mb-6 flex flex-col lg:flex-row items-center"
-      :class="index % 2 === 0 ? 'lg:flex-row' : 'lg:flex-row-reverse'"
-    >
-      <!-- Destination Image -->
-      <div class="lg:w-1/2 w-full p-6">
-        <img
-          :src="destination.image"
-          :alt="destination.title"
-          class=" w-full h-full object-cover"
-        />
-      </div>
-      <!-- Destination Text -->
-      <div class="lg:w-1/2 w-full p-6">
-        <div class="flex gap-3 items-center mb-4">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="#ca8a04"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-map-pinned"
+          Top Destinations
+        </h1>
+        <div class="hidden lg:flex flex-row justify-center gap-4 mt-4">
+          <nuxt-link
+            to="/"
+            class="text-base hover:text-red-500 md:text-lg lg:text-xl text-black font-bold"
+            >Home</nuxt-link
           >
-            <path
-              d="M18 8c0 3.613-3.869 7.429-5.393 8.795a1 1 0 0 1-1.214 0C9.87 15.429 6 11.613 6 8a6 6 0 0 1 12 0"
-            />
-            <circle cx="12" cy="8" r="2" />
-            <path
-              d="M8.714 14h-3.71a1 1 0 0 0-.948.683l-2.004 6A1 1 0 0 0 3 22h18a1 1 0 0 0 .948-1.316l-2-6a1 1 0 0 0-.949-.684h-3.712"
-            />
-          </svg>
-          <h2 class="text-2xl font-bold text-yellow-600">
-            {{ destination.title }}
-          </h2>
+          <p>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-chevron-right mt-1"
+            >
+              <path d="m9 18 6-6-6-6" />
+            </svg>
+          </p>
+          <p class="text-base md:text-lg lg:text-xl text-black font-bold">
+            Top Destinations
+          </p>
         </div>
-        <p class="text-gray-700">{{ destination.description }}</p>
+      </div>
+    </div>
+    <div class="px-4 md:px-24 space-y-11 bg-[#ffffff] py-10 text-center">
+      <!-- Loop through the destinations array and create a card for each destination -->
+      <div class="mb-4">
+        <h2 class="text-3xl lg:text-5xl font-bold text-primary">
+          ***** Explore Jaipur's Top Travel Spots *****
+        </h2>
+        <p class="text-black my-4">
+          Discover Jaipur's most iconic landmarks and hidden gems. From majestic
+          forts to stunning palaces, immerse yourself in the city's rich
+          history.
+        </p>
+      </div>
+      <div
+        v-for="(destination, index) in destinations"
+        :key="destination.title"
+        class="bg-white shadow-lg rounded-lg mb-6 flex flex-col lg:flex-row items-center"
+        :class="index % 2 === 0 ? 'lg:flex-row' : 'lg:flex-row-reverse'"
+      >
+        <!-- Destination Image -->
+        <div class="lg:w-1/2 w-full p-6">
+          <img
+            :src="destination.image"
+            :alt="destination.title"
+            class="w-full h-full object-cover"
+          />
+        </div>
+        <!-- Destination Text -->
+        <div class="lg:w-1/2 w-full p-6">
+          <div class="flex gap-3 items-center mb-4">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="#ca8a04"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-map-pinned"
+            >
+              <path
+                d="M18 8c0 3.613-3.869 7.429-5.393 8.795a1 1 0 0 1-1.214 0C9.87 15.429 6 11.613 6 8a6 6 0 0 1 12 0"
+              />
+              <circle cx="12" cy="8" r="2" />
+              <path
+                d="M8.714 14h-3.71a1 1 0 0 0-.948.683l-2.004 6A1 1 0 0 0 3 22h18a1 1 0 0 0 .948-1.316l-2-6a1 1 0 0 0-.949-.684h-3.712"
+              />
+            </svg>
+            <h2 class="text-2xl font-bold text-yellow-600">
+              {{ destination.title }}
+            </h2>
+          </div>
+          <p class="text-gray-700">{{ destination.description }}</p>
+        </div>
       </div>
     </div>
   </div>
