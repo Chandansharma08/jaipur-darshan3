@@ -28,7 +28,7 @@
       </div>
     </div>
   </div>
-  <div class="px-4 md:px-10 space-y-11 bg-[#ffffff] py-10 text-center">
+  <div class="px-4 md:px-24 space-y-11 bg-[#ffffff] py-10 text-center">
     <!-- Loop through the destinations array and create a card for each destination -->
     <div class="mb-4">
       <h2 class="text-3xl lg:text-5xl font-bold text-primary">
