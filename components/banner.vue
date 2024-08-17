@@ -2,7 +2,7 @@
     <nuxt-link to="/contact" class="relative">
       <img
         class="background-image"
-        src="https://ccdstest.b-cdn.net/Jaipur%20Darshan/Artboard%201%402x.webp"
+        src="https://ccdstest.b-cdn.net/Jaipur%20Darshan/web%201%20hero%402x.webp"
         alt="background"
       />
       <!-- <div class="absolute inset-0 flex items-center justify-start w-1/2 lg:p-10 text-black">
@@ -42,7 +42,7 @@
   @media (min-width: 1024px) {
     .background-image {
       /* Image size for large, extra-large, and extra-extra-large screens */
-      content: url("https://ccdstest.b-cdn.net/Jaipur%20Darshan/Artboard%201%402x.webp");
+      content: url("https://ccdstest.b-cdn.net/Jaipur%20Darshan/web%201%20hero%402x.webp");
     }
   }
   

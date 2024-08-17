@@ -31,17 +31,17 @@
           {
             id: 1,
             title: '#1 Client Reviews',
-            url: 'https://www.youtube.com/embed/l3j3qFIZzao?si=2bToPmr3SZlDt_s9'
+            url: 'https://www.youtube.com/embed/MMHgp_8b4YU?si=Jmw4ZS3Npashss3T'
           },
           {
             id: 2,
             title: '#2 Client Reviews',
-            url: 'https://www.youtube.com/embed/l3j3qFIZzao?si=2bToPmr3SZlDt_s9'
+            url: 'https://www.youtube.com/embed/wnjxCofvl6U?si=7F3OSesaaa2hQVEW'
           },
           {
             id: 3,
             title: '#3 Client Reviews',
-            url: 'https://www.youtube.com/embed/l3j3qFIZzao?si=2bToPmr3SZlDt_s9'
+            url: 'https://www.youtube.com/embed/BQq-p6ECcP0?si=GAbbMMfX_j2y0SXR'
           },
           {
             id: 3,

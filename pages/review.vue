@@ -1,6 +1,7 @@
 <template>
   <Navbar />
-  <div class="px-4 md:px-10 bg-white pt-20">
+  <div class="font-serif">
+  <div class="px-4 md:px-10 bg-white pt-20 ">
     <!-- Content Before Team Section -->
 
     <!-- <img class="shadow-sm w-full pt-0 rounded-xl bg-transparent" src="https://placehold.co/1400x400" alt="background" /> -->
@@ -29,9 +30,9 @@
   </div>
   <div class="bg-[#ffffff] h-full px-4 md:px-10 space-y-11">
     <div
-      class="bg-[#ffffff] text-black max-h-screen border md:border-none mx-2 md:mx-0 flex flex-col items-center lg:p-5">
-      <header class="container mx-auto my-10 lg:my-0">
-        <h1 class="text-3xl font-bold text-center text-primary">Our Customer Stories</h1>
+      class="bg-[#ffffff] text-black  border md:border-none pt-4 mx-2 md:mx-0 flex flex-col items-center lg:p-5">
+      <header class="container mx-auto lg:my-0">
+        <h1 class="text-3xl lg:text-5xl font-bold text-center text-primary">**** Our Customer Stories ****</h1>
       </header>
       <main class="container p-8 rounded-lg shadow-lg mx-auto">
         <div>
@@ -64,7 +65,7 @@
         </div>
       </main>
     </div>
-    <div class="bg-[#ffffff] pt-40 py-10 text-primary">
+    <div class="bg-[#ffffff]  py-10 text-primary">
       <div class="container mx-auto px-4">
         <h2 class="text-3xl font-semibold flex items-end gap-2 mb-8">
           <span> Popular Reviews </span><span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
@@ -86,7 +87,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </div></div>
   <Footer />
   <!-- back to top button -->
   <div class="fixed bottom-5 right-5 p-4 z-50">

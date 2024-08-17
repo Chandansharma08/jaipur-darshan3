@@ -1,20 +1,30 @@
 <template>
+  <Navbar />
+  
+  <!-- Loader -->
+  <div v-if="loading" class="flex space-x-2 justify-center items-center bg-white h-screen dark:invert z-50 fixed inset-0">
+    <span class="sr-only">Loading...</span>
+    <div class="h-8 w-8 bg-black rounded-full animate-bounce [animation-delay:-0.3s]"></div>
+    <div class="h-8 w-8 bg-black rounded-full animate-bounce [animation-delay:-0.15s]"></div>
+    <div class="h-8 w-8 bg-black rounded-full animate-bounce"></div>
+  </div>
 
-    <Navbar />
-    <div class="px-4 md:px-10 space-y-11 bg-[#ffffff] pt-24 font-serif" >
-        <Banner />
-        <Features />
-        <Groupcard /> 
-        <Carbus />     
-        <Activities />
-        <Booking />
-        <Gallery />
-        <Groupitem />       
-             
-    </div>
+  <!-- Main Content -->
+  <div v-else class="px-4 md:px-10 space-y-11 bg-[#ffffff] pt-24 font-serif">
+    <Banner />
+    <Features />
+    <Groupcard />
+    <Carbus />
+    <Activities />
+    <Booking />
+    <Gallery />
+    <Groupitem />
+  </div>
+  
   <Footer class="font-serif" />
-  <!-- back to top button -->
-  <div class="fixed bottom-5 right-5 p-4 z-50">
+  
+  <!-- Back to top button -->
+  <div class="fixed bottom-5 right-5 p-4 ">
     <button
       class="rounded-full w-10 h-10 flex items-center justify-center"
       @click="openWhatsApp"
@@ -25,6 +35,8 @@
       />
     </button>
   </div>
+  
+  <!-- Back to top button -->
   <div class="fixed bottom-5 left-5 p-4">
     <button
       class="bg-primary text-base-100 rounded-full w-10 h-10 flex items-center justify-center"
@@ -50,6 +62,17 @@
 
 <script>
 export default {
+  data() {
+    return {
+      loading: true, // Loader initially set to true
+    };
+  },
+  mounted() {
+    // Simulating content loading
+    setTimeout(() => {
+      this.loading = false; // Hide loader after 2 seconds
+    }, 2000);
+  },
   methods: {
     backToTop() {
       window.scrollTo({
