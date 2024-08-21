@@ -117,32 +117,34 @@
         >
           <!-- Service items -->
           <div class="bg-white rounded-lg p-4 shadow-lg">
-            <div class="text-orange-500 text-5xl mb-3">🗺️</div>
-            <h3 class="font-semibold text-lg">Lots of choices</h3>
+            <div class="text-orange-500 mb-3 flex items-center justify-center">
+              <img src="assets\images\jawahar-circle.svg" alt="" class="w-10">
+            </div>
+            <h3 class="font-semibold text-lg">Jaipur Journeys</h3>
+            <p>Seamless tours and tickets for Jaipur's top sights.</p>
+          </div>
+          <div class="bg-white rounded-lg p-4 shadow-lg">
+            <div class="text-orange-500 text-5xl mb-3 flex items-center justify-center">
+              <img src="assets\images\man.svg" alt="" class="w-10">
+            </div>
+            <h3 class="font-semibold text-lg">City Explorers</h3>
+            <p>Guided transport and tickets to explore Jaipur's attractions.</p>
+          </div>
+          <div class="bg-white rounded-lg p-4 shadow-lg">
+            <div class="text-orange-500 text-5xl mb-3 flex items-center justify-center">
+              <img src="assets\images\heritage.svg" alt="" class="w-10">
+            </div>
+            <h3 class="font-semibold text-lg">Heritage Rides</h3>
             <p>
-              Thousands of the best destinations are ready to spoil your eyes.
+              Discover Jaipur's landmarks with convenient bus and car tickets.
             </p>
           </div>
           <div class="bg-white rounded-lg p-4 shadow-lg">
-            <div class="text-orange-500 text-5xl mb-3">🗺️</div>
-            <h3 class="font-semibold text-lg">Lots of choices</h3>
-            <p>
-              Thousands of the best destinations are ready to spoil your eyes.
-            </p>
-          </div>
-          <div class="bg-white rounded-lg p-4 shadow-lg">
-            <div class="text-orange-500 text-5xl mb-3">🗺️</div>
-            <h3 class="font-semibold text-lg">Lots of choices</h3>
-            <p>
-              Thousands of the best destinations are ready to spoil your eyes.
-            </p>
-          </div>
-          <div class="bg-white rounded-lg p-4 shadow-lg">
-            <div class="text-orange-500 text-5xl mb-3">🗺️</div>
-            <h3 class="font-semibold text-lg">Lots of choices</h3>
-            <p>
-              Thousands of the best destinations are ready to spoil your eyes.
-            </p>
+            <div class="text-orange-500 text-5xl mb-3 flex items-center justify-center">
+              <img src="assets\images\sightseeing.svg" alt="" class="w-10">
+            </div>
+            <h3 class="font-semibold text-lg">Sightseeing Made</h3>
+            <p>Effortless access to Jaipur's must-see locations and tours.</p>
           </div>
           <!-- Additional services -->
         </div>
@@ -234,10 +236,10 @@
 </template>
 
 <script>
-import LoadingSpinner from '~/components/LoadingSpinner.vue';
+import LoadingSpinner from "~/components/LoadingSpinner.vue";
 export default {
   components: {
-    LoadingSpinner
+    LoadingSpinner,
   },
   methods: {
     backToTop() {

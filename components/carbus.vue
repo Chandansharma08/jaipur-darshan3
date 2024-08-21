@@ -15,8 +15,8 @@
             <h3 class="lg:text-2xl font-semibold text-white">Jaipur Sightseen With Buses</h3>
             <p class="text-white text-xs lg:text-base">Travel hassle-free within Bali, visit popular attractions, or do water activities!</p>
           </div>
-          <NuxtLink to="/packages" class="opacity-90 border lg:w-1/2 w-full text-sm md:text-base text-center mt-4 bg-white text-primary font-bold py-1 lg:py-2 px-2 rounded-full hover:bg-primary hover:text-secondary transition-colors">
-            See All Bus Tours Packages
+          <NuxtLink to="/packages" class="opacity-90 border lg:w-1/2 w-full text-sm md:text-base text-center mt-4 bg-slate-100 text-primary font-bold py-1 lg:py-2 px-2 rounded-full hover:bg-primary hover:text-secondary transition-colors">
+            <span class="opacity-100">See All Bus Tours Packages</span>
           </NuxtLink>
         </div>
       </div></NuxtLink>
@@ -31,8 +31,8 @@
             <h3 class="lg:text-2xl font-semibold text-white">Jaipur Sightseen With Cars</h3>
             <p class="text-white text-xs lg:text-base">Discover the wonders that lie outside the walls of Da Nang with these exciting tours of surrounding areas.</p>
           </div>
-          <NuxtLink to="/packages2" class="border lg:w-1/2 w-full text-sm md:text-base text-center mt-4 bg-white text-primary font-bold py-1 lg:py-2 px-2 rounded-full hover:bg-primary hover:text-secondary transition-colors">
-            See All Car Tours Packages
+          <NuxtLink to="/packages2" class="opacity-90 border lg:w-1/2 w-full text-sm md:text-base text-center mt-4 bg-slate-100 text-primary font-bold py-1 lg:py-2 px-2 rounded-full hover:bg-primary hover:text-secondary transition-colors">
+            <span class="opacity-100">See All Car Tours Packages</span>
           </NuxtLink>
         </div>
       </div></NuxtLink>
