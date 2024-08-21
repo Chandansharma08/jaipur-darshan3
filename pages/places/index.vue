@@ -1,6 +1,8 @@
 <template>
   <Navbar />
-  <div class="font-serif">
+  <LoadingSpinner v-if="isLoading" />
+
+  <div v-else class="font-serif">
     <div class="bg-white pt-20 px-4 md:px-10 space-y-11">
       <div class="w-full text-black">
         <!-- Banner and Navigation Links -->
@@ -148,7 +150,12 @@
 </template>
 
 <script>
+import LoadingSpinner from '~/components/LoadingSpinner.vue';
+
 export default {
+  components: {
+    LoadingSpinner
+  },
   methods: {
     backToTop() {
       window.scrollTo({
@@ -165,8 +172,16 @@ export default {
       window.open(url, "_blank");
     },
   },
+  mounted() {
+    // Simulate an asynchronous operation and hide loader after it's done
+    setTimeout(() => {
+      this.isLoading = false;
+    }, 2000); // Adjust the time as needed
+  },
   data() {
+    
     return {
+      isLoading: true,
       destinations: [
         {
           name: "Rajmandir",

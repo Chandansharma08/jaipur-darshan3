@@ -1,6 +1,8 @@
 <template>
   <Navbar />
-  <div class="font-serif">
+  <LoadingSpinner v-if="isLoading" />
+
+  <div v-else class="font-serif">
     <div class="relative pt-20 px-4 md:px-10 bg-[#ffffff]">
       <picture>
         <!-- Image for small and medium screens (sm and md) -->
@@ -141,9 +143,21 @@
 </template>
 
 <script>
+import LoadingSpinner from '~/components/LoadingSpinner.vue';
+
 export default {
+  components: {
+    LoadingSpinner
+  },
+  mounted() {
+    // Simulate an asynchronous operation and hide loader after it's done
+    setTimeout(() => {
+      this.isLoading = false;
+    }, 2000); // Adjust the time as needed
+  },
   data() {
     return {
+      isLoading: true,
       destinations: [
         {
           title: "Amber Fort",

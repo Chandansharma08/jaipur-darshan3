@@ -2,12 +2,7 @@
   <Navbar />
   
   <!-- Loader -->
-  <div v-if="loading" class="flex space-x-2 justify-center items-center bg-white h-screen dark:invert z-50 fixed inset-0">
-    <span class="sr-only">Loading...</span>
-    <div class="h-8 w-8 bg-black rounded-full animate-bounce [animation-delay:-0.3s]"></div>
-    <div class="h-8 w-8 bg-black rounded-full animate-bounce [animation-delay:-0.15s]"></div>
-    <div class="h-8 w-8 bg-black rounded-full animate-bounce"></div>
-  </div>
+  <LoadingSpinner v-if="isLoading" />
 
   <!-- Main Content -->
   <div v-else class="px-4 md:px-10 space-y-11 bg-[#ffffff] pt-24 font-serif">
@@ -61,17 +56,22 @@
 </template>
 
 <script>
+import LoadingSpinner from '~/components/LoadingSpinner.vue';
+
 export default {
+  components: {
+    LoadingSpinner
+  },
   data() {
     return {
-      loading: true, // Loader initially set to true
+      isLoading: true, // Set this to true initially to show the loader
     };
   },
   mounted() {
-    // Simulating content loading
+    // Simulate an asynchronous operation and hide loader after it's done
     setTimeout(() => {
-      this.loading = false; // Hide loader after 2 seconds
-    }, 2000);
+      this.isLoading = false;
+    }, 2000); // Adjust the time as needed
   },
   methods: {
     backToTop() {

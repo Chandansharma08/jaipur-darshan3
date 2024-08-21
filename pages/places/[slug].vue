@@ -1,6 +1,8 @@
 <template>
   <Navbar />
-  <main class="pt-20 px-4 md:px-10 space-y-11 bg-[#ffffff] font-serif">
+  <LoadingSpinner v-if="isLoading" />
+
+  <main v-else class="pt-20 px-4 md:px-10 space-y-11 bg-[#ffffff] font-serif">
     <div>
       <div class="relative">
         <picture>
@@ -16,7 +18,7 @@
           />
         </picture>
         <div
-          class="absolute inset-0 flex flex-col text-secondary items-center justify-center pt-16 md:pt-24 lg:pt-28 xl:pt-32"
+          class="absolute inset-0 flex flex-col text-secondary  items-center justify-center pt-16 md:pt-24 lg:pt-28 xl:pt-32"
         >
           <h1
             class="text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-center font-semibold"
@@ -88,30 +90,42 @@
   </div>
 </template>
 
-<script setup>
-import { getAllPlacesData, getPlacesData } from "~/utils/placesData.ts";
+<script>
+import { getPlacesData } from '~/utils/placesData.ts';
 
-const route = useRoute();
-const slug = route.params.slug;
-
-const placesData = getPlacesData(slug);
-const placeData = placesData[0];
-
-function backToTop() {
-  window.scrollTo({
-    top: 0,
-    behavior: "smooth", // This smoothens the scroll
-  });
-}
-
-function openWhatsApp() {
-  const phoneNumber = "7742484939";
-  const message = "Hello!"; // You can customize the initial message here
-  const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
-    message
-  )}`;
-  window.open(url, "_blank");
-}
+export default {
+  data() {
+    return {
+      placeData: {}, // Initialize placeData
+      slug: this.$route.params.slug // Get slug from route
+    };
+  },
+  computed: {
+    placesData() {
+      return getPlacesData(this.slug); // Get places data based on slug
+    }
+  },
+  mounted() {
+    // Initialize placeData once the component is mounted
+    this.placeData = this.placesData[0] || {}; // Safeguard in case there's no data
+  },
+  methods: {
+    backToTop() {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth", // Smooth scrolling effect
+      });
+    },
+    openWhatsApp() {
+      const phoneNumber = "7742484939";
+      const message = "Hello!"; // Customize initial message
+      const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
+        message
+      )}`;
+      window.open(url, "_blank");
+    }
+  }
+};
 </script>
 
 <style scoped>

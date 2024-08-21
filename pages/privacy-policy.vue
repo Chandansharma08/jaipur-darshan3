@@ -1,6 +1,7 @@
 <template>
     <Navbar />
-    <div class="text-center px-4 md:px-6 lg:px-10 bg-[#ffffff] screen py-20">
+    <LoadingSpinner v-if="isLoading" />
+    <div v-else class="text-center px-4 md:px-6 lg:px-10 bg-[#ffffff] screen py-20">
         <div class="relative">
             <img class="background-image" src="https://placehold.co/1400x700" alt="background" />
             <div class="absolute inset-0 flex flex-col items-center justify-center pt-16 md:pt-24 lg:pt-28 xl:pt-32">
@@ -59,7 +60,23 @@
 </template>
 
 <script>
+import LoadingSpinner from '~/components/LoadingSpinner.vue';
+
 export default {
+  components: {
+    LoadingSpinner
+  },
+  data() {
+    return {
+      isLoading: true, // Set this to true initially to show the loader
+    };
+  },
+  mounted() {
+    // Simulate an asynchronous operation and hide loader after it's done
+    setTimeout(() => {
+      this.isLoading = false;
+    }, 2000); // Adjust the time as needed
+  },
   methods: {
     backToTop() {
       window.scrollTo({

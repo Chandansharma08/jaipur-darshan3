@@ -1,6 +1,8 @@
 <template>
   <Navbar />
-  <div class="font-serif">
+  <LoadingSpinner v-if="isLoading" />
+
+  <div v-else class="font-serif">
     <main class="pt-16 bg-[#ffffff] font-serif">
       <div class="py-5">
         <div
@@ -187,39 +189,52 @@
   </div>
 </template>
 
-<script setup>
-import { onMounted } from "vue";
-import { useRoute } from "vue-router";
-import { getAllPackagesData, getPackagesData } from "~/utils/packagesData.ts";
+<script>
+import LoadingSpinner from '~/components/LoadingSpinner.vue';
+import { getPackagesData } from '~/utils/packagesData.ts';
 
-const route = useRoute();
-const slug = route.params.slug;
-
-const packagesData = getPackagesData(slug);
-const packageData = packagesData[0];
-// const allPackagesData = getAllPackagesData();
-
-function backToTop() {
-  window.scrollTo({
-    top: 0,
-    behavior: "smooth", // This smoothens the scroll
-  });
-}
-
-function openWhatsApp() {
-  const phoneNumber = "7742484939";
-  const message = "Hello!"; // You can customize the initial message here
-  const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
-    message
-  )}`;
-  window.open(url, "_blank");
-}
-
-// Optionally, you can use onMounted to trigger these functions when the component is mounted
-onMounted(() => {
-  // backToTop(); // Uncomment if you want to scroll to top on mount
-  // openWhatsApp(); // Uncomment if you want to open WhatsApp on mount
-});
+export default {
+  components: {
+    LoadingSpinner
+  },
+  data() {
+    return {
+      isLoading: true, // Set this to true initially to show the loader
+      packageData: {} // Default empty object for package data
+    };
+  },
+  computed: {
+    slug() {
+      return this.$route.params.slug;
+    },
+    packagesData() {
+      return getPackagesData(this.slug);
+    }
+  },
+  mounted() {
+    // Simulate an asynchronous operation and hide loader after it's done
+    setTimeout(() => {
+      this.isLoading = false;
+      this.packageData = this.packagesData[0] || {}; // Safeguard in case there's no data
+    }, 2000); // Adjust the time as needed
+  },
+  methods: {
+    backToTop() {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth", // This smoothens the scroll
+      });
+    },
+    openWhatsApp() {
+      const phoneNumber = "7742484939";
+      const message = "Hello!"; // You can customize the initial message here
+      const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
+        message
+      )}`;
+      window.open(url, "_blank");
+    },
+  },
+};
 </script>
 
 <style scoped>

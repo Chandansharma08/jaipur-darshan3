@@ -1,6 +1,8 @@
 <template>
   <Navbar />
-  <div class="font-serif">
+  <LoadingSpinner v-if="isLoading" />
+
+  <div v-else class="font-serif">
     <div class="px-4 md:px-10 bg-white pt-20">
       <!-- Content Before Team Section -->
 
@@ -8,21 +10,21 @@
       <div class="relative pt-2">
         <img
           class="background-image"
-          src="https://placehold.co/1400x700"
+          src="https://ccdstest.b-cdn.net/Jaipur%20Darshan/about%20us.webp"
           alt="background"
         />
         <div
           class="absolute inset-0 flex flex-col items-center justify-center pt-16 md:pt-24 lg:pt-28 xl:pt-32"
         >
           <h1
-            class="text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-center text-black font-semibold"
+            class="text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-center text-white font-semibold"
           >
             About Us
           </h1>
           <div class="hidden lg:flex flex-row justify-center gap-4 mt-4">
             <nuxt-link
               to="/"
-              class="text-base hover:text-red-500 md:text-lg lg:text-xl text-black font-bold"
+              class="text-base hover:text-red-500 md:text-lg lg:text-xl text-white font-bold"
               >Home</nuxt-link
             >
             <p>
@@ -36,12 +38,12 @@
                 stroke-width="2"
                 stroke-linecap="round"
                 stroke-linejoin="round"
-                class="lucide lucide-chevron-right mt-1"
+                class="lucide lucide-chevron-right mt-1 text-white"
               >
                 <path d="m9 18 6-6-6-6" />
               </svg>
             </p>
-            <p class="text-base md:text-lg lg:text-xl text-black font-bold">
+            <p class="text-base md:text-lg lg:text-xl text-white font-bold">
               About Us
             </p>
           </div>
@@ -232,7 +234,11 @@
 </template>
 
 <script>
+import LoadingSpinner from '~/components/LoadingSpinner.vue';
 export default {
+  components: {
+    LoadingSpinner
+  },
   methods: {
     backToTop() {
       window.scrollTo({
@@ -249,8 +255,16 @@ export default {
       window.open(url, "_blank");
     },
   },
+  mounted() {
+    // Simulate an asynchronous operation and hide loader after it's done
+    setTimeout(() => {
+      this.isLoading = false;
+    }, 2000); // Adjust the time as needed
+  },
   data() {
     return {
+      isLoading: true, // Set this to true initially to show the loader
+
       teamMembers: [
         {
           id: 1,
@@ -308,14 +322,14 @@ export default {
 @media (max-width: 1023px) {
   .background-image {
     /* Image size for small and medium screens */
-    content: url("https://placehold.co/1400x700");
+    content: url("https://ccdstest.b-cdn.net/Jaipur%20Darshan/about%20us%201400%20700.webp");
   }
 }
 
 @media (min-width: 1024px) {
   .background-image {
     /* Image size for large, extra-large, and extra-extra-large screens */
-    content: url("https://placehold.co/1400x400");
+    content: url("https://ccdstest.b-cdn.net/Jaipur%20Darshan/about%20us.webp");
   }
 }
 

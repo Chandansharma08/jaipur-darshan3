@@ -1,6 +1,8 @@
 <template>
   <Navbar />
-  <div class="font-serif">
+  <LoadingSpinner v-if="isLoading" />
+
+  <div v-else class="font-serif">
   <main class="pt-16 bg-[#ffffff]">
     <div class="py-5">
       <div
@@ -187,35 +189,51 @@
   </div>
 </template>
 
-<script setup>
-import { useRoute } from "vue-router";
-import {
-  getAllPackages2Data,
-  getPackages2Data,
-} from "~/utils/packages2Data.ts";
+<script>
+import { getPackages2Data } from '~/utils/packages2Data.ts';
+import LoadingSpinner from '~/components/LoadingSpinner.vue';
 
-const route = useRoute();
-const slug = route.params.slug;
-
-const packages2Data = getPackages2Data(slug);
-const package2Data = packages2Data[0];
-// const allPackages2Data = getAllPackages2Data();
-
-function backToTop() {
-  window.scrollTo({
-    top: 0,
-    behavior: "smooth", // This smoothens the scroll
-  });
-}
-
-function openWhatsApp() {
-  const phoneNumber = "7742484939";
-  const message = "Hello!"; // You can customize the initial message here
-  const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
-    message
-  )}`;
-  window.open(url, "_blank");
-}
+export default {
+  components: {
+    LoadingSpinner
+  },
+  data() {
+    return {
+      isLoading: true,
+      package2Data: {},
+      slug: this.$route.params.slug // Get slug from route
+    };
+  },
+  computed: {
+    packages2Data() {
+      return getPackages2Data(this.slug); // Call function with slug
+    }
+  },
+  mounted() {
+    setTimeout(() => {
+      this.isLoading = false;
+      this.packageData = this.packagesData[0] || {}; // Safeguard in case there's no data
+    }, 2000); // Adjust the time as needed
+    // Initialize package2Data once the component is mounted
+    this.package2Data = this.packages2Data[0] || {}; // Safeguard in case there's no data
+  },
+  methods: {
+    backToTop() {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth", // This smoothens the scroll
+      });
+    },
+    openWhatsApp() {
+      const phoneNumber = "7742484939";
+      const message = "Hello!"; // You can customize the initial message here
+      const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
+        message
+      )}`;
+      window.open(url, "_blank");
+    }
+  }
+};
 </script>
 
 <style scoped>

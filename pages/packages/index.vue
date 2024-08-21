@@ -1,49 +1,117 @@
 <template>
-     <div class="font-serif">
-        <Navbar />
-        <div class="bg-white pt-20 px-4 md:px-10 space-y-11">
-            <div class="w-full text-black">
-                <div class="relative">
-                    <img class="background-image" src="https://placehold.co/1400x700" alt="background" />
-                    <div class="absolute inset-0 flex flex-col items-center justify-center pt-16 md:pt-24 lg:pt-28 xl:pt-32">
-                        <h1 class="text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-center font-semibold">Bus Tours</h1>
-                        <div class="hidden lg:flex flex-row justify-center items-center gap-4 my-4 font-bold">
-                            <nuxt-link to="/" class="text-base hover:text-red-500 md:text-lg lg:text-xl xl:text-2xl">Home</nuxt-link>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right mt-1">
-                                <path d="m9 18 6-6-6-6" />
-                            </svg>
-                            <p class="text-base md:text-lg lg:text-xl xl:text-2xl ">Bus Tours</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="mt-5 px-4 md:px-10 ">
-                    <h1 class="text-2xl text-primary mb-2">Bus Tour Services and Places</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit eveniet cumque saepe illo mollitia repellat, placeat unde, nam quae molestias enim esse adipisci ipsa recusandae laudantium. Sit, at nesciunt. Esse maxime vel molestiae corporis eligendi possimus ut nesciunt eos nulla consequatur dolorum delectus repellendus suscipit neque labore, optio in amet.</p>
-                </div>
-                <h1 class="font-bold text-2xl mt-8 flex px-4 md:px-10 lg:px-20 text-primary">Tour 1 (Places of Attractions)</h1>
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap px-4 md:px-10 lg:px-20 py-10">
-                    <nuxt-link v-for="(bus, index) in buses" :key="index" :to="bus.link" class="flex flex-col items-center bg-slate-100  rounded-lg p-6 text-black shadow-lg transform hover:scale-105 transition duration-300 ease-in-out">
-                        <img :src="bus.image" :alt="bus.name" class="w-full  object-cover rounded-lg mb-4" />
-                        <h1 class="text-xl font-semibold">{{ bus.name }}</h1>
-                        <div class="text-3xl font-bold mt-2">{{ bus.price }} INR</div>
-                        <p class="text-sm opacity-80 mt-1">Per Person</p>
-                    </nuxt-link>
-                </div>
+  <Navbar />
+  <LoadingSpinner v-if="isLoading" />
 
-                <h1 class="font-bold text-2xl flex px-4 md:px-10 lg:px-20 text-primary">Tour 2 (Places of Attractions)</h1>
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap px-4 md:px-10 lg:px-20 py-10">
-                    <nuxt-link v-for="(bus1, index) in buses1" :key="index" :to="bus1.link" class="flex flex-col items-center bg-slate-100 rounded-lg p-6 text-black shadow-lg transform hover:scale-105 transition duration-300 ease-in-out">
-                        <img :src="bus1.image" :alt="bus1.name" class="object-cover rounded-lg mb-4" />
-                        <h1 class="text-xl font-semibold">{{ bus1.name }}</h1>
-                        <div class="text-3xl font-bold mt-2">{{ bus1.price }} INR</div>
-                        <p class="text-sm opacity-80 mt-1">Per Person</p>
-                    </nuxt-link>
-                </div>
+  <div v-else class="font-serif">
+    <div class="bg-white pt-20 px-4 md:px-10 space-y-11">
+      <div class="w-full text-black">
+        <div class="relative">
+          <img
+            class="background-image"
+            src="https://placehold.co/1400x700"
+            alt="background"
+          />
+          <div
+            class="absolute inset-0 flex flex-col items-center justify-center pt-16 md:pt-24 lg:pt-28 xl:pt-32"
+          >
+            <h1
+              class="text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-center font-semibold"
+            >
+              Bus Tours
+            </h1>
+            <div
+              class="hidden lg:flex flex-row justify-center items-center gap-4 my-4 font-bold"
+            >
+              <nuxt-link
+                to="/"
+                class="text-base hover:text-red-500 md:text-lg lg:text-xl xl:text-2xl"
+                >Home</nuxt-link
+              >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-chevron-right mt-1"
+              >
+                <path d="m9 18 6-6-6-6" />
+              </svg>
+              <p class="text-base md:text-lg lg:text-xl xl:text-2xl">
+                Bus Tours
+              </p>
             </div>
+          </div>
+        </div>
+        <div class="mt-5 px-4 md:px-10">
+          <h1 class="text-2xl text-primary mb-2">
+            Bus Tour Services and Places
+          </h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
+            eveniet cumque saepe illo mollitia repellat, placeat unde, nam quae
+            molestias enim esse adipisci ipsa recusandae laudantium. Sit, at
+            nesciunt. Esse maxime vel molestiae corporis eligendi possimus ut
+            nesciunt eos nulla consequatur dolorum delectus repellendus suscipit
+            neque labore, optio in amet.
+          </p>
+        </div>
+        <h1
+          class="font-bold text-2xl mt-8 flex px-4 md:px-10 lg:px-20 text-primary"
+        >
+          Tour 1 (Places of Attractions)
+        </h1>
+        <div
+          class="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap px-4 md:px-10 lg:px-20 py-10"
+        >
+          <nuxt-link
+            v-for="(bus, index) in buses"
+            :key="index"
+            :to="bus.link"
+            class="flex flex-col items-center bg-slate-100 rounded-lg p-6 text-black shadow-lg transform hover:scale-105 transition duration-300 ease-in-out"
+          >
+            <img
+              :src="bus.image"
+              :alt="bus.name"
+              class="w-full object-cover rounded-lg mb-4"
+            />
+            <h1 class="text-xl font-semibold">{{ bus.name }}</h1>
+            <div class="text-3xl font-bold mt-2">{{ bus.price }} INR</div>
+            <p class="text-sm opacity-80 mt-1">Per Person</p>
+          </nuxt-link>
+        </div>
+
+        <h1 class="font-bold text-2xl flex px-4 md:px-10 lg:px-20 text-primary">
+          Tour 2 (Places of Attractions)
+        </h1>
+        <div
+          class="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap px-4 md:px-10 lg:px-20 py-10"
+        >
+          <nuxt-link
+            v-for="(bus1, index) in buses1"
+            :key="index"
+            :to="bus1.link"
+            class="flex flex-col items-center bg-slate-100 rounded-lg p-6 text-black shadow-lg transform hover:scale-105 transition duration-300 ease-in-out"
+          >
+            <img
+              :src="bus1.image"
+              :alt="bus1.name"
+              class="object-cover rounded-lg mb-4"
+            />
+            <h1 class="text-xl font-semibold">{{ bus1.name }}</h1>
+            <div class="text-3xl font-bold mt-2">{{ bus1.price }} INR</div>
+            <p class="text-sm opacity-80 mt-1">Per Person</p>
+          </nuxt-link>
         </div>
       </div>
-   <Footer />
-    <!-- back to top button -->
+    </div>
+  </div>
+  <Footer />
+  <!-- back to top button -->
   <div class="fixed bottom-5 right-5 p-4 z-50">
     <button
       class="rounded-full w-10 h-10 flex items-center justify-center"
@@ -79,8 +147,13 @@
 </template>
 
 <script>
+import LoadingSpinner from "~/components/LoadingSpinner.vue";
+
 export default {
-    methods: {
+  components: {
+    LoadingSpinner
+  },
+  methods: {
     backToTop() {
       window.scrollTo({
         top: 0,
@@ -96,20 +169,60 @@ export default {
       window.open(url, "_blank");
     },
   },
-    data() {
-        return {
-            buses: [
-                { name: 'Non-AC Bus', price: 250, image: 'https://placehold.co/500x350/png', link: '/packages/non-ac-bus' },
-                { name: 'AC Bus', price: 300, image: 'https://placehold.co/500x350/png', link: '/packages/ac-bus' },
-                { name: 'Double Decker Bus', price: 250, image: 'https://ccdstest.b-cdn.net/Jaipur%20Darshan/jaipur-darshan-double-decker-bus.jpg', link: '/packages/double-decker-bus' }
-            ],
-            buses1: [
-                { name: 'Non-AC Bus', price: 250, image: 'https://placehold.co/500x350/png', link: '/packages/non-ac-bus1' },
-                { name: 'AC Bus', price: 300, image: 'https://placehold.co/500x350/png', link: '/packages/ac-bus1' },
-                { name: 'Double Decker Bus', price: 250, image: 'https://ccdstest.b-cdn.net/Jaipur%20Darshan/jaipur-darshan-double-decker-bus.jpg', link: '/packages/double-decker-bus1' }
-            ]
-        };
-    }
+  data() {
+    return {
+      isLoading: true, // Set this to true initially to show the loader
+      buses: [
+        {
+          name: "Non-AC Bus",
+          price: 250,
+          image: "https://placehold.co/500x350/png",
+          link: "/packages/non-ac-bus",
+        },
+        {
+          name: "AC Bus",
+          price: 300,
+          image: "https://placehold.co/500x350/png",
+          link: "/packages/ac-bus",
+        },
+        {
+          name: "Double Decker Bus",
+          price: 250,
+          image:
+            "https://ccdstest.b-cdn.net/Jaipur%20Darshan/jaipur-darshan-double-decker-bus.jpg",
+          link: "/packages/double-decker-bus",
+        },
+      ],
+      buses1: [
+        {
+          name: "Non-AC Bus",
+          price: 250,
+          image: "https://placehold.co/500x350/png",
+          link: "/packages/non-ac-bus1",
+        },
+        {
+          name: "AC Bus",
+          price: 300,
+          image: "https://placehold.co/500x350/png",
+          link: "/packages/ac-bus1",
+        },
+        {
+          name: "Double Decker Bus",
+          price: 250,
+          image:
+            "https://ccdstest.b-cdn.net/Jaipur%20Darshan/jaipur-darshan-double-decker-bus.jpg",
+          link: "/packages/double-decker-bus1",
+        },
+      ],
+      isLoading: true, // Set this to true initially to show the loader
+    };
+  },
+  mounted() {
+    // Simulate an asynchronous operation and hide loader after it's done
+    setTimeout(() => {
+      this.isLoading = false;
+    }, 2000); // Adjust the time as needed
+  },
 };
 </script>
 

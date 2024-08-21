@@ -1,8 +1,8 @@
 <template>
     <section class="relative bg-cover bg-center py-12 rounded-xl"
-        style="background-image: url('https://via.placeholder.com/1740x350');">
+        style="background-image: url('https://ccdstest.b-cdn.net/Jaipur%20Darshan/Untitled%20design%20(15).webp');">
         <div class="container mx-auto px-4">
-            <div class="max-w-2xl bg-black bg-opacity-60 text-secondary p-8 rounded-lg">
+            <div class="max-w-2xl bg-black bg-opacity-30 text-secondary p-8 rounded-lg">
                 <h2 class="text-3xl font-bold mb-4">Talk with us & Get instant booking</h2>
                 <p class="mb-6">
                     "Book a call to receive personalized travel advice, expert tips, and special offers. Enhance your
