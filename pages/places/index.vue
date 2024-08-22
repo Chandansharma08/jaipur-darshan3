@@ -50,22 +50,21 @@
         </div>
 
         <!-- Content Sections -->
-        <div class="bg-white px-4 md:px-8 mt-5">
-          <h2 class="text-2xl lg:text-4xl text-primary font-semibold mb-4">
-            Top Places For Your Next Vacation
+        <div class="bg-white px-4 md:px-8 mt-5 space-y-2">
+          <h2 class="text-2xl text-primary md:text-3xl lg:text-3xl font-semibold text-center">
+            Exciting Destinations for Your Next Trip
           </h2>
-          <p class="md:text-lg lg:text-xl">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque,
-            iste quia dolorem cupiditate odit sequi voluptatem provident veniam
-            magnam velit aperiam quas enim dolorum doloribus sint illo
-            exercitationem ipsam! Exercitationem sint vel dolorum minima, itaque
-            totam quae architecto, iusto ipsum cumque ratione, culpa pariatur
-            repellendus ad earum in assumenda corporis.
+          <p class="text-lg text-slate-500 md:text-xl text-center">
+            Explore breathtaking destinations and create unforgettable memories
+            with our curated list of top vacation spots. Whether you’re seeking
+            serene beaches, vibrant cities, or cultural landmarks, find the
+            perfect getaway to suit your interests and travel style. Discover
+            new adventures and make your next vacation truly exceptional.
           </p>
         </div>
 
         <div
-          class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 px-4 py-5"
+          class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 px-4 py-5 mt-4"
         >
           <NuxtLink
             v-for="(destination, index) in destinations"
@@ -150,11 +149,11 @@
 </template>
 
 <script>
-import LoadingSpinner from '~/components/LoadingSpinner.vue';
+import LoadingSpinner from "~/components/LoadingSpinner.vue";
 
 export default {
   components: {
-    LoadingSpinner
+    LoadingSpinner,
   },
   methods: {
     backToTop() {
@@ -179,7 +178,6 @@ export default {
     }, 2000); // Adjust the time as needed
   },
   data() {
-    
     return {
       isLoading: true,
       destinations: [

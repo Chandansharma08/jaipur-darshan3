@@ -8,18 +8,38 @@
 
       <!-- <img class="shadow-sm w-full pt-0 rounded-xl bg-transparent" src="https://placehold.co/1400x400" alt="background" /> -->
       <div class="relative pt-2">
-        <img class="background-image" src="https://placehold.co/1400x400" alt="background" />
-        <div class="absolute inset-0 flex flex-col items-center justify-center pt-16 md:pt-24 lg:pt-28 xl:pt-32">
-          <h1 class="text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-center text-black font-semibold">
+        <img
+          class="background-image"
+          src="https://placehold.co/1400x400"
+          alt="background"
+        />
+        <div
+          class="absolute inset-0 flex flex-col items-center justify-center pt-16 md:pt-24 lg:pt-28 xl:pt-32"
+        >
+          <h1
+            class="text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-center text-black font-semibold"
+          >
             Review
           </h1>
           <div class="hidden lg:flex flex-row justify-center gap-4 mt-4">
-            <nuxt-link to="/"
-              class="text-base hover:text-red-500 md:text-lg lg:text-xl text-black font-bold">Home</nuxt-link>
+            <nuxt-link
+              to="/"
+              class="text-base hover:text-red-500 md:text-lg lg:text-xl text-black font-bold"
+              >Home</nuxt-link
+            >
             <p>
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                class="lucide lucide-chevron-right mt-1">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-chevron-right mt-1"
+              >
                 <path d="m9 18 6-6-6-6" />
               </svg>
             </p>
@@ -31,60 +51,102 @@
       </div>
     </div>
     <div class="bg-[#ffffff] h-full px-4 md:px-10 space-y-11">
-      <div class="bg-[#ffffff] text-black border md:border-none pt-4 mx-2 md:mx-0 flex flex-col items-center lg:p-5">
-        <header class="container mx-auto lg:my-0">
-          <h1 class="text-3xl lg:text-5xl font-bold text-center text-primary">
-            **** Our Customer Stories ****
-          </h1>
-        </header>
+      <div
+        class="bg-[#ffffff] text-black border md:border-none pt-4 mx-2 md:mx-0 flex flex-col items-center lg:p-5"
+      >
+        <div class="bg-white px-4 md:px-8 mt-5 space-y-2">
+          <h2
+            class="text-2xl text-primary md:text-3xl lg:text-3xl font-semibold text-center"
+          >
+            Hear From Our Satisfied Customers
+          </h2>
+          <p class="text-lg text-slate-500 md:text-xl text-center">
+            See what our customers are saying about their experiences with us.
+            Our reviews and testimonials reflect our dedication to providing
+            top-notch service and memorable travel experiences tailored to their
+            needs.
+          </p>
+        </div>
         <main class="container p-8 rounded-lg shadow-lg mx-auto">
           <div>
             <div class="flex flex-col md:flex-row items-center">
-              <img src="https://via.placeholder.com/150" alt="General Manager"
-                class="rounded-full w-32 h-32 mb-4 md:mb-0 md:mr-4" />
+              <img
+                src="assets\images\harsh.jpg"
+                alt="General Manager"
+                class="rounded-full w-32 h-32 mb-4 md:mb-0 md:mr-4"
+              />
               <div>
-                <h2 class="text-2xl font-semibold">Lorem ipsum dolor sit.</h2>
-                <p class="text-sm">Lorem, ipsum.</p>
+                <h2 class="text-2xl font-semibold">Harsh Sharma</h2>
+                <p class="text-sm">From Rishikesh</p>
               </div>
             </div>
             <div class="mt-4">
               <p>
-                " Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Exercitationem, neque iure! Eius exercitationem iusto beatae
-                repudiandae officiis reiciendis aperiam fugit. "
+                "I recently took a tour with Jaipur Darshan, and it exceeded all
+                my expectations. The guide was knowledgeable and engaging,
+                bringing the city’s history to life. The personalized itinerary
+                made the experience unforgettable."
               </p>
               <p class="mt-2">
-                " Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Suscipit ipsa eius fuga dicta amet illum, repellendus modi,
-                blanditiis neque obcaecati ex aperiam recusandae porro!
-                Blanditiis facilis ipsa nostrum aut atque? "
+                "The bus service was comfortable and punctual. Clean and
+                well-maintained, it made getting around Jaipur hassle-free. I
+                highly recommend this service to anyone looking to explore the
+                city in style and comfort."
               </p>
             </div>
           </div>
           <div class="mt-6">
-            <iframe width="100%" height="450" src="https://www.youtube.com/embed/l3j3qFIZzao?si=2bToPmr3SZlDt_s9"
-              frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;"
-              allowfullscreen></iframe>
+            <iframe
+              width="100%"
+              height="450"
+              src="https://www.youtube.com/embed/l3j3qFIZzao?si=2bToPmr3SZlDt_s9"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;"
+              allowfullscreen
+            ></iframe>
           </div>
         </main>
       </div>
       <div class="bg-[#ffffff] py-10 text-primary">
         <div class="container mx-auto px-4">
           <h2 class="text-3xl font-semibold flex items-end gap-2 mb-8">
-            <span> Popular Reviews </span><span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                viewBox="0 0 24 24" fill="none" stroke="#cd821c" stroke-width="2" stroke-linecap="round"
-                stroke-linejoin="round" class="lucide lucide-corner-right-down">
+            <span> Popular Reviews </span
+            ><span
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#cd821c"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-corner-right-down"
+              >
                 <polyline points="10 15 15 20 20 15" />
-                <path d="M4 4h7a4 4 0 0 1 4 4v12" />
-              </svg></span>
+                <path d="M4 4h7a4 4 0 0 1 4 4v12" /></svg
+            ></span>
           </h2>
-          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 items-start">
+          <div
+            class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 items-start"
+          >
             <!-- Video Item -->
-            <div v-for="video in videos" :key="video.id" class="bg-black rounded-lg overflow-hidden relative shadow-lg">
-              <iframe :src="video.url" frameborder="0" class="w-full h-full min-h-[300px]"
+            <div
+              v-for="video in videos"
+              :key="video.id"
+              class="bg-black rounded-lg overflow-hidden relative shadow-lg"
+            >
+              <iframe
+                :src="video.url"
+                frameborder="0"
+                class="w-full h-full min-h-[300px]"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-              <div class="absolute bottom-0 left-0 w-full p-4 bg-gradient-to-t from-gray-900 to-transparent">
+                allowfullscreen
+              ></iframe>
+              <div
+                class="absolute bottom-0 left-0 w-full p-4 bg-gradient-to-t from-gray-900 to-transparent"
+              >
                 <h3 class="text-secondary text-lg">{{ video.title }}</h3>
               </div>
             </div>
@@ -96,14 +158,34 @@
   <Footer />
   <!-- back to top button -->
   <div class="fixed bottom-5 right-5 p-4 z-50">
-    <button class="rounded-full w-10 h-10 flex items-center justify-center" @click="openWhatsApp">
-      <img src="https://ccdstest.b-cdn.net/Jaipur%20Darshan/social.svg" alt="" />
+    <button
+      class="rounded-full w-10 h-10 flex items-center justify-center"
+      @click="openWhatsApp"
+    >
+      <img
+        src="https://ccdstest.b-cdn.net/Jaipur%20Darshan/social.svg"
+        alt=""
+      />
     </button>
   </div>
   <div class="fixed bottom-5 left-5 p-4">
-    <button class="bg-primary text-base-100 rounded-full w-10 h-10 flex items-center justify-center" @click="backToTop">
-      <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18"></path>
+    <button
+      class="bg-primary text-base-100 rounded-full w-10 h-10 flex items-center justify-center"
+      @click="backToTop"
+    >
+      <svg
+        class="w-6 h-6"
+        fill="none"
+        stroke="currentColor"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M5 10l7-7m0 0l7 7m-7-7v18"
+        ></path>
       </svg>
     </button>
   </div>

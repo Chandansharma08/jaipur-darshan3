@@ -50,17 +50,17 @@
         </div>
 
         <!-- Content Sections -->
-        <div class="mt-5 px-4 md:px-10">
-          <h1 class="text-2xl text-primary mb-2">
-            Car Tour Services and Places
+        <div class="mt-5 px-4 md:px-10 space-y-2">
+          <h1
+            class="text-2xl text-primary md:text-3xl lg:text-3xl font-semibold text-center"
+          >
+            Car Tours and Destinations
           </h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
-            eveniet cumque saepe illo mollitia repellat, placeat unde, nam quae
-            molestias enim esse adipisci ipsa recusandae laudantium. Sit, at
-            nesciunt. Esse maxime vel molestiae corporis eligendi possimus ut
-            nesciunt eos nulla consequatur dolorum delectus repellendus suscipit
-            neque labore, optio in amet.
+          <p class="text-lg text-slate-500 md:text-xl text-center">
+            Explore our car tour services that offer convenient transportation
+            to Jaipur's top destinations. Enjoy comfortable, personalized
+            journeys to must-see attractions, making your visit seamless and
+            memorable with expert guidance.
           </p>
         </div>
 
@@ -84,7 +84,7 @@
                 class="object-cover rounded-lg mb-4"
               />
               <h1 class="text-xl font-semibold">{{ car.name }}</h1>
-              <div class="text-3xl font-bold mt-2">{{ car.price }} INR</div>
+              <div class="text-3xl font-bold mt-2">{{ car.price }} ₹</div>
             </nuxt-link>
           </div>
         </div>
@@ -127,11 +127,11 @@
 </template>
 
 <script>
-import LoadingSpinner from '~/components/LoadingSpinner.vue';
+import LoadingSpinner from "~/components/LoadingSpinner.vue";
 
 export default {
   components: {
-    LoadingSpinner
+    LoadingSpinner,
   },
   methods: {
     backToTop() {

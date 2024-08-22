@@ -50,20 +50,22 @@
     </div>
     <div class="px-4 md:px-24 space-y-11 bg-[#ffffff] py-10 text-center">
       <!-- Loop through the destinations array and create a card for each destination -->
-      <div class="mb-4">
-        <h2 class="text-3xl lg:text-5xl font-bold text-primary">
-          ***** Explore Jaipur's Top Travel Spots *****
+      <div class="mb-4 space-y-2">
+        <h2 class="text-2xl text-primary md:text-3xl lg:text-3xl font-semibold text-center">
+          Experience Jaipur's Premier Travel Locations
         </h2>
-        <p class="text-black my-4">
-          Discover Jaipur's most iconic landmarks and hidden gems. From majestic
-          forts to stunning palaces, immerse yourself in the city's rich
-          history.
+        <p class="text-lg text-slate-500 md:text-xl text-center">
+          Explore Jaipur's renowned landmarks and secret treasures. Experience
+          the grandeur of historic forts and the beauty of exquisite palaces,
+          and delve into the city's vibrant history. Discover both famous
+          attractions and lesser-known wonders for a comprehensive and enriching
+          journey through Jaipur’s rich cultural heritage.
         </p>
       </div>
       <div
         v-for="(destination, index) in destinations"
         :key="destination.title"
-        class="bg-white shadow-lg rounded-lg mb-6 flex flex-col lg:flex-row items-center"
+        class="bg-white border hover:shadow-lg rounded-lg mb-6 flex flex-col lg:flex-row items-center"
         :class="index % 2 === 0 ? 'lg:flex-row' : 'lg:flex-row-reverse'"
       >
         <!-- Destination Image -->
@@ -101,7 +103,7 @@
               {{ destination.title }}
             </h2>
           </div>
-          <p class="text-gray-700">{{ destination.description }}</p>
+          <p class="text-gray-700 text-left">{{ destination.description }}</p>
         </div>
       </div>
     </div>
@@ -143,11 +145,11 @@
 </template>
 
 <script>
-import LoadingSpinner from '~/components/LoadingSpinner.vue';
+import LoadingSpinner from "~/components/LoadingSpinner.vue";
 
 export default {
   components: {
-    LoadingSpinner
+    LoadingSpinner,
   },
   mounted() {
     // Simulate an asynchronous operation and hide loader after it's done

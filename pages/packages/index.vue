@@ -47,17 +47,17 @@
             </div>
           </div>
         </div>
-        <div class="mt-5 px-4 md:px-10">
-          <h1 class="text-2xl text-primary mb-2">
-            Bus Tour Services and Places
+        <div class="mt-5 px-4 md:px-10 space-y-2">
+          <h1
+            class="text-2xl text-primary md:text-3xl lg:text-3xl font-semibold text-center"
+          >
+            Guided Bus Tours and Highlights
           </h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
-            eveniet cumque saepe illo mollitia repellat, placeat unde, nam quae
-            molestias enim esse adipisci ipsa recusandae laudantium. Sit, at
-            nesciunt. Esse maxime vel molestiae corporis eligendi possimus ut
-            nesciunt eos nulla consequatur dolorum delectus repellendus suscipit
-            neque labore, optio in amet.
+          <p class="text-lg text-slate-500 md:text-xl text-center">
+            Experience our bus tour services that provide convenient transport
+            to Jaipur's top attractions. Enjoy comfortable rides with expert
+            guidance, exploring must-see sites effortlessly and making your
+            visit enjoyable and memorable.
           </p>
         </div>
         <h1
@@ -80,7 +80,7 @@
               class="w-full object-cover rounded-lg mb-4"
             />
             <h1 class="text-xl font-semibold">{{ bus.name }}</h1>
-            <div class="text-3xl font-bold mt-2">{{ bus.price }} INR</div>
+            <div class="text-3xl font-bold mt-2">{{ bus.price }} ₹</div>
             <p class="text-sm opacity-80 mt-1">Per Person</p>
           </nuxt-link>
         </div>
@@ -103,7 +103,7 @@
               class="object-cover rounded-lg mb-4"
             />
             <h1 class="text-xl font-semibold">{{ bus1.name }}</h1>
-            <div class="text-3xl font-bold mt-2">{{ bus1.price }} INR</div>
+            <div class="text-3xl font-bold mt-2">{{ bus1.price }} ₹</div>
             <p class="text-sm opacity-80 mt-1">Per Person</p>
           </nuxt-link>
         </div>
@@ -151,7 +151,7 @@ import LoadingSpinner from "~/components/LoadingSpinner.vue";
 
 export default {
   components: {
-    LoadingSpinner
+    LoadingSpinner,
   },
   methods: {
     backToTop() {

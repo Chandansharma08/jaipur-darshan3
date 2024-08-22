@@ -51,24 +51,27 @@
       </div>
       <section class="bg-white py-10">
         <div class="flex flex-col text-center items-center justify-center">
-          <div class="mb-4">
-            <h2 class="text-3xl lg:text-5xl font-bold text-primary">
+          <div class="mb-4 space-y-2">
+            <h2
+              class="text-2xl text-primary md:text-3xl lg:text-3xl font-semibold text-center"
+            >
               Provide the best travel experience for you
             </h2>
-            <p class="text-gray-600 my-4">
-              We understand that every journey has unique needs. Therefore, we
-              offer customized travel packages designed according to your
-              preferences and budget.
+            <p class="text-lg text-slate-500 md:text-xl text-center">
+              We recognize that each journey is unique, so we provide tailored
+              travel packages that match your preferences and budget. Our custom
+              solutions ensure a personalized experience suited to your specific
+              needs.
             </p>
           </div>
           <div class="flex flex-col md:flex-row justify-center gap-5">
             <div
               class="flex flex-col items-center bg-[#e6f7f4] rounded-xl p-4 lg:p-8 mb-4 md:mb-0 border"
             >
-              <div class="h-12 mb-10">
+              <div class="mb-4">
                 <img
-                  src="https://ccdstest.b-cdn.net/Jaipur%20Darshan/mission.png"
-                  alt="Our Vision"
+                  src="assets\images\marketing.svg"
+                  alt="Our Vision" class="w-28"
                 />
               </div>
               <h3 class="font-semibold text-lg lg:text-3xl mb-2">Our Vision</h3>
@@ -81,18 +84,19 @@
             <div
               class="flex flex-col items-center bg-[#e6f7f4] rounded-xl p-4 lg:p-8 border"
             >
-              <div class="h-12 mb-10">
+              <div class="mb-6">
                 <img
-                  src="https://ccdstest.b-cdn.net/Jaipur%20Darshan/vission.png"
-                  alt="Our Mission"
+                  src="assets\images\start-up.svg"
+                  alt="Our Mission" class="w-24"
                 />
               </div>
               <h3 class="font-semibold text-lg lg:text-3xl mb-2">
                 Our Mission
               </h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse
-                veniam magni minus placeat amet distinctio.
+                Our mission is to be a top travel agency, delivering exceptional
+                services and inspiring experiences tailored to our customers'
+                needs.
               </p>
             </div>
           </div>
@@ -118,21 +122,25 @@
           <!-- Service items -->
           <div class="bg-white rounded-lg p-4 shadow-lg">
             <div class="text-orange-500 mb-3 flex items-center justify-center">
-              <img src="assets\images\jawahar-circle.svg" alt="" class="w-10">
+              <img src="assets\images\jawahar-circle.svg" alt="" class="w-10" />
             </div>
             <h3 class="font-semibold text-lg">Jaipur Journeys</h3>
             <p>Seamless tours and tickets for Jaipur's top sights.</p>
           </div>
           <div class="bg-white rounded-lg p-4 shadow-lg">
-            <div class="text-orange-500 text-5xl mb-3 flex items-center justify-center">
-              <img src="assets\images\man.svg" alt="" class="w-10">
+            <div
+              class="text-orange-500 text-5xl mb-3 flex items-center justify-center"
+            >
+              <img src="assets\images\man.svg" alt="" class="w-10" />
             </div>
             <h3 class="font-semibold text-lg">City Explorers</h3>
             <p>Guided transport and tickets to explore Jaipur's attractions.</p>
           </div>
           <div class="bg-white rounded-lg p-4 shadow-lg">
-            <div class="text-orange-500 text-5xl mb-3 flex items-center justify-center">
-              <img src="assets\images\heritage.svg" alt="" class="w-10">
+            <div
+              class="text-orange-500 text-5xl mb-3 flex items-center justify-center"
+            >
+              <img src="assets\images\heritage.svg" alt="" class="w-10" />
             </div>
             <h3 class="font-semibold text-lg">Heritage Rides</h3>
             <p>
@@ -140,8 +148,10 @@
             </p>
           </div>
           <div class="bg-white rounded-lg p-4 shadow-lg">
-            <div class="text-orange-500 text-5xl mb-3 flex items-center justify-center">
-              <img src="assets\images\sightseeing.svg" alt="" class="w-10">
+            <div
+              class="text-orange-500 text-5xl mb-3 flex items-center justify-center"
+            >
+              <img src="assets\images\sightseeing.svg" alt="" class="w-10" />
             </div>
             <h3 class="font-semibold text-lg">Sightseeing Made</h3>
             <p>Effortless access to Jaipur's must-see locations and tours.</p>
@@ -272,25 +282,29 @@ export default {
           id: 1,
           name: "John Marvel",
           role: "Travel Expert Team",
-          photo: "https://via.placeholder.com/400x400",
+          photo:
+            "https://ccdstest.b-cdn.net/Jaipur%20Darshan/photo-gallery-img-02.jpg",
         },
         {
           id: 2,
           name: "Jane Doe",
           role: "Booking Specialist",
-          photo: "https://via.placeholder.com/400x400",
+          photo:
+            "https://ccdstest.b-cdn.net/Jaipur%20Darshan/photo-gallery-img-02.jpg",
         },
         {
           id: 3,
           name: "Sam Smith",
           role: "Customer Service Lead",
-          photo: "https://via.placeholder.com/400x400",
+          photo:
+            "https://ccdstest.b-cdn.net/Jaipur%20Darshan/photo-gallery-img-02.jpg",
         },
         {
           id: 4,
           name: "Alex Johnson",
           role: "Tour Guide",
-          photo: "https://via.placeholder.com/400x400",
+          photo:
+            "https://ccdstest.b-cdn.net/Jaipur%20Darshan/photo-gallery-img-02.jpg",
         },
       ],
     };

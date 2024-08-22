@@ -276,7 +276,7 @@ const packages2Posts = [
   },
   {
     slug: "car4",
-    title: "Jaipur to Ranthanbhor",
+    title: "Jaipur to Ranthambhore",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
     mainImage: "https://placehold.co/900x300/png",
     time: "7-8 hours",
@@ -301,7 +301,7 @@ const packages2Posts = [
   },
   {
     slug: "car5",
-    title: "Jaipur to Ranthanbhor",
+    title: "Jaipur to Ranthambhore",
     desc: "Digital transformation has become a buzzword in today&rsquo;s business landscape, particularly in India where the confluence of a tech-savvy population, a growing economy, and government",
     mainImage: "https://placehold.co/900x300/png",
     time: "7-8 hours",
