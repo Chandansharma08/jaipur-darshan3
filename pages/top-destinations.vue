@@ -12,7 +12,7 @@
         <!-- Fallback image (if no media queries match) -->
         <img :src="mainImage2" class="background-image" alt="background" />
       </picture>
-      <div
+      <!-- <div
         class="absolute inset-0 flex flex-col items-center justify-center pt-16 md:pt-24 lg:pt-28 xl:pt-32"
       >
         <h1
@@ -46,7 +46,7 @@
             Top Destinations
           </p>
         </div>
-      </div>
+      </div> -->
     </div>
     <div class="px-4 md:px-24 space-y-11 bg-[#ffffff] py-10 text-center">
       <!-- Loop through the destinations array and create a card for each destination -->
@@ -223,9 +223,9 @@ export default {
         },
       ],
       mainImage1:
-        "https://ccdstest.b-cdn.net/Jaipur%20Darshan/untitled-design-15-66bb0faa4b02f.webp", //1400x700px
+        "https://ccdstest.b-cdn.net/Jaipur%20Darshan/22%2C23%2C24/banener%20%20(1400%20x%20700%20px).webp", //1400x700px
       mainImage2:
-        "https://ccdstest.b-cdn.net/Jaipur%20Darshan/untitled-design-14-66bb0faa27180.webp", //1400x400px
+        "https://ccdstest.b-cdn.net/Jaipur%20Darshan/22%2C23%2C24/23.webp", //1400x400px
     };
   },
   methods: {

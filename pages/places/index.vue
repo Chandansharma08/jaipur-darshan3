@@ -9,10 +9,10 @@
         <div class="relative pt-2">
           <img
             class="background-image1"
-            src="https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723444765.705/1400-by-400-at-2x-66b9ae167a844.webp"
+            src="https://ccdstest.b-cdn.net/Jaipur%20Darshan/22%2C23%2C24/24.webp"
             alt="background"
           />
-          <div
+          <!-- <div
             class="absolute inset-0 flex flex-col items-center justify-center pt-16 md:pt-24 lg:pt-28 xl:pt-32"
           >
             <h1
@@ -46,7 +46,7 @@
                 Places
               </p>
             </div>
-          </div>
+          </div> -->
         </div>
 
         <!-- Content Sections -->
@@ -357,7 +357,7 @@ export default {
 @media (max-width: 1023px) {
   .background-image1 {
     /* Image size for small and medium screens */
-    content: url("https://placehold.co/1400x700");
+    content: url("https://ccdstest.b-cdn.net/Jaipur%20Darshan/22%2C23%2C24/22.webp");
     border-radius: 8px;
   }
 }
@@ -365,7 +365,7 @@ export default {
 @media (min-width: 1024px) {
   .background-image1 {
     /* Image size for large, extra-large, and extra-extra-large screens */
-    content: url("https://ccdstest.b-cdn.net/Jaipur%20Darshan/Optimized-1723444765.705/1400-by-400-at-2x-66b9ae167a844.webp");
+    content: url("https://ccdstest.b-cdn.net/Jaipur%20Darshan/22%2C23%2C24/24.webp");
     border-radius: 8px;
   }
 }
